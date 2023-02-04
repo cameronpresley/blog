@@ -1,0 +1,27 @@
+site_name: The SoftwareMentor Blog
+site_url: https://blog.thesoftwarementor.com
+site_author: Cameron Presley
+
+nav:
+  - Home: index.md
+
+theme:
+  icon:
+    repo: fontawesome/brands/github
+  name: 'material'
+  language: 'en'
+  feature:
+    tabs: true
+
+  features:
+    - navigation.indexes
+
+  highlightjs: true
+
+plugins:
+  - search
+
+markdown_extensions: 
+  - pymdownx.superfences
+  - meta
+  - tables
