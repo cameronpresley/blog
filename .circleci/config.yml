@@ -1,3 +1,4 @@
+version: 2.1
 jobs:
   install-mkdocs:
     docker:
@@ -5,15 +6,16 @@ jobs:
     steps:
       - checkout
       - run:
-        command: |
-          pip install mkdocs
-          pip install mkdocs-material
+          command: |
+            pip install mkdocs
+            pip install mkdocs-material
 
       - run:
           name: Deploy pages
           command: mkdocs gh-pages -c -v
 
 workflows:
+  version: 2
   pipeline:
     jobs:
       - install-mkdocs:
