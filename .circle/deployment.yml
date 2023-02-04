@@ -1,0 +1,22 @@
+jobs:
+  install-mkdocs:
+    docker:
+      - image: python:3.8.2
+    steps:
+      - checkout
+      - run:
+        command: |
+          pip install mkdocs
+          pip install mkdocs-material
+
+      - run:
+          name: Deploy pages
+          command: mkdocs gh-pages -c -v
+
+workflows:
+  pipeline:
+    jobs:
+      - install-mkdocs:
+          filters:
+            branches:
+              only: main
