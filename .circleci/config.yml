@@ -12,7 +12,7 @@ jobs:
 
       - run:
           name: Deploy pages
-          command: mkdocs gh-pages -c -v
+          command: mkdocs gh-deploy -c -v
 
 workflows:
   version: 2
