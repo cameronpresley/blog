@@ -1,27 +1,23 @@
-site_name: The SoftwareMentor Blog
-site_url: https://blog.thesoftwarementor.com
-site_author: Cameron Presley
-
-nav:
-  - Home: index.md
-
+site_name: The SoftwareMentor
 theme:
-  icon:
-    repo: fontawesome/brands/github
-  name: 'material'
-  language: 'en'
-  feature:
-    tabs: true
-
+  name: material
+  palette: 
+    primary: blue
+    accent: deep purple
   features:
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.footer
     - navigation.indexes
 
-  highlightjs: true
-
-plugins:
-  - search
-
-markdown_extensions: 
-  - pymdownx.superfences
-  - meta
-  - tables
+  plugins:
+    - meta
+    # - blog:
+    #     post_date_format: medium
+    - search
+    - tags
+  nav:
+    - Home: index.md
+    - 'Recommend Reading': books.md
+    
