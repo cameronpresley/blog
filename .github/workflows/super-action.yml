@@ -15,4 +15,5 @@ jobs:
             - name: super-step
               shell: bash
               run: |
-                mkdocs gh-deploy -c -v --message "[skip ci] Updates"
+                mkdocs --version
+                # mkdocs gh-deploy -c -v --message "[skip ci] Updates"
