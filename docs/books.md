@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Recommended Reading
 
 Below are books and other resources I have found to be extremely useful, I hope you find them to be as well!

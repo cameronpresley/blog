@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Speaking Schedule
 ## Upcoming Sessions
 ---

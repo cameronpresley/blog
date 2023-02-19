@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Presentations
 
 ## Establishing a SOLID Foundation – An Intro to Software Design
