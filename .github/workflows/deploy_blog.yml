@@ -1,10 +1,10 @@
-name: Super Action
+name: Deploy Blog
 
 on:
     push
 
 jobs:
-    super-job:
+    deploy-blog:
         runs-on: ubuntu-latest
         container:
           image: ghcr.io/cameronpresley/mkdocs-material-insiders
@@ -15,10 +15,6 @@ jobs:
             - name: Checkout repository
               uses: actions/checkout@v3
 
-            - name: Deploy docs
-              uses: mhausenblas/mkdocs-deploy-gh-pages@master
-              env:
-                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            # - name: super-step
-            #   run: |
-            #     mkdocs gh-deploy -c -v --message "[skip ci] Updates"
+            - name: Deploy Docs
+              run: |
+                mkdocs gh-deploy -c -v --message "[skip ci] Updates"
