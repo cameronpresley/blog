@@ -13,7 +13,5 @@ jobs:
               password: ${{ secrets.GHCR_REGISTRY_TOKEN }}
         steps:
             - name: super-step
-              shell: bash
               run: |
-                mkdocs --version
-                # mkdocs gh-deploy -c -v --message "[skip ci] Updates"
+                mkdocs gh-deploy -c -v --message "[skip ci] Updates"
