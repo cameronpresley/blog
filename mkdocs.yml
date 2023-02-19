@@ -25,27 +25,8 @@ nav:
   - Speaking Schedule: speaking-schedule.md
 # theme:
 #   features:
-#     - navigation.sections
-#     - navigation.tabs
-#     - navigation.tabs.sticky
 #     - navigation.footer
 #     - navigation.indexes
-
-#   plugins:
-#     - meta
-#     - blog:
-#         enabled: true
-#         post_date_format: medium
-#         post_readtime: true
-#         categories_toc: true
-#         categories_allowed:
-#           - dotnet
-#     - search
-#     - tags
-
-#     - Home: index.md
-#     - Blog:
-#         - blog/index.md
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -55,5 +36,5 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
   - toc:
-      toc_depth: "1-1" # removes the right sidebar on pages
+      toc_depth: "1-1"
     

@@ -1,0 +1,18 @@
+name: Super Action
+
+on:
+    push
+
+jobs:
+    super-job:
+        runs-on: ubuntu-latest
+        container:
+          image: ghcr.io/cameronpresley/mkdocs-material-insiders
+          credentials:
+              username: cameronpresley
+              password: ${{ secrets.GHCR_REGISTRY_TOKEN }}
+        steps:
+            - name: super-step
+              shell: bash
+              run: |
+                mkdocs gh-deploy -c -v --message "[skip ci] Updates"
