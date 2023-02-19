@@ -15,8 +15,9 @@ jobs:
             - name: Checkout repository
               uses: actions/checkout@v3
 
-            # - name: 'Allow dubious ownership'
-            #   run: git config --global --add safe.directory /__w/blog/blog
+            - name: 'Allow dubious ownership'
+              run: git config --global --add safe.directory /__w/blog/blog
+              
             - name: Check if in git directory
               run: git status
               
