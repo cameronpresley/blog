@@ -15,11 +15,8 @@ jobs:
             - name: Checkout repository
               uses: actions/checkout@v3
 
-            - name: 'check contents'
-              run: |
-                ls -al
-                cd docs/
-                ls -al
+            - name: 'Allow dubious ownership'
+              run: git config --global --add safe.directory /__w/blog/blog
 
             - name: Deploy Docs
               run: |
