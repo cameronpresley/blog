@@ -12,6 +12,9 @@ jobs:
               username: cameronpresley
               password: ${{ secrets.GHCR_REGISTRY_TOKEN }}
         steps:
+            - name: Checkout repository
+              uses: actions/checkout@v3
+              
             - name: super-step
               run: |
                 mkdocs gh-deploy -c -v --message "[skip ci] Updates"
