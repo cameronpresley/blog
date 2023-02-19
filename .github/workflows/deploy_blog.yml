@@ -15,6 +15,9 @@ jobs:
             - name: Checkout repository
               uses: actions/checkout@v3
 
+            - name: 'check contents'
+              run: ls
+
             - name: Deploy Docs
               run: |
                 mkdocs gh-deploy -c -v --message "[skip ci] Updates"
