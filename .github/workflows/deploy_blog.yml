@@ -16,7 +16,7 @@ jobs:
               uses: actions/checkout@v3
 
             - name: 'check contents'
-              run: ls
+              run: ls -al
 
             - name: Deploy Docs
               run: |
