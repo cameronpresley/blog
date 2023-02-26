@@ -5,6 +5,7 @@ on:
 
 jobs:
     deploy-blog:
+        if: github.ref == 'refs/heads/main'
         runs-on: ubuntu-latest
         container:
           image: ghcr.io/cameronpresley/mkdocs-material-insiders
