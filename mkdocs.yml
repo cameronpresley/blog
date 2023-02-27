@@ -38,6 +38,9 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
   - admonition
+  - attr_list
+  - md_in_html
+
   - toc:
       toc_depth: "1-1"
     
