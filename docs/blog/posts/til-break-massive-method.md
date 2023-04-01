@@ -7,7 +7,7 @@ description: >
   Learning how to break down a method
 
 categories:
-  - TIL
+  - Today I Learned
 
 hide:
   - toc

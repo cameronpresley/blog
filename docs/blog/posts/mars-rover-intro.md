@@ -7,7 +7,7 @@ description: >
   Intro to Mars Rover Kata
 
 categories:
-  - learning through example
+  - Learning Through Example
 
 hide:
   - toc

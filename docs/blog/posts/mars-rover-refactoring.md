@@ -7,7 +7,7 @@ description: >
   Refactoring the Rover
 
 categories:
-  - learning through example
+  - Learning Through Example
 
 hide:
   - toc

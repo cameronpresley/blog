@@ -7,8 +7,8 @@ description: >
   Exploring Single Responsibility Principle
 
 categories:
-  - basics
-  - solid
+  - Basics
+  - SOLID
 
 hide:
   - toc

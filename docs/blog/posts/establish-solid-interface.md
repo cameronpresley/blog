@@ -7,8 +7,8 @@ description: >
   Exploration of Interface Segregation Principle
 
 categories:
-  - basics
-  - solid
+  - Basics
+  - SOLID
 
 hide:
   - toc

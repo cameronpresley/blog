@@ -7,7 +7,7 @@ description: >
   Examining LINQ's WHERE
 
 categories:
-  - dotnet
+  - .NET
 
 hide:
   - toc

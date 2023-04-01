@@ -7,7 +7,7 @@ description: >
   Implementing Turn Left for Rover
 
 categories:
-  - learning through example
+  - Learning Through Example
 
 hide:
   - toc

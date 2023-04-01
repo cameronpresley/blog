@@ -7,8 +7,8 @@ description: >
   Exploration of Open/Closed Principle
 
 categories:
-  - basics
-  - solid
+  - Basics
+  - SOLID
 
 hide:
   - toc

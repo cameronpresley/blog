@@ -7,8 +7,8 @@ description: >
   Intro to SOLID Design Principles
 
 categories:
-  - basics
-  - solid
+  - Basics
+  - SOLID
 
 hide:
   - toc

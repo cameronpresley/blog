@@ -7,8 +7,8 @@ description: >
   Exploration of Dependency Inversion Principle
 
 categories:
-  - basics
-  - solid
+  - Basics
+  - SOLID
 
 hide:
   - toc

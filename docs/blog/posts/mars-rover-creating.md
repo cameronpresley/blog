@@ -7,7 +7,7 @@ description: >
   Implementing the constructor for Rover
 
 categories:
-  - learning through example
+  - Learning Through Example
 
 hide:
   - toc

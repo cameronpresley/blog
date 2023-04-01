@@ -7,7 +7,7 @@ description: >
   Designing the Logger
 
 categories:
-  - learning through example
+  - Learning Through Example
 
 hide:
   - toc

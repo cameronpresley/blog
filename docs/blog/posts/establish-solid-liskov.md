@@ -7,8 +7,8 @@ description: >
   Exploration of Liskov Substitution Principle
 
 categories:
-  - basics
-  - solid
+  - Basics
+  - SOLID
 
 hide:
   - toc

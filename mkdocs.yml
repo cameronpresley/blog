@@ -2,7 +2,6 @@ site_name: The Software Mentor
 theme:
   name: material
   features:
-    # - naviagtion.sections
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.footer
@@ -23,11 +22,6 @@ nav:
   - Recommended Reading: books.md
   - Presentations: presentations.md
   - Speaking Schedule: speaking-schedule.md
-# theme:
-#   features:
-#     - navigation.footer
-#     - navigation.indexes
-
 
 markdown_extensions:
   - pymdownx.highlight:

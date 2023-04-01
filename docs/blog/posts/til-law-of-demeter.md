@@ -7,7 +7,7 @@ description: >
   Law of Demeter
 
 categories:
-  - TIL
+  - Today I Learned
 
 hide:
   - toc

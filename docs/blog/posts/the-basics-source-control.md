@@ -7,7 +7,7 @@ description: >
   Intro to Source Control
 
 categories:
-  - Back to Basics
+  - Basics
 ---
 
 # The Basics: Source Control

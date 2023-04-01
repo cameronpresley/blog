@@ -7,7 +7,7 @@ description: >
   Implementing Moving Forward for Rover
 
 categories:
-  - learning through example
+  - Learning Through Example
 
 hide:
   - toc
