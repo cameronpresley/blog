@@ -22,6 +22,7 @@ nav:
   - Recommended Reading: books.md
   - Presentations: presentations.md
   - Speaking Schedule: speaking-schedule.md
+  - Resume: resume.md
 
 markdown_extensions:
   - pymdownx.highlight:
