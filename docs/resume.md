@@ -2,11 +2,11 @@
 
 ## About Me
 
-I've been a software engineer for over a decade and in leadership for about half as long. I pride myself in helping the team be successful while maintaining my technical aptitude as I don't believe you can be a technical leader without being in the the details with your team.
+I've been a software engineer for over a decade and in leadership for over five years. I pride myself in helping the team be successful while maintaining my technical aptitude as I don't believe you can be a technical leader without the ability to be in the work with your team.
 
-When it comes to strengths, I have two. First, if I understand a concept, I can explain it to anyone as I'm great at tailoring the messaging to my audience. With this strength, I'm great at coaching others and I have a track record of growing interns to associate to mid-level.
+One of my greatest strengths is that I can explain anything to anyone, tailoring my message to be effective with my audience. With this ability, I'm a natural coach and as such, have grown many engineers from intern->associate->mid->senior.
 
-Second, I excel at looking at a process, understanding the goal, and then fine tuning so that everything is better. This can be how a team approaches work, our development lifecycle, how we interact with clients, etc... Because of this strength, I can level up a group quickly because I can amplify our strengths and make the weaknesses a non-issue. 
+Another strength of mine is that Second, I excel at looking at a process, understanding the goal, and then fine tuning so that everything is better. This can be how a team approaches work, our development lifecycle, how we interact with clients, etc... Because of this strength, I can level up a group quickly because I can amplify our strengths and make the weaknesses a non-issue. 
 
 I enjoy learning new technology and I have a track record of picking up new technologies on the fly to accomplish new tasks.
 
@@ -21,12 +21,12 @@ The MyRocket Dashboard helps our client's in their biggest moments. Whether that
 
 
 #### Accomplishments
-- In three months, we launched the Home Buying Plan, the first part of the MyRocket Dashboard where clients could work on their approach for buying their first home
+- In first three months, we launched the Home Buying Plan, the first part of the MyRocket Dashboard where clients could work on their approach for buying their first home
 - Created the launch plan for this product, coordinated the day of logistics, the quality testing, and various other aspects of launch
 - Worked with our Solution Architect on the technical approach for the API layer for MyRocket Dashboard, leveled up the team, and coordinated the on-time completion of the API so that other teams/departments could use it for their work
 - Coached other Team Leads on process improvements
 - Created a Teams Bot framework that allowed anyone to create their own bot quickly and to re-use existing bots I had created.
-- To get the engineering health of our product, I wrote a bot that calculated how long a pull request was open before being merged
+- To get the engineering health of our product, I wrote a bot that calculated how long a pull request was open before being merged, giving us insight on where in the lifecycle we were spending time
 - To help reduce the amount of toil for on-call engineers, I wrote additional bots that automated stand-ups, daily checklists, and production deployments
 - To help our department feel closer, I created a bot that would pair members of the department together to get a coffee and converse
 - Interviewed Software Engineer and Team Leader candidates
@@ -48,8 +48,9 @@ My team was responsible for the loan once it was registered and we were responsi
 - To help fellow team leads to problem solve, I created TL Office Hours where we could bring up concerns and workshop solutions together
 - Coached the team to be comfortable with production support by showing them firsthand, supporting their mistakes, and teaching how to document fixes
 - Coached my product owner on vertical slicing, feature flags, and how we could ship more frequently
-- Repaired relationships and adjusted the reputation that the team had from before
+- Repaired relationships and adjusted the reputation that the team had from before, improving our effectiveness and teams willing to work with us
 - To catch production issues faster, I created Data Quality scripts that would flag problematic loans before they would impact production so that we could fix it. 
+- In order to know the team and grow individuals, I develop coaching plans, helping team members find the right spot, and overall, help everyone be successful
 
 ### SentryOne
 #### Staff Software Engineer
