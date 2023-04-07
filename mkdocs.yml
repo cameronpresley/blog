@@ -12,13 +12,13 @@ theme:
 plugins:
   - meta
   - blog:
-      blog_dir: blog/
+      blog_dir: articles/
       post_date_format: medium
   - search
   - tags
 nav: 
   - About Me: index.md
-  - Blog: blog/index.md
+  - Articles: articles/index.md
   - Recommended Reading: books.md
   - Presentations: presentations.md
   - Speaking Schedule: speaking-schedule.md
