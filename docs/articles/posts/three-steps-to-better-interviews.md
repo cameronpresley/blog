@@ -106,8 +106,4 @@ For example, we could phrase the question this way
 
 With this question, you've still mentioned the skill you're looking for, however, you've added context on the "why" behind the question and you've set the candidate up to talk about their experience, which in turn, gives you more context about the person.
 
-## Wrapping Up
-
-
-
 
