@@ -8,6 +8,7 @@ description: >
 
 categories:
   - Career
+  - Interviewing
 
 hide:
   - toc
