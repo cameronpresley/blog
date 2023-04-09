@@ -105,9 +105,3 @@ For example, we could phrase the question this way
     One of the responsibilities for the role is to help grow interns into associate engineers so we can grow terrific engineers internally. With this context, can you walk us through a time where you had to coach someone up? What was your approach? What would you do differently?
 
 With this question, you've still mentioned the skill you're looking for, however, you've added context on the "why" behind the question and you've set the candidate up to talk about their experience, which in turn, gives you more context about the person.
-
-## Wrapping Up
-
-
-
-
