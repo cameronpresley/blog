@@ -4,7 +4,7 @@ date: 2023-04-16
 authors:
   - cameronpresley
 description: >
-  Measuring Effectiveness - The Pitfall of a Single Data Point
+  Telling the Story - The Pitfall of a Single Data Point
 
 categories:
   - Leadership
@@ -13,89 +13,98 @@ hide:
   - toc
 ---
 
-# Measuring Effectiveness: The Pitfall of a Single Data Point
+# Telling the Story: The Pitfall of a Single Data Point
 
-At some point in your leadership journey, you're going to get asked if someone is "doing well" or "if they're effective". 
+<blockquote>
+Let's say that you're sitting down to read a new book, and you come across the following:
 
-At first glance, this is a fair question to ask as you want to make sure that you're growing and leveling up your team.
+<p>
+    <i>The King's Knave Inn was but a short distance from the Alverston train depot, just outside the town proper.</i> (excerpt from <i>The Infernal Machine</i> by John Lutz)
+</p>
 
-However, this begs the question, _What does effectiveness look like?_
+After reading this, a friend interrupts your reading and asks your thoughts on the book so far. 
 
-Is it the number of pull requests? The number of stories completed in a sprint? The number of bugs in production? Test coverage?
+What would you say?
+</blockquote>
 
-The trap that leaders fall into is that they're always on the hunt for the one metric that can give a definitive statement if someone is doing well.
+Most likely, you'd respond that you need to read more, and it's still too early to decide if the book is good or not.
 
-(which makes me think of...)
+To honestly answer this question, you would need to read more of the book (ideally all of it) to get a full picture of the story.
 
-<figure markdown>
-![The One Ring from Lord of the Rings](../images/one-ring.png)
-<figcaption>One metric to rule them all, one metric to measure them, one metric to bring them all and in efficiency, bind them.<p><a href="https://lotr.fandom.com/wiki/One_Ring">Source</a></p></figcaption>
-</figure>
+When measuring an engineer's performance and effectiveness, why don't we take the same approach?
 
-However, the problem with using a metric, is that it'll cease being an effective measurement (see [Goodhart's Law](https://en.wikipedia.org/wiki/Goodhart%27s_law)).
+My experience has been that leaders look for one or more metrics to quantify a person. At the face of it, I understand why, as it's hard to compare people if there aren't numbers. 
 
-For example, if we measure effectiveness by the number of completed pull requests, then what's stopping someone from creating hundreds of single line pull requests that don't accomplish anything?
+However, the mistake I see leaders make is _what_ they're trying to measure. For example, do you measure 
+the number of pull requests? What about the number of stories completed in a sprint? How about the number of bugs shipped to production? Something else entirely?
 
-Another way to think about the problem is that when we look at a single data point, it's like reading a sentence from a book and then making a judgement what kind of book it is.
+The problem is that even if you use all of the above (please don't do this), you're still not seeing the whole picture, but only bits and pieces. This would be like reading five chapters at random from a book and then giving an opinion.
 
-Remember, our quest is to answer "what does effectiveness look like"?
+The other problem with using metrics is that the measurement will cease to be effective as people will start gaming the system (see [Goodhart's Law](https://en.wikipedia.org/wiki/Goodhart%27s_law)).
 
-To me, we can measure effectiveness holistically by checking out the following three areas:
+For example, if we measure effectiveness by the number of completed pull requests, then what stops someone from creating hundreds of single-line pull requests that don't accomplish anything?
 
-- Understanding the problem (e.g. why are we doing this?)
-- Understanding the system (e.g. how are we doing this?)
-- Understanding the people (e.g. whom are we doing this with?)
+On the other side, what about the engineer who reduced scope and time because they knew how to simplify the approach or came up with a more straightforward solution? This insight won't show up as a pull request or a completed story; however, this should be rewarded just the same.
 
+To really determine how effective someone is, we need to look at things holistically, which can be done by examining how well someone does in these three areas:
 
-The main strength of this approach is that it will help you gain a better understanding of where your people spend their time and what their naturally interested in. This in turn helps you give better feedback and coach them forward.
+- Understanding the problem (e.g., why are we doing this?)
+- Understanding the system (e.g., how are we doing this?)
+- Understanding the people (e.g., whom are we doing this with?)
 
-## Understanding the Problem
+By looking into these areas, you will see what your team is good at and where they could use coaching, helping you be more effective. You might also realize that your team is doing things that aren't so obvious.
 
-To be successful, we have to understand the problem that's being solved. Without this basis, it's impossible to build the right solutions or even ask the right questions. 
+You can't write a report to generate these metrics. To understand this, you have to understand your team and how they work together. This involves paying attention, taking notes, and being engaged. Passive leaders will struggle if they use this approach.
 
-In other words, how much domain knowledge do they have and how comfortable are they with the knowledge?
+## Understanding the Problem (The Why)
 
-Given that some people are vocal and others are reserved, there are different ways to measure this. 
+To be successful, we first have to understand the problem that's being solved. Without this base knowledge, it's impossible to build the right solution or even ask the right question to the problem at hand.
 
-First, you can look at the questions that are being asked (through chats, comments on the ticket, in meetings, pull request comments, etc...).
+How comfortable are they within the problem domain? Do they know certain terminologies, our customers, the users, workflows, and expected behaviors?
 
-Second, you can look at feedback on the solution. Did they design it with domain knowledge in mind? Were edge cases or workflows handled? Or did someone need to let them know about those workflows?
+Besides quizzing, there may not be an obvious way to measure this; however, here's my approach.
 
-Third, how are they handling support issues? In order to understand why the problem is a problem, you've got to understand the problem domain. Someone doing well here will understand why its a problem and what the expected behavior should be.
+First, you can look at the questions that are being asked. Are they surface level or are they deep? You can see these questions through chats and meetings, comments on the stories or pull requests, and interactions with others.
 
-No one is going to be an expert in the problem domain, but you should see the amount of knowledge increasing over time. In addition, you're going to want to see that person sharing their knowledge and leveling up others.
+Second, look at the solution they came up with. Did they design it with domain knowledge in mind? For example, are things named correctly? Did their solution take care of the main workflows? What about the edge cases?
 
-## Understanding the System
+Third, how are they handling support issues? Being on support is a quick way of learning a problem domain and system. As such, I'm looking at how much help they need and how they communicate with others.
 
-There's always a push to deliver more things and in order to do that, we have to understand the current system, its limitations, what's easy vs what's hard and from these constraints, determine the correct path to take.
+By using this approach, you can get a good sense of how knowledgeable someone is in the problem domain without quizzing them.
 
-In addition, once the system is live, we need to support it. If we don't know the moving parts, what it interacts with, how it's used, we're going to have a bad time.
+## Understanding the System (The How)
 
-Similar to [understanding the problem](#understanding-the-problem), we can measure system knowledge based on questions that are being asked. In particular, I've found pull request comments and code reviews to be insightful on someone's knowledge of the system. 
+There's always a push to deliver more things, and in order to do that, we have to understand the current system, its limitations, what's easy vs. what's hard, and from these constraints, determine the correct path to take.
 
-Another way to gauge system knowledge is by looking at how the person handles support requests. If you can troubleshoot the system, figure out the problem, and create a fix, by definition, you have to have a solid understanding of the system.
+In addition, once the system is live, we need to support it. If we don't know the moving parts, what it interacts with, and how it's used, we're going to have a bad time.
 
-## Understanding the People
+Like [understanding the problem](#understanding-the-problem-the-why), we can measure system knowledge without quizzing them. In particular, I've found pull request comments and code reviews to be insightful on someone's knowledge of the system. 
 
-The third part of being effective is that you can work with those around you to be successful. Most people think engineering is a solitary line of work and when it comes to the development phase, that can be true.
+For example, do they call out that there's already something in the system that does this new piece of functionality? Do they suggest taking a simpler approach with what we have? Do they propose a different solution altogether because the system has a limitation? All of these are indicators of someone's system knowledge.
 
-However, in reality, it's engineers working with others to design, develop, and iterate on a solution and this can only happen when working with others. As such, building these relationships are paramount to being successful.
+Another way to gauge system knowledge is by looking at how the person handles support requests. If you can understand the problem, find the cause, and create a fix, then by definition, you have to have a solid understanding of the system. 
+
+## Understanding the People (The Who)
+
+When it comes to the third part of being effective, we have to measure how they work with those around them. Most people think engineering is a solitary line of work, and that can be true when it comes to the development phase.
+
+However, in reality, engineers work with others to design, develop, and iterate on a solution, and this can only happen when working with others. As such, building these relationships are paramount to being successful.
 
 !!! quote ""
     If you want to go fast, go alone. If you want to go far, go together.
 
-For this part, we're measuring how we get along with others and can we work as a team. Measuring team cohesion can be its own post, but for right now, we can focus on asking our peers and those we work with on how those relationships are.
+Measuring team cohesion can be difficult (it could be its own post), however, we start simply be getting peer feedback on the person. We can also look at the communication between them and others through their comments, messages, or meetings.
 
-Some companies have an internal recognition system where you can recognize someone for going above and beyond, usually points or other reward. I keep track of these for my team so not only I can prop them out when they receive the award, but also during 1:1s and review time. 
+Another way to measure this is through your company's recognition system. Whether it's an email or some other tool your company uses, you need to keep tabs on these recognitions, as you can use them as a talking point during 1:1s and review time. 
 
 ## Wrapping Up
 
-In order to determine how effective someone is, I recommend measuring the following areas:
+So, how do we measure how effective someone is? We know that a single data point isn't sufficient and that if we limit ourselves to metrics, we can get a skewed sense of the person. To know, we have to take a holistic approach.
 
-- Understanding the problem (e.g. why are we doing this?)
-- Understanding the system (e.g. how are we doing this?)
-- Understanding the people (e.g. whom are we doing this with?)
+To accomplish this goal, I recommend measuring the following areas:
 
-We can measure these through interactions, comments on stories and pull requests, handling support requests, and by asking our peers.
+- Understanding the problem (e.g., why are we doing this?)
+- Understanding the system (e.g., how are we doing this?)
+- Understanding the people (e.g., whom are we doing this with?)
 
-By having this knowledge, we can make a better assessment on how someone is doing and where we can coach to help them improve.
+In each of these areas, we can get a sense by observing their interactions they have, the questions they ask, the approaches they take, and how likely people want to work with the individual.
