@@ -37,7 +37,11 @@ markdown_extensions:
   - admonition
   - attr_list
   - md_in_html
-
   - toc:
       toc_depth: "1-1"
+
+extra: 
+  analytics:
+    provider: google
+    property: G-ZE0MGVG7RJ
     
