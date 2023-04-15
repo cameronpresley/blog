@@ -8,6 +8,7 @@ description: >
 
 categories:
   - Interviewing
+  - Leadership
 
 hide:
   - toc
