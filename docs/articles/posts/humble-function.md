@@ -47,7 +47,7 @@ Let's say that we needed to write some code that could take a given month and re
 
 <figure markdown>
 ![Days in Month Mapping](../images/humble-function/days-in-month-function.png){width="500"}
-<figcaption>Mapping from month name to days in month
+<figcaption>Mapping from month name to days in month</figcaption>
 </figure>
 
 To check if we have a function, we need to see if there's any element on the left with two or more arrows coming out. 

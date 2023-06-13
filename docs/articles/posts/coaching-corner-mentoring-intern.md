@@ -106,5 +106,5 @@ By dividing the work up, you're allowing them autonomy in how the work gets done
 
 ----
 
-_Do you have a question about leadership, career, or software engineering? Would you like a different perspective on these topics? Drop a line at [CoachingCorner@TheSoftwareMentor.com](mailto:CoachingCorner@TheSoftwareMentor.com) or fill out [this form](https://forms.gle/eTqzoUo5hFWrmVKK6)._ 
+_Do you have a question about leadership, career, or software engineering? Would you like a different perspective on these topics? Drop a line at [CoachingCorner@TheSoftwareMentor.com](mailto:CoachingCorner@TheSoftwareMentor.com) or you can remain anonymous by filling out [this form](https://forms.gle/eTqzoUo5hFWrmVKK6)._ 
 
