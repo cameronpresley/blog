@@ -6,7 +6,7 @@ I've been a software engineer for over a decade and in leadership for over five 
 
 One of my greatest strengths is that I can explain anything to anyone, tailoring my message to be effective with my audience. With this ability, I'm a natural coach and as such, have grown many engineers from intern->associate->mid->senior.
 
-Another strength of mine is that Second, I excel at looking at a process, understanding the goal, and then fine tuning so that everything is better. This can be how a team approaches work, our development lifecycle, how we interact with clients, etc... Because of this strength, I can level up a group quickly because I can amplify our strengths and make the weaknesses a non-issue. 
+Another strength of mine is that Second, I excel at looking at a process, understanding the goal, and then fine tuning so that everything is better. This can be how a team approaches work, our development lifecycle, how we interact with clients, etc... Because of this strength, I can level up a group quickly because I can amplify our strengths and make the weaknesses a non-issue.
 
 I enjoy learning new technology and I have a track record of picking up new technologies on the fly to accomplish new tasks.
 
@@ -49,7 +49,7 @@ My team was responsible for the loan once it was registered and we were responsi
 - Coached the team to be comfortable with production support by showing them firsthand, supporting their mistakes, and teaching how to document fixes
 - Coached my product owner on vertical slicing, feature flags, and how we could ship more frequently
 - Repaired relationships and adjusted the reputation that the team had from before, improving our effectiveness and teams willing to work with us
-- To catch production issues faster, I created Data Quality scripts that would flag problematic loans before they would impact production so that we could fix it. 
+- To catch production issues faster, I created Data Quality scripts that would flag problematic loans before they would impact production so that we could fix it.
 - In order to know the team and grow individuals, I develop coaching plans, helping team members find the right spot, and overall, help everyone be successful
 
 ### SentryOne
@@ -64,7 +64,7 @@ As a Lead, I was responsible for the growing and coaching of an engineering team
 
 
 #### Accomplishments
-- Overhauled the onboading process for new engineers so that they could contribute after their first sprint
+- Overhauled the onboarding process for new engineers so that they could contribute after their first sprint
 - Mentored multiple interns to Associate Engineers, multiple Associate Engineers to Mid Software Engineers
 - Created the technical approach for an important request, enabling us to close the largest deal in SentryOne history
 - Led the team developing SentryOne Monitor, our SaaS solution for performance monitoring, leveraging technologies like Docker, .NET Core, Azure, and Terraform
@@ -117,7 +117,7 @@ I was one of the software developers responsible for Data Courier and EMFI, tool
 ## Community Involvement
 
 - Presented at over 70 conferences (see [https://blog.thesoftwarementor.com/speaking-schedule](https://blog.thesoftwarementor.com/speaking-schedule))
-- [Microsoft MVP in Developer Technologies (2015-2022)](https://mvp.microsoft.com/en-us/PublicProfile/5002989)
+- [Microsoft MVP in Developer Technologies (2018-2023)](https://mvp.microsoft.com/en-us/PublicProfile/5002989)
 - Director of Speaker Relation for CodeStock (2018-2022)
 
 ## Education
@@ -125,4 +125,4 @@ I was one of the software developers responsible for Data Courier and EMFI, tool
 ### Maryville College - Maryville, TN
 
 - Bachelor of Arts - Computer Science
-- Bachelor of Args - Mathematics
+- Bachelor of Arts - Mathematics
