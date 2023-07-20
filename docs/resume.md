@@ -64,7 +64,7 @@ As a Lead, I was responsible for the growing and coaching of an engineering team
 
 
 #### Accomplishments
-- Overhauled the onboading process for new engineers so that they could contribute after their first sprint
+- Overhauled the onboarding process for new engineers so that they could contribute after their first sprint
 - Mentored multiple interns to Associate Engineers, multiple Associate Engineers to Mid Software Engineers
 - Created the technical approach for an important request, enabling us to close the largest deal in SentryOne history
 - Led the team developing SentryOne Monitor, our SaaS solution for performance monitoring, leveraging technologies like Docker, .NET Core, Azure, and Terraform
