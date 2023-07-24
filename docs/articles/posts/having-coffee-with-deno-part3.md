@@ -234,3 +234,5 @@ When we run the script now, we get the following message:
 In this post, we changed our script from posting its Random Coffee message to the console window to instead posting it into a Slack channel using an Incoming Webhook. By making this change, we were able to remove a manual step (e.g., us copying the message into the channel), and we were able to use some cool emojis and better formatting.
 
 In the final post, we'll take this one step further by automating the script using scheduled jobs via GitHub Actions.
+
+As always, you can find a full working version of this bot [on my GitHub](https://github.com/cameronpresley/random-coffee).

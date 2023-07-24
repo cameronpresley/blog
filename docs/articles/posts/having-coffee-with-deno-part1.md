@@ -275,3 +275,5 @@ The main takeaway is that we've built something we didn't have before and can co
 In this post, we built the first version of our Random Coffee script using TypeScript and Deno. We focused on getting our tooling working and building out the business rules for shuffling and creating the pairs.
 
 In the next post, we'll look at making this script smarter by having it retrieve a list of names dynamically from GitHub's API!
+
+As always, you can find a full working version of this bot [on my GitHub](https://github.com/cameronpresley/random-coffee).
