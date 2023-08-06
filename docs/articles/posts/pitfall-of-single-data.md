@@ -108,3 +108,7 @@ To accomplish this goal, I recommend measuring the following areas:
 - Understanding the people (e.g., whom are we doing this with?)
 
 In each of these areas, we can get a sense by observing their interactions they have, the questions they ask, the approaches they take, and how likely people want to work with the individual.
+
+
+---
+Last Reviewed On 2023/04/15

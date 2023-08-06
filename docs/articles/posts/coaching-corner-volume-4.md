@@ -82,3 +82,7 @@ However, I don't celebrate that it was tough or that we did an awesome job as at
 ----
 
 _Do you have a question about leadership, career, or software engineering? Would you like a different perspective on these topics? Drop a line at [CoachingCorner@TheSoftwareMentor.com](mailto:CoachingCorner@TheSoftwareMentor.com) or you can fill out [this form](https://forms.gle/eTqzoUo5hFWrmVKK6)._
+
+
+---
+Last Reviewed On 2023/08/01

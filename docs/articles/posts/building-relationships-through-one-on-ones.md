@@ -73,3 +73,7 @@ For those looking for questions, here's an excerpt of questions I've used to hel
 ## Wrapping Up
 
 To build great teams, you will need to foster relationships with the team and the individual members. Having one-on-ones can help with build these relationships, but only if you treat them like so. By allowing your teammate to set the agenda, giving them your full attention, and cutting out project updates, you can improve the quality of your conversations and get to know them better.
+
+
+---
+Last Reviewed On 2023/05/15

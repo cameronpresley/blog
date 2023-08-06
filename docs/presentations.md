@@ -192,3 +192,6 @@ Intended for engineers of all experience levels, you will have an example playbo
 - [Slides](https://www.slideshare.net/CameronPresley/the-engineers-playbook-starting-a-new-role) (via SlideShare)
 - [Trello Board](https://trello.com/b/6JPBOHyR/engineers-playbook-starting-a-new-role)
 - [Question(s) of the Day](https://gist.github.com/cameronpresley/1fcdbca448717c5964890717826dce9f)
+
+---
+Last Reviewed On 2023/02/19

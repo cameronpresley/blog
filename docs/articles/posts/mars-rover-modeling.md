@@ -247,3 +247,6 @@ In this post, we implemented the basic types needed to solve the Mars Rover kata
 ## Additional Reading
 - [Designing with types: Making illegal states unrepresentable](https://fsharpforfunandprofit.com/posts/designing-with-types-making-illegal-states-unrepresentable/) by Scott Wlaschin
 - [Domain Model](https://martinfowler.com/eaaCatalog/domainModel.html) by Martin Fowler
+
+---
+Last Reviewed On 2023/04/07

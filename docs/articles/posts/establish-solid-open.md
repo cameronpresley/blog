@@ -330,3 +330,6 @@ In short, the Open/Closed Principle (OCP) reinforces the idea that every class s
 - [The Liskov Substitution Principle (LSP)](../posts/establish-solid-liskov.md)
 - [The Interface Segregation Principle (ISP)](../posts/establish-solid-interface.md)
 - [The Dependency Inversion Principle (DIP)](../posts/establish-solid-dependency.md)
+
+---
+Last Reviewed On 2023/04/07

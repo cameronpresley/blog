@@ -92,3 +92,6 @@ let rec filter func values =
 ```
 
 In general, when working with lists, I tend to start by matching the list with either an empty list or non-empty. From there, I’ve got my base case, so I can focus on the implementation for the first element. After performing the work for the first element, I can then recurse to the next element.
+
+---
+Last Reviewed On 2023/04/07

@@ -72,3 +72,7 @@ One of the reasons that I really like the Law of Demeter is that if you follow i
 
 Another reason that following the Law of Demeter is good practice is that it forces your code to be explicit about what dependencies are required. For example, in the first implementation, the caller knew that the method needed a Project, but had no clue on how much of the Project it needed (does it need all of the properties set? Does it need further setup besides basic instantiation?). However, with the refactored version, now it’s much clearer that the method has a looser dependency on not Project, but just the ProjectType.
 
+
+
+---
+Last Reviewed On 2023/04/07

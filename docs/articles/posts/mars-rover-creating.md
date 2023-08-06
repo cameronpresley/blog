@@ -299,3 +299,7 @@ Now that we’ve made that change, if we re-run our test, it passes!
 ### Wrapping Up
 
 In this post, we started writing tests on `Rover`. We started off by adding a default constructor which sets the `Orientation` to `Direction.North` and explored about how setting defaults explicitly can protect us from changes in the future. From there, we wrote a test on `Location` and learned about how `Assert.AreEquals` leverages default equality and a few different approaches to solving this problem. Now that we have a way to assert against `Orientation` and `Location`, we can start writing tests for when the rover moves forward!
+
+
+---
+Last Reviewed On 2023/04/07

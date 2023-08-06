@@ -369,3 +369,6 @@ And we can verify that our refactored worked like a top!
 ## Wrapping Up
 
 At this point, we’ve made some good changes to the `Rover` with how the various methods work by examining the duplication (the `if/else`), extracting the duplication to a single area, and the compared the functional approach and the OOP approach via the Strategy pattern. In the next post, we’ll take on implementing `TurnRight` and see how our new refactor works in practice when adding new functionality!
+
+---
+Last Reviewed On 2023/04/07

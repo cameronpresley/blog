@@ -350,3 +350,6 @@ Already we can see how easy it would be to extend this test suite if a new `Dire
 ## Wrapping Up
 
 Goodness, just like that we have a `Rover` that knows how to `MoveForward`, `MoveBackward`, and `TurnLeft`! In this post, we added some new functionality to `Rover` by first examining the requirements and implementing them one at a time. From there, we noticed during our refactor step that our test code looked similar, just differing on inputs. This, in turn, inspired us to look at parameterized testing which allowed us to drastically reduce the amount of code needed for the various use cases and allows us to add additional cases easier in the future. In the next post, we start taking a look at some interesting patterns that `Rover` is exhibiting in its three methods.
+
+---
+Last Reviewed On 2023/04/07

@@ -176,3 +176,6 @@ Going forward, if we need to add more predicates, all we need to do is to add it
 In this post, we explored LINQ’s `Where` method by examining its various properties. From there, we took a look at a common mistake developers make with `Where` and then showed how to resolve that issue by using `Aggregate`.
 
 Shout out to Matthew Groves for letting me participate in C# Christmas ([csadvent.christmas](https://www.csadvent.christmas/))
+
+---
+Last Reviewed On 2023/04/07

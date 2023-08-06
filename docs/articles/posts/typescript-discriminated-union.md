@@ -217,3 +217,6 @@ If that wasn't true, then we would had to have added a field to `TimelineEvent` 
 ## Wrapping Up
 
 When defining domain models where the model can have different shapes, you can use a _sum_ type to define the model.
+
+---
+Last Reviewed On 2023/04/30

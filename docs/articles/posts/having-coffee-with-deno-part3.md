@@ -236,3 +236,6 @@ In this post, we changed our script from posting its Random Coffee message to th
 In the final post, we'll take this one step further by automating the script using scheduled jobs via GitHub Actions.
 
 As always, you can find a full working version of this bot [on my GitHub](https://github.com/cameronpresley/random-coffee).
+
+---
+Last Reviewed On 2023/07/24

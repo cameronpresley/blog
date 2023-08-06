@@ -55,3 +55,6 @@ With that being said, I hope these questions help you during your interviewing p
 - Is there a 401(K)? If so, what’s the vesting period (i.e. how long until the employer contributions become yours)? What’s the employer contribution?
 - Is there a training budget? If so, is it per person, per team, per department? What do you typical training expenses look like (books, videos, conferences, or in person training)?
 - When does open enrollment begin for insurance? Am I covered on day one or is there a waiting period?
+
+---
+Last Reviewed On 2023/04/09

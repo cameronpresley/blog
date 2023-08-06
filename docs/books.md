@@ -72,3 +72,6 @@ Below are books and other resources I have found to be extremely useful, I hope 
 
 - _[Winning: The Ultimate Business How-To Book](https://amazon.com/Winning-Ultimate-Business-How-Book-ebook/dp/B000FCK3GO)_
 - _[Crossing the Chasm, 3rd Edition: Marketing and Selling Disruptive Products to Mainstream Customers](https://amazon.com/Crossing-Chasm-3rd-Disruptive-Mainstream-ebook/dp/B00DB3D81G)_
+
+---
+Last Reviewed On 2023/05/26

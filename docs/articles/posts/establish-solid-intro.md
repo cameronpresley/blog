@@ -43,3 +43,7 @@ Stay tuned for the next part of the series when we begin exploring the first par
 - [The Interface Segregation Principle (ISP)](../posts/establish-solid-interface.md)
 - [The Dependency Inversion Principle (DIP)](../posts/establish-solid-dependency.md)
 
+
+
+---
+Last Reviewed On 2023/04/07

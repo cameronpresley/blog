@@ -249,3 +249,6 @@ public IDatabaseUpdateHandler GetDatabaseUpdater(string version)
 ## Chain of Responsibility is great, here’s why
 
 What I really like about the chain of responsibility pattern is that I was able to connect my upgrade classes together in a consistent fashion. Another reason why I like this pattern is that it forces me to have the logic to determine whether I should run the update or not inside the individual classes instead of the helper method. This produces more readable code which then lends itself to easier maintainability.
+
+---
+Last Reviewed On 2023/04/07

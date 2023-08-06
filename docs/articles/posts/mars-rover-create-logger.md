@@ -156,3 +156,6 @@ With all of this in place, we now have a much clearer idea of how the `Logger` c
 
 ## Wrapping Up
 In this post, we explored the requirements for logging and why the logging logic should be a separate component due it being a cross-cutting concern. From there, we explored at the three main ways to inject dependencies (constructor, method, and property). With this knowledge, we were able to make some smart decisions on how to inject where to log the information and what to log. In the next pose, we’ll build upon this design by creating the `Logger` component. From there, we were able to make decisions on how to inject the path of where to log and the message to log. In the next post, we’ll start implementing the logic for creating the `Logger` component.
+
+---
+Last Reviewed On 2023/04/07

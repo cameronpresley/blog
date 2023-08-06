@@ -245,3 +245,7 @@ If you understand the power of switching out your boundaries, then you also unde
 ## Wrapping Up
 
 In this post, we looked at what a _function_ is, how it relates to types, and how to tell if a mapping is a function. From there, we covered the differences between pure and impure functions and how you need both to build any useful application. Finally, we wrapped up by implementing the FizzBuzz problem using this approach.
+
+
+---
+Last Reviewed On 2023/06/13

@@ -202,3 +202,6 @@ What’s awesome about this is that I didn’t have to do any more work to have 
 
 ## TL;DR
 In this post, we took a look at solving a number constraint problem by using idiomatic C# and F#. Even though both solutions are easy to read and easy to extend, the F# version was less than 1/2 the size of the C# solution. In addition, I didn’t have to do any plumbing for the F# version, but had to do some for the C# solution, and to top it off, the F# solution is generically solved, whereas the C# solution is not.
+
+---
+Last Reviewed On 2023/04/07

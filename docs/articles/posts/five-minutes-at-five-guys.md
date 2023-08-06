@@ -80,3 +80,6 @@ For those who have social anxiety or other issues speaking with others, I could 
 ## Wrapping Up
 
 So what's the lesson learned here? It's reasonable to use metrics to give you a _general_ idea of your business and process. However, when we start implementing processes to improve metrics, we need to keep in mind the customer experience and really ask _Does this truly help our customers? Or does this just make the numbers happy?_
+
+---
+Last Reviewed On 2023/06/13

@@ -266,3 +266,6 @@ In short, the Single Responsibility Principle (SRP) reinforces the idea that eve
 - [The Liskov Substitution Principle (LSP)](../posts/establish-solid-liskov.md)
 - [The Interface Segregation Principle (ISP)](../posts/establish-solid-interface.md)
 - [The Dependency Inversion Principle (DIP)](../posts/establish-solid-dependency.md)
+
+---
+Last Reviewed On 2023/04/07

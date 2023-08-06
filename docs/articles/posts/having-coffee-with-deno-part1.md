@@ -277,3 +277,7 @@ In this post, we built the first version of our Random Coffee script using TypeS
 In the next post, we'll look at making this script smarter by having it retrieve a list of names dynamically from GitHub's API!
 
 As always, you can find a full working version of this bot [on my GitHub](https://github.com/cameronpresley/random-coffee).
+
+
+---
+Last Reviewed On 2023/07/24

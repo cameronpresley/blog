@@ -55,3 +55,7 @@ Mercurial – Another common distributed source control platform. This is most c
 
 Visual SourceSafe – Very old solution from Microsoft, if your company is using this for source control, you need to migrate to another solution. This was the precursor for TFS and should no longer be used for source control.
 
+
+
+---
+Last Reviewed On 2023/04/07

@@ -389,3 +389,7 @@ With this last change, we run the script and verify that we're getting the corre
 Congratulations! We now have a script that is dynamically pulling in heroes from the Justice League organization instead of always needing to see if Green Lantern is somewhere else or if another member of Flash's SpeedForce is here for the moment.
 
 A working version of the code can be found on [GitHub](https://github.com/cameronpresley/random-coffee).
+
+
+---
+Last Reviewed On 2023/07/07

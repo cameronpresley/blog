@@ -118,3 +118,6 @@ In this post, we took a brief break from the Mars Rover kata to get a quick unde
 - _[Starting to Unit Test: Not as Hard as You Think](https://amazon.com/Starting-Unit-Test-Hard-Think-ebook/dp/B00KIZ6JAC)_ by Erik Dietrich
 - _[The Art of Unit Testing: with examples in C# 2nd Edition](https://amazon.com/Art-Unit-Testing-examples/dp/1617290890/)_ by Roy Osherove
 - _[Everything I Needed To Know About Debugging I Learned In Elementary Physics](https://taylonr.com/talks/everything-i-needed-to-know-about-debugging-i-learned-in-elementary-physics/) (presentation) by Nate Taylor
+
+---
+Last Reviewed On 2023/04/07

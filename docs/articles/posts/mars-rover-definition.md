@@ -78,3 +78,6 @@ With this new understanding, our concepts and relationships would look something
 ## Wrapping Up
 
 In this post, we explored the problem description for the Mars Rover kata and built up our understanding of the various concepts by exploring the nouns. After finding the nouns, we leveraged “has-a” and “is-a” thinking to come up with a rough idea of how the various concepts related to one another. In the next post, we’ll be focusing on how to model these concepts in code!
+
+---
+Last Reviewed On 2023/04/07

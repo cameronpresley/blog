@@ -68,3 +68,6 @@ With the script created, we could manually run this on Mondays. But we're techni
 When scaling your knowledge out, having great documentation is necessary as it allows your team to self-serve and work in a more asynchronous manner. The main problem with documentation is that it captures the state of the world when the docs were written, but they don't automatically update when the world changes.
 
 Therefore, we need to have some process to flag and review stale docs. To ensure it gets done, we provide visibility by creating work items and committing to them during the sprint.
+
+---
+Last Reviewed On 2023/07/18

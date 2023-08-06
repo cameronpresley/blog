@@ -53,3 +53,7 @@ At the end of the day, we are professionals, we are paid to solve problems, and 
 
 _Do you have a question about leadership, career, or software engineering? Would you like a different perspective on these topics? Drop a line at [CoachingCorner@TheSoftwareMentor.com](mailto:CoachingCorner@TheSoftwareMentor.com) or you can fill out [this form](https://forms.gle/eTqzoUo5hFWrmVKK6)._ 
 
+
+
+---
+Last Reviewed On 2023/06/22

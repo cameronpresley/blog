@@ -218,3 +218,6 @@ Let’s say that in the future, the requirements change and this conversation pl
 The key point is that no matter how large a method is, there always have to be steps being performed in some order (by definition of an algorithm) and this is the key to refactoring larger methods into more maintainable pieces of code. The trick is determining what those steps are and making decisions on whether to make helper methods or helper classes.
 
 If those steps become complicated, then they should be broken out into helper methods. As time progresses and those helper methods start to become more complicated, then those helper methods should in turn become classes of their own.
+
+---
+Last Reviewed On 2023/04/07

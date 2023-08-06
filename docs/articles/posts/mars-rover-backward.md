@@ -239,3 +239,6 @@ Circling back to this duplicated ifs, I’ve got a hunch that `TurnLeft` and `Tu
 ## Wrapping Up
 
 Just like that, we now have a `Rover` that knows how to both `MoveForward` and `MoveBackward`! Like before, we first started by examining the requirements and coming up with our various test cases. From there, we were able to drive out the functionality by using red-green-refactor and building our software with tests. In the next post, we’ll take a look at implementing the logic for turning left!
+
+---
+Last Reviewed On 2023/04/07
