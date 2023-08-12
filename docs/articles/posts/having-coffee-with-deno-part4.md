@@ -142,3 +142,9 @@ Nice! At this point, our script will run at 8 am on Mondays (and sometimes at 7 
 In this series, we created our first bit of automation using Deno and TypeScript, pairing up the members of the Justice League. We learned how to make web requests, how Deno's permission scheme works, creating a Slack Webhook, and how to execute our scripts on a schedule using GitHub Actions.
 
 You can find the full working version of this repo [on my GitHub](https://github.com/cameronpresley/random-coffee).
+
+## Other Posts In The Series
+
+- [Having Coffee with Deno - Inspiration](./having-coffee-with-deno-part1.md)
+- [Having Coffee with Deno - Dynamic Names](./having-coffee-with-deno-part2.md)
+- [Having Coffee with Deno - Sharing the News](./having-coffee-with-deno-part3.md)

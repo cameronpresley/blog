@@ -236,3 +236,9 @@ In this post, we changed our script from posting its Random Coffee message to th
 In the final post, we'll take this one step further by automating the script using scheduled jobs via GitHub Actions.
 
 As always, you can find a full working version of this bot [on my GitHub](https://github.com/cameronpresley/random-coffee).
+
+## Other Posts In The Series
+
+- [Having Coffee with Deno - Inspiration](./having-coffee-with-deno-part1.md)
+- [Having Coffee with Deno - Dynamic Names](./having-coffee-with-deno-part2.md)
+- [Having Coffee with Deno - Automating All the Things](./having-coffee-with-deno-part4.md)
