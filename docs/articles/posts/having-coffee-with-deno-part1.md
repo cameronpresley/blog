@@ -277,3 +277,9 @@ In this post, we built the first version of our Random Coffee script using TypeS
 In the next post, we'll look at making this script smarter by having it retrieve a list of names dynamically from GitHub's API!
 
 As always, you can find a full working version of this bot [on my GitHub](https://github.com/cameronpresley/random-coffee).
+
+## Other Posts In The Series
+
+- [Having Coffee with Deno - Dynamic Names](./having-coffee-with-deno-part2.md)
+- [Having Coffee with Deno - Sharing the News](./having-coffee-with-deno-part3.md)
+- [Having Coffee with Deno - Automating All the Things](./having-coffee-with-deno-part4.md)
