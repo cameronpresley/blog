@@ -7,7 +7,7 @@ description: >
   The Humble Function - Foundation to Functional Programming
 categories:
   - Functional
-  - Typescript
+  - TypeScript
 hide:
   - toc
 ---
@@ -17,12 +17,12 @@ hide:
 When learning about functional programming, you won't go far before you run into the concept of a _function_. But we're not talking about some syntax or keywords in the language, but from a mathematical sense.
 
 !!! info ""
-    A function is a mapping between two sets such that for every element in the first set, it's mapped to a single element in the second set.
+A function is a mapping between two sets such that for every element in the first set, it's mapped to a single element in the second set.
 
 Since a _set_ is a collection of _elements_, this is similar to a _type_ where _values_ are part of that type. With this understanding, we can modify our definition of a function to be:
 
 !!! info ""
-    A function is a mapping between two _types_ such that for every _value_ in the first type, it's mapped to a single value in the second type.
+A function is a mapping between two _types_ such that for every _value_ in the first type, it's mapped to a single value in the second type.
 
 ## So What Does a Function Look Like?
 
@@ -50,7 +50,7 @@ Let's say that we needed to write some code that could take a given month and re
 <figcaption>Mapping from month name to days in month</figcaption>
 </figure>
 
-To check if we have a function, we need to see if there's any element on the left with two or more arrows coming out. 
+To check if we have a function, we need to see if there's any element on the left with two or more arrows coming out.
 
 In this case, February is breaking our rule because it could map to 28 _or_ 29, depending on if it's a leap year. Since there isn't a parameter to denote if it's a leap year, our mapping isn't consistent and can't be a function.
 
@@ -61,7 +61,6 @@ One way to fix this would be to change our type on the left from _MonthName_ to 
 <figcaption>Month and year mapping to days in month</figcaption>
 </figure>
 
-
 ### Hip to Be Square
 
 Let's look at a mapping that is a function, the square function.
@@ -71,7 +70,7 @@ Let's look at a mapping that is a function, the square function.
 <figcaption>Square mapping from number to number</figcaption>
 </figure>
 
-_Does every value on the left map to a single value on the right?_ 
+_Does every value on the left map to a single value on the right?_
 
 Yep, every value does. In fact, there are some values on the left that map to the same value on the right, which isn't a problem.
 
@@ -82,14 +81,16 @@ If we wanted to, we could restrict the type on the right from _number_ to _non-n
 With this understanding of functions, let's talk about the two kinds of functions we can write and how they interact with each other.
 
 ### Pure Functions
-First, we have the _pure_ function. These functions depend wholly on their inputs and they do not interact with outside state. For example, pure functions won't interact with databases, file systems, random generation, or time. 
 
-Pure functions are great because they're easy to test, composed with other functions, and don't modify state. Another advantage is that pure functions can be replaced with the result of their call (in other words, you could replace a call to `square(3)` with its result, `9` and the program is the same). This is known as [referential transparency](https://en.wikipedia.org/wiki/Referential_transparency) and is a great tool for troubleshooting an application. 
+First, we have the _pure_ function. These functions depend wholly on their inputs and they do not interact with outside state. For example, pure functions won't interact with databases, file systems, random generation, or time.
+
+Pure functions are great because they're easy to test, composed with other functions, and don't modify state. Another advantage is that pure functions can be replaced with the result of their call (in other words, you could replace a call to `square(3)` with its result, `9` and the program is the same). This is known as [referential transparency](https://en.wikipedia.org/wiki/Referential_transparency) and is a great tool for troubleshooting an application.
 
 The main downside to pure functions is that since they don't talk to other systems (including input/output), it's impossible to write a useful program with just pure functions.
 
 ### Impure Functions
-Impure functions, on the other hand, focus on interacting with outside state. These functions will call to the database or other systems, get the time, and generate random data as needed. 
+
+Impure functions, on the other hand, focus on interacting with outside state. These functions will call to the database or other systems, get the time, and generate random data as needed.
 
 They allow us to write useful programs because they interact with input/output, however, the trade off is that they can be harder to test, they don't compose, and since they modify state, you may not be able to run them multiple times and get the same result.
 
@@ -106,7 +107,6 @@ As such, an application is made of three kinds of functions.
 - Boundary functions - These are responsible for getting input/output. They should have zero business rules (or the least possible as they are impure functions.
 - Business functions - These are the business specific rules that need to be ran on the given inputs. As these are typically the most important of an application, they are designed as pure functions
 - Workflow functions - This is the combination of boundary components and business components to build something useful. Since they're using impure functions, this will also be impure, but I often use this as my [composition root](https://blog.ploeh.dk/2011/07/28/CompositionRoot/) for the application.
-
 
 ## Effervescent Applications with Fizz Buzz
 
@@ -129,15 +129,17 @@ function getInput(): number {
   // using prompt-sync https://github.com/heapwolf/prompt-sync
   const prompt = require("prompt-sync")({ sigint: true });
   const response = prompt("What number to calculate FizzBuzz to?");
-  if (!(+response) || (+response)<1) {
-    console.log('Invalid response, please enter a positive number greater than 1');
+  if (!+response || +response < 1) {
+    console.log(
+      "Invalid response, please enter a positive number greater than 1"
+    );
     return getInput();
   }
   return +response;
 }
 
 // Function that wraps console.log for printing
-function printOutput(content:string): void {
+function printOutput(content: string): void {
   console.log(content);
 }
 ```
@@ -148,7 +150,7 @@ For now, let's leave these two and look into creating our business rule function
 
 ```ts
 // Business rules for FizzBuzz
-function calculateFizzBuzz(input:number): string {
+function calculateFizzBuzz(input: number): string {
   if (input % 3 == 0 && input % 5 == 0) {
     return "FizzBuzz";
   }
@@ -162,13 +164,12 @@ function calculateFizzBuzz(input:number): string {
 }
 
 // Helper function to create a range of numbers from [1..end]
-function createRangeFromOneTo(end:number): number[] {
+function createRangeFromOneTo(end: number): number[] {
   if (number < 1) {
     return [];
   }
-  return Array.from(Array[number].keys()).map((x)=>x+1);
+  return Array.from(Array[number].keys()).map((x) => x + 1);
 }
-
 ```
 
 With `calculateFizzBuzz` defined, we could write unit tests to ensure the correctness of the behavior. We could also create a mapping to double-check that we have a function.
@@ -178,11 +179,11 @@ Now, let's revisit our `getInput` function. We've got some business rules that d
 To solve this problem, we could extract the validation logic to its own pure function and update `getInput` to use the new function.
 
 ```ts hl_lines="12"
-function isInputValid(input:string): boolean {
-  if (!(+input)) {
+function isInputValid(input: string): boolean {
+  if (!+input) {
     return false;
   }
-  return (+input) > 1;
+  return +input > 1;
 }
 
 function getInput(): number {
@@ -190,7 +191,9 @@ function getInput(): number {
   const prompt = require("prompt-sync")({ sigint: true });
   const response = prompt("What number to calculate FizzBuzz to?");
   if (!isInputValid(response)) {
-    console.log('Invalid response, please enter a positive number greater than 1');
+    console.log(
+      "Invalid response, please enter a positive number greater than 1"
+    );
     return getInput();
   }
   return +response;
@@ -200,15 +203,17 @@ function getInput(): number {
 Nice! With this in place, we can go ahead and implement our last function, the FizzBuzz workflow.
 
 ```ts
-function runFizzBuzzWorkflow (): void {
+function runFizzBuzzWorkflow(): void {
   // Data coming in
   const maximumNumber = getInput();
 
   // Calculating results
-  const results = createRangeFromOneTo(maximumNumber).map((x)=>calculateFizzBuzz(x));
+  const results = createRangeFromOneTo(maximumNumber).map((x) =>
+    calculateFizzBuzz(x)
+  );
 
   // Print Results
-  results.forEach((x)=>printOutput(x));
+  results.forEach((x) => printOutput(x));
 }
 
 // example invocation
@@ -222,25 +227,30 @@ Let's go one step forward. In our example, we assumed that the input and output 
 We could move the boundary functions to be parameters to `runFizzBuzzWorkflow`, let's take a look at what that would give us.
 
 ```ts
-function runFizzBuzzWorkflow (readInput:()=>number, writeOutput:(string)=>void){
-    // Data coming in
+function runFizzBuzzWorkflow(
+  readInput: () => number,
+  writeOutput: (string) => void
+) {
+  // Data coming in
   const maximumNumber = readInput();
 
   // Calculating results
-  const results = createRangeFromOneTo(maximumNumber).map((x)=>calculateFizzBuzz(x));
+  const results = createRangeFromOneTo(maximumNumber).map((x) =>
+    calculateFizzBuzz(x)
+  );
 
   // Print Results
-  results.forEach((x)=>writeOutput(x));
+  results.forEach((x) => writeOutput(x));
 }
 
 // example invocations
 runFizzBuzzWorkflow(getInput, printOutput); // using console read/write
-runFizzBuzzWorkflow(()=>42, printOutput); // using hardcoded input with console log
+runFizzBuzzWorkflow(() => 42, printOutput); // using hardcoded input with console log
 ```
 
 With this change, we can now swap out how we can input or output by creating new functions with the right type signatures. This makes testing workflow components easy because you can stub in your own mocks (no need for mocking frameworks).
 
-If you understand the power of switching out your boundaries, then you also understand other modern architectures like [Ports and Adapters](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)) as they follow a similar principle.
+If you understand the power of switching out your boundaries, then you also understand other modern architectures like [Ports and Adapters](<https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)>) as they follow a similar principle.
 
 ## Wrapping Up
 

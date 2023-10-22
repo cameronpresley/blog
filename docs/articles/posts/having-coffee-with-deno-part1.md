@@ -6,7 +6,7 @@ authors:
 description: >
   Having Coffee With Deno
 categories:
-  - Typescript
+  - TypeScript
 hide:
   - toc
 ---

@@ -6,7 +6,7 @@ authors:
 description: >
   Having Coffee With Deno - Dynamic Names
 categories:
-  - Typescript
+  - TypeScript
 hide:
   - toc
 ---
@@ -166,6 +166,7 @@ Once we have the token, we can invoke the endpoint with cURL or Postman to verif
 After we've verified, we'll need a way to get this API token into our script. Given that this is sensitive information, we absolutely should **NOT** check this into the source code.
 
 ### Creating an ENV File
+
 A common way of dealing with that is to use an _.env_ file which doesn't get checked in, but our application can use it during runtime to get secrets.
 
 Let's go ahead and create the `.env` file and put our API token here.
@@ -199,7 +200,7 @@ import { config as loadEnv } from "https://deno.land/x/dotenv@v3.2.2/mod.ts";
 // other imports
 
 // This loads the .env file and adds them to the environment variable list
-await loadEnv({export: true});
+await loadEnv({ export: true });
 // Deno.env.get("name") retrieves the value from an environment variable named "name"
 console.log(Deno.env.get("GITHUB_BEARER_TOKEN"));
 
@@ -294,7 +295,7 @@ import { Pair, createPairsFrom, shuffle } from "./utility.ts";
 
 await loadEnv({ export: true });
 
-const membersOfOrganization = await getMembersOfOrganization('JusticeLeague');
+const membersOfOrganization = await getMembersOfOrganization("JusticeLeague");
 console.log(JSON.stringify(membersOfOrganization));
 // rest of the file
 ```
@@ -329,13 +330,16 @@ Looking at the [response schema](https://docs.github.com/en/rest/orgs/members?ap
 
 ```ts title="github.ts"
 type GetOrganizationMemberResponse = {
-  login: string
+  login: string;
 };
 
-async function getMembersOfOrganization(orgName: string): Promise<GetOrganizationMemberResponse[]> {
+async function getMembersOfOrganization(
+  orgName: string
+): Promise<GetOrganizationMemberResponse[]> {
   //code
-  const resp = await axiod.get<GetOrganizationMemberResponse[]>
-  (url, {headers:headers});
+  const resp = await axiod.get<GetOrganizationMemberResponse[]>(url, {
+    headers: headers,
+  });
   // rest of the code
 }
 ```
@@ -343,6 +347,7 @@ async function getMembersOfOrganization(orgName: string): Promise<GetOrganizatio
 We can rerun our code and verify that everything is still working, but now with better type safety.
 
 ## Cleaning Up
+
 Now that we have this function written, we can work to integrate it with our `index.ts` script.
 
 ```ts title="index.ts" hl_lines="5"
