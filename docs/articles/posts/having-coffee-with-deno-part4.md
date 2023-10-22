@@ -6,7 +6,7 @@ authors:
 description: >
   Having Coffee With Deno - Automating All the Things
 categories:
-  - Typescript
+  - TypeScript
 hide:
   - toc
 ---
@@ -38,7 +38,6 @@ For the script to post to Slack, we'll need to make the following changes:
 1. Add our secrets/variables to the repository so that our Action can access them.
 1. Creating the Action.
 1. Setup a schedule for when the script should run.
-
 
 ## Adding Secrets to the Repository
 
@@ -95,7 +94,6 @@ jobs:
         env:
           GITHUB_BEARER_TOKEN: ${{ secrets.GH_BEARER_TOKEN }}
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-
 ```
 
 With these changes, we can go to our Actions and kick this off manually. If everything works correctly, we should see our message get posted!

@@ -8,7 +8,7 @@ description: >
 
 categories:
   - Functional
-  - Typescript
+  - TypeScript
 
 hide:
   - toc
@@ -39,7 +39,7 @@ Let's take a look at the example response in the docs.
     "commit_id": null,
     "commit_url": null,
     "created_at": "2022-04-13T20:49:13Z",
-    "lock_reason": null,
+    "lock_reason": null
   },
   {
     "id": 6430296748,
@@ -51,7 +51,7 @@ Let's take a look at the example response in the docs.
     "label": {
       "name": "beta",
       "color": "99dd88"
-    },
+    }
   },
   {
     "id": 6635165802,
@@ -63,12 +63,12 @@ Let's take a look at the example response in the docs.
     "rename": {
       "from": "Secret scanning: dry-runs for enterprise-level custom patterns (cloud)",
       "to": "Secret scanning: dry-runs for enterprise-level custom patterns"
-    },
+    }
   }
 ]
 ```
 
-Based on the name of the docs, it seems like we'd expect to get back an array of events, let's call this `TimelineEvent[]`. 
+Based on the name of the docs, it seems like we'd expect to get back an array of events, let's call this `TimelineEvent[]`.
 
 Let's go ahead and define the `TimelineEvent` type. One approach is to start copying the fields from the events in the array. By doing this, we would get the following.
 
@@ -90,7 +90,6 @@ type TimelineEvent = {
     to: string;
   };
 };
-
 ```
 
 ## The Problem
@@ -100,7 +99,6 @@ This definition will work, as it will cover all the data. However, the problem w
 Let's say that we wanted to write a function that printed data about `TimelineEvent`, we would have to write something like the following:
 
 ```ts
-
 function printData(event: TimelineEvent) {
   if (event.event === "labeled") {
     console.log(event.label!.name); // note the ! here, to tell TypeScript that I know it'll have a value
@@ -110,10 +108,9 @@ function printData(event: TimelineEvent) {
     console.log(event.rename!.from); // note the ! here, to tell Typescript that I know it'll have a value
   }
 }
-
 ```
 
-The main problem is that the we have to remember that the `labeled` event has a `label` property, but not the `locked` property. It might not be a big deal right now, but given that the GitHub API has over [40 event types](https://docs.github.com/en/webhooks-and-events/events/issue-event-types), the odds of forgetting which properties belong where can be challenging. 
+The main problem is that the we have to remember that the `labeled` event has a `label` property, but not the `locked` property. It might not be a big deal right now, but given that the GitHub API has over [40 event types](https://docs.github.com/en/webhooks-and-events/events/issue-event-types), the odds of forgetting which properties belong where can be challenging.
 
 The pattern here is that we have a type `TimelineEvent` that can have different, separate shapes, and we need a type that can represent all the shapes.
 
@@ -168,7 +165,7 @@ At this point, we have three types, one for each specific event. A `LockedEvent`
 Next, we can update our definition of `TimelineEvent` to use the _union_ operator as so.
 
 ```ts
-type TimelineEvent = LockedEvent | LabeledEvent | RenamedEvent
+type TimelineEvent = LockedEvent | LabeledEvent | RenamedEvent;
 ```
 
 This would be read as _A `TimelineEvent` can either be a `LockedEvent` or a `LabeledEvent` or a `RenamedEvent`_.
@@ -180,7 +177,7 @@ function printData(event: TimelineEvent) {
   if (event.event == "labeled") {
     console.log(event.label.name); // note that we no longer need !
   } else if (event.event == "locked") {
-    console.log(event.lock_reason); 
+    console.log(event.lock_reason);
   } else {
     console.log(event.rename.to); // note that we no longer need !
   }
@@ -189,7 +186,6 @@ function printData(event: TimelineEvent) {
 
 Not only do we not have to use the `!` operator to ignore type safety, but we also have better autocomplete (note that `locked_reason` and `rename` don't appear when working with a labeled event).
 ![Better autocomplete](../images/typescript-union-intellisense.png)
-
 
 ## Deeper Dive
 
@@ -203,14 +199,14 @@ Sum types are implemented as either _tagged unions_ or _untagged unions_. Typesc
 // ....
 type TimelineEvent = Locked of LockedEvent | Labeled of LabeledEvent | Renamed of RenamedEvent
 
-let printData e = 
+let printData e =
     match e with
     | Locked l -> printf "%s" l.lock_reason
     | Labeled l -> printf "%s" l.label.name
     | Renamed r -> printf "%s" r.rename.``to`` // the `` is needed here as to is a reserved word in F#
 ```
 
-A _tagged union_ is when each shape has a specific constructor. So in the F# version, the `Locked` is the tag for the `LockedEvent`, `Labeled` is the tag for the `LabeledEvent`, so on and so forth. In the Typescript example, we worked around it because the `event` property is on every `TimelineEvent` and is a different value. 
+A _tagged union_ is when each shape has a specific constructor. So in the F# version, the `Locked` is the tag for the `LockedEvent`, `Labeled` is the tag for the `LabeledEvent`, so on and so forth. In the Typescript example, we worked around it because the `event` property is on every `TimelineEvent` and is a different value.
 
 If that wasn't true, then we would had to have added a field to `TimelineEvent` (typically called `kind` or `tag`) that would help us differentiate between the various shapes.
 

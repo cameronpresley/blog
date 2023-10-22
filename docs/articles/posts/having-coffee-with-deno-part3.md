@@ -6,7 +6,7 @@ authors:
 description: >
   Having Coffee With Deno - Dynamic Names
 categories:
-  - Typescript
+  - TypeScript
 hide:
   - toc
 ---
@@ -117,7 +117,6 @@ function createMessage(pairs: Pair<GetOrganizationMemberResponse>[]): string {
     }`;
   return pairs.map(mapper).join("\n");
 }
-
 ```
 
 And if we were to run the above, we can see the following message get sent to Slack.
@@ -189,7 +188,7 @@ class MessageFacade {
 
   // Here's where we take the content that the user provided
   // and convert it to the JSON shape that Slack expects
-public build(): string {
+  public build(): string {
     // create the header block if set, otherwise null
     const headerBlock = this.header
       ? {
@@ -222,7 +221,6 @@ const message = new MessageFacade()
   .build();
 
 await sendMessage(message);
-
 ```
 
 When we run the script now, we get the following message:
