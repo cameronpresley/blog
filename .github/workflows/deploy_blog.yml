@@ -1,27 +1,26 @@
 name: Deploy Blog
 
-on:
-    push
+on: push
 
 jobs:
-    deploy-blog:
-        if: github.ref == 'refs/heads/main'
-        runs-on: ubuntu-latest
-        container:
-          image: ghcr.io/cameronpresley/mkdocs-material-insiders
-          credentials:
-              username: cameronpresley
-              password: ${{ secrets.GHCR_REGISTRY_TOKEN }}
-        steps:
-            - name: Checkout repository
-              uses: actions/checkout@v3
+  deploy-blog:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/cameronpresley/mkdocs-material-insiders
+      credentials:
+        username: cameronpresley
+        password: ${{ secrets.GHCR_REGISTRY_TOKEN }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-            - name: 'Allow dubious ownership'
-              run: git config --global --add safe.directory /__w/blog/blog
+      - name: "Allow dubious ownership"
+        run: git config --global --add safe.directory /__w/blog/blog
 
-            - name: Check if in git directory
-              run: git status
-              
-            - name: Deploy Docs
-              run: |
-                mkdocs gh-deploy -c -v --force --message "[skip ci] Updates"
+      - name: Check if in git directory
+        run: git status
+
+      - name: Deploy Docs
+        run: |
+          mkdocs gh-deploy -c -v --force --message "[skip ci] Updates"
