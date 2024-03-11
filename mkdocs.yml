@@ -18,9 +18,11 @@ plugins:
       post_date_format: medium
   - search
   - tags
-nav: 
+  - optimize
+nav:
   - About Me: index.md
-  - Articles: articles/index.md
+  - Articles:
+      - articles/index.md
   - Recommended Reading: books.md
   - Presentations: presentations.md
   - Speaking Schedule: speaking-schedule.md
@@ -40,8 +42,7 @@ markdown_extensions:
   - toc:
       toc_depth: "1-1"
 
-extra: 
+extra:
   analytics:
     provider: google
     property: G-ZE0MGVG7RJ
-    
