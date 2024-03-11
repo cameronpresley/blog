@@ -1,4 +1,5 @@
-cameronpresley:
-  name: Cameron Presley
-  description: Creator
-  avatar: https://github.com/cameronpresley.png
+authors:
+  cameronpresley:
+    name: Cameron Presley
+    description: Creator
+    avatar: https://github.com/cameronpresley.png
