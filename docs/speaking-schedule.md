@@ -36,7 +36,7 @@ hide:
 
 - [How To Have Code Reviews Developers Actually Want](presentations.md#how-to-have-code-reviews-developers-actually-want)
 
-### CodePaLOUsa - Louisville, KY (Aug 17-19, 2022) _[more info](https://www.codepalousa.com/)_
+### CodePaLOUsa - Louisville, KY (Aug 17-19, 2022)
 
 - [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
 
@@ -76,7 +76,7 @@ hide:
 
 - [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
 
-### CodePaLOUsa - Louisville, KY (Aug 18-20, 2021) _[more info](http://www.codepalousa.com/)_
+### CodePaLOUsa - Louisville, KY (Aug 18-20, 2021)
 
 - [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
 - [Taking a Gamble With Functional Domain Modeling](presentations.md#taking-a-gamble-with-functional-domain-modeling)
@@ -186,7 +186,7 @@ hide:
 
 - [How Functional Programming Made Me a Better Developer](./presentations.md#how-functional-programming-made-me-a-better-developer)
 
-### CodePaLOUsa - Louisville, KY (Aug 21-23, 2019) _[more info](http://www.codepalousa.com/)_
+### CodePaLOUsa - Louisville, KY (Aug 21-23, 2019)
 
 - [How To Have Code Reviews Developers Actually Want](presentations.md#how-to-have-code-reviews-developers-actually-want)
 - [How Functional Programming Made Me a Better Developer](./presentations.md#how-functional-programming-made-me-a-better-developer)
@@ -275,7 +275,7 @@ hide:
 
 - [Making the Unstable Stable - An Introduction to Testing](./presentations.md#making-the-unstable-stable-–-an-introduction-to-testing)
 
-### CodePaLOUsa - Louisville, KY (Jun 7-9, 2017) _[more info](http://codepalousa.com/)_
+### CodePaLOUsa - Louisville, KY (Jun 7-9, 2017)
 
 - [Making the Unstable Stable - An Introduction to Testing](./presentations.md#making-the-unstable-stable-–-an-introduction-to-testing)
 - [How to Have Code Reviews Developers Actually Want](presentations.md#how-to-have-code-reviews-developers-actually-want)
