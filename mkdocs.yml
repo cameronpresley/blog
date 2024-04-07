@@ -23,7 +23,7 @@ nav:
   - About Me: index.md
   - Articles:
       - articles/index.md
-  - Recommended Reading: books.md
+  - Level Up Resources: level-up.md
   - Presentations: presentations.md
   - Speaking Schedule: speaking-schedule.md
   - Resume: resume.md
