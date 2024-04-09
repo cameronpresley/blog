@@ -1,7 +1,7 @@
 ---
 draft: false
 date: 2020-12-12
-authors: 
+authors:
   - cameronpresley
 description: >
   Examining LINQ's WHERE
@@ -15,7 +15,7 @@ hide:
 
 # Thinking With Properties: Examining Where
 
-_Note: This post is for [C# Adevent Calendar 2020](https://www.csadvent.christmas/) organized by [Matthew Groves](https://twitter.com/mgroves). Check out some of the other psots that are happening over the month of December!_
+_Note: This post is for [C# Advent Calendar 2020](https://www.csadvent.christmas/) organized by [Matthew Groves](https://twitter.com/mgroves). Check out some of the other posts that are happening over the month of December!_
 
 ## What Do We Mean By Properties?
 
