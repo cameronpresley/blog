@@ -42,6 +42,7 @@ Reading is important, because if you can read, you can learn anything about ever
 - _[Code That Fits in Your Head - Heuristics for Software Engineering](https://www.goodreads.com/book/show/57345272-code-that-fits-in-your-head)_
 - _[Working Effectively with Legacy Code](https://www.goodreads.com/book/show/44919.Working_Effectively_with_Legacy_Code)_
 - _[Refactoring: Improving the Design of Existing Code](https://www.goodreads.com/book/show/44936.Refactoring)_
+- _[Debugging: The 9 Indispensable Rules for Finding Even the Most Elusive Software and Hardware Problems](https://www.goodreads.com/en/book/show/3938178)_
 
 ## Career
 
