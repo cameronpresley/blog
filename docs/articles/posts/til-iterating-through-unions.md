@@ -1,6 +1,6 @@
 ---
 draft: false
-date: 2024-04-16
+date: 2024-04-13
 authors:
   - cameronpresley
 description: >
@@ -8,12 +8,13 @@ description: >
 categories:
   - Functional
   - TypeScript
+  - Today I Learned
 
 hide:
   - toc
 ---
 
-# Today I Learned - Iterating Through Union Types 
+# Today I Learned - Iterating Through Union Types
 
 In a [previous post](./typescript-discriminated-union.md), we cover on how using union types in TypeScript is a great approach for domain modeling because it limits the possible values that a type can have.
 
@@ -36,7 +37,7 @@ With this definition, let's create a function to build the deck.
 function createDeck(): Card[] {
   const ranks = ["Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King"];
   const suites = ["Hearts", "Clubs", "Spades", "Diamonds"];
-  
+
   const deck:Card[] = [];
   for (const rank of ranks) {
 	for (const suite of suites) {
@@ -61,4 +62,18 @@ type Suite = typeof suites[number]
 
 In this above code, we're saying that `ranks` cannot change (either by assignment or by operations like `push`). With that definition, we can say that `Rank` is some entry in the `ranks` array. Similar approach for our `suites` array and `Suite` type.
 
-I prefer this approach much more because we have our ranks and suies defined in one place and our code reads cleaner as this says _Here are the possible ranks and Rank can only be one of those choices_.
+I prefer this approach much more because we have our ranks and suites defined in one place and our code reads cleaner as this says _Here are the possible ranks and Rank can only be one of those choices_.
+
+## Limitations
+
+The main limitation is that it only works for "enum" style unions. Let's change example and say that we want to model a series of shapes with the following.
+
+```ts
+type Circle = {radius:number};
+type Square = {length:number};
+type Rectangle = {height:number, width:number}
+
+type Shape = Circle | Square | Rectangle
+```
+
+To use the same trick, we would need to have an array of constant values. However, we can't have a constant value for any of the `Shape`s because there are an infinite number of valid `Circle`s, `Square`s, and `Rectangle`s.
