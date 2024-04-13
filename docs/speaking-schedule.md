@@ -6,6 +6,15 @@ hide:
 
 # Speaking Schedule
 ## Upcoming Sessions
+
+### Iowa .NET User Group - Virtual (May 2, 2024) _[more info](https://www.meetup.com/iadnug/events/300344693)_
+
+- [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
+
+### JavaScript KC - Virtual (May 22, 2024) _[more info](https://www.meetup.com/javascriptkc/events/300211972/)_
+
+- [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
+
 ---
 ## Past Sessions
 
