@@ -25,6 +25,8 @@ This is where having a _postmortem_ meeting comes into play. Borrowing from medi
 
 One of the key concepts of the _postmortem_ is that the goal **isn't to assign blame, but to understand what happened and why**. People aren't perfect and it's not reasonable for them to be. This concept is so fundamental that another term you might here for a postmortem is a _[blameless incident report (BIR)](https://www.atlassian.com/incident-management/postmortem/blameless)_.
 
+Are you interesting learning how to run your own BIR process? [Drop me a line](mailto:CoachingCorner@TheSoftwareMentor.com?subject=Running BIRs) and if there's enough interest, I'll write a follow-up post!
+
 ## Getting Started
 
 Every company has their own process when they have an outage, but health process should be able to answer these five questions at a minimum.
