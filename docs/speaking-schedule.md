@@ -15,6 +15,10 @@ hide:
 
 - [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
 
+### Springfield Devs - Virtual (Sept 4, 2024)_[more info]()_
+
+- [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
+
 ---
 ## Past Sessions
 
