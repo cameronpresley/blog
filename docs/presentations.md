@@ -134,7 +134,7 @@ Intended for C# developers who have some experience with LINQ and an interest in
 
 ### Resources
 - Presentation
-    - [Slides](https://www.slideshare.net/CameronPresley/level-up-your-functional-programming-skills-with-linq) (SlideShare)
+    - [Slides](https://docs.google.com/presentation/d/1x1_PTjXLSH7BQOVGWoZLRoCAIY2zAcAhkvv2gSsmmec/edit?usp=sharing) (Google Drive)
 - Articles
     - _[JavaScript Map, Reduce, and Filter – JS Array Functions Explained with Code Examples](https://www.freecodecamp.org/news/javascript-map-reduce-and-filter-explained-with-examples/)_
     - [Microsoft Docs on Extension Methods](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods)
