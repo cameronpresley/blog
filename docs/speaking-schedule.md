@@ -7,16 +7,28 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
-### Iowa .NET User Group - Virtual (May 2, 2024) _[more info](https://www.meetup.com/iadnug/events/300344693)_
+### Detroit Tech Watch - Virtual (May 21, 2024) _[more info](https://www.meetup.com/detroit-tech-watch/events/300725509/)_
 
-- [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
+- Functional Domain Modeling with Blackjack
 
 ### JavaScript KC - Virtual (May 22, 2024) _[more info](https://www.meetup.com/javascriptkc/events/300211972/)_
 
 - [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
 
+### Carolina Code Conference - Greenville, SC (Aug 23-24, 2024) _[more info]()_
+
+- [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
+
+### Springfield Dev Night - Virtual (Sept 4, 2024) _[more info]()_
+
+- [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
+
 ---
 ## Past Sessions
+
+### Iowa .NET User Group - Virtual (May 2, 2024) _[more info](https://www.meetup.com/iadnug/events/300344693)_
+
+- [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
 
 ### CodeMash - Sandusky, OH (Jan 10-13, 2023) _[more info](https://www.codemash.org/codemash-2023-speakers-chosen-and-session-list-posted/)_
 
