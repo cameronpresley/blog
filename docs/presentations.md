@@ -158,7 +158,7 @@ In this talk, I’m going to show you how to tackle these concerns as we model t
 
 - Presentations
     - _[Domain Modeling Made Functional](https://www.youtube.com/watch?v=Up7LcbGZFuo)_ by Scott Wlaschin (YouTube)
-    - [Slides](https://www.slideshare.net/CameronPresley/taking-a-gamble-with-functional-domain-modeling)
+    - [Slides](https://docs.google.com/presentation/d/14FfKsfw4leLCnE_3L4tIeC3SpJGPcrLKH9EW5ZrAVgo/edit?usp=sharing)
 - Articles
     - [Thinking Functionally (series)](https://fsharpforfunandprofit.com/series/thinking-functionally.html) by Scott Wlaschin
     - [Functional Architecture : a definition](https://blog.ploeh.dk/2018/11/19/functional-architecture-a-definition/) by Mark Seemann
@@ -167,7 +167,7 @@ In this talk, I’m going to show you how to tackle these concerns as we model t
 - Books
     - _[Domain Modeling Made Functional](https://pragprog.com/book/swdddf/domain-modeling-made-functional)_ by Scott Wlaschin
 - Code
-    - [Source Code](https://github.com/cameronpresley/FunctionalDomainModeling) (on GitHub)
+    - [Source Code](https://github.com/cameronpresley/functional-blackjack) (on GitHub)
 
 ## Having a Whale Of a Good Time With Docker
 
