@@ -7,14 +7,6 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
-### Detroit Tech Watch - Virtual (May 21, 2024) _[more info](https://www.meetup.com/detroit-tech-watch/events/300725509/)_
-
-- Functional Domain Modeling with Blackjack
-
-### JavaScript KC - Virtual (May 22, 2024) _[more info](https://www.meetup.com/javascriptkc/events/300211972/)_
-
-- [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
-
 ### Carolina Code Conference - Greenville, SC (Aug 23-24, 2024) _[more info]()_
 
 - [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
@@ -25,6 +17,15 @@ hide:
 
 ---
 ## Past Sessions
+
+### JavaScript KC - Virtual (May 22, 2024) _[more info](https://www.meetup.com/javascriptkc/events/300211972/)_
+
+- [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
+
+
+### Detroit Tech Watch - Virtual (May 21, 2024) _[more info](https://www.meetup.com/detroit-tech-watch/events/300725509/)_
+
+- [Functional Domain Modeling with Blackjack](./presentations.md#taking-a-gamble-with-functional-domain-modeling)
 
 ### Iowa .NET User Group - Virtual (May 2, 2024) _[more info](https://www.meetup.com/iadnug/events/300344693)_
 
