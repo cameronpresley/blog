@@ -112,7 +112,7 @@ Intended for those who have experience with TypeScript or C#, by the end of this
 ### Resources
 
 - Presentation
-    - [Slides](https://www.slideshare.net/secret/INjS9HSmA59Kp1) (SlideShare)
+    - [Slides](https://docs.google.com/presentation/d/12NOkQWN42VTQK2fCNuoLhby5Aat1BFUNNGWL0_upRIU/edit?usp=sharing)(Google Slides)
 - Videos
     - _[Professor Frisby Introduces Composable Functional JavaScript](https://egghead.io/courses/professor-frisby-introduces-composable-functional-javascript)_
 - Articles
