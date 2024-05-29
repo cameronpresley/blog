@@ -108,8 +108,8 @@ At some point, you're going to get a directive from your leader that you don't a
 
 DON'T DO THIS!
 
-<figure>
-<img src="../../../../images/dont-do-it.png" alt="Jimmy Fallon saying It's Totally Not Worth It" style="width:500px">
+<figure markdown>
+![Jimmy Fallon saying It's Totally Not Worth It](./images/dont-do-it.png){width=500px}
 <figcaption>
 Really, don't do this!
 </figcaption>

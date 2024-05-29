@@ -368,7 +368,7 @@ So far, so good. The only change we had to make was to replace the hardcoded arr
 Not an issue, right?
 
 Hmmm, what's up with this?
-![createMessage has a type error](../images/deno-part-two-createMessage.png)
+![createMessage has a type error](./images/deno-part-two-createMessage.png)
 
 It looks like `createMessage` is expecting `Pair<string>[]`, but is receiving `Pair<GetOrganizationMemberResponse>[]`.
 
