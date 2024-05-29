@@ -1,7 +1,7 @@
 ---
 draft: false
 date: 2020-05-19
-authors: 
+authors:
   - cameronpresley
 description: >
   Intro to Mars Rover Kata
@@ -31,7 +31,7 @@ With these goals in mind, when it comes to modeling concepts, I naturally gravit
 
 ### The Type Has a Finite Number of Values
 
-If the type has a finite number of valid values, then we can remove error conditions by defining the type to only be one of those possible options. For those from an Object-Oriented background, _enums_ are a great example of modeling these types as you can explicitly set a label for the different values. For those from a Functional background, _sum types_ are a great way to model these choices. 
+If the type has a finite number of valid values, then we can remove error conditions by defining the type to only be one of those possible options. For those from an Object-Oriented background, _enums_ are a great example of modeling these types as you can explicitly set a label for the different values. For those from a Functional background, _sum types_ are a great way to model these choices.
 
 Some examples of such a type include the states in the U.S., the suits for a deck of playing cards, or the months in a year.
 
@@ -70,7 +70,7 @@ In these cases, I will leverage built-in primitives to model the concept at firs
 // If the value isn't a major component of the design, we can use a primitive type
 int houseNumber;
 
-// However, if the type is a major concept to the domain at hand, 
+// However, if the type is a major concept to the domain at hand,
 // it makes sense to lift it to its own type
 public class HouseNumber
 {
@@ -95,7 +95,7 @@ Math.Sqrt(houseNumber); // fails to compile with "cannot convert from HouseNumbe
 // If the value isn't a major component of the design, we can use a primitive type
 let houseNumber:int;
 
-// However, if the type is a major concept to the domain at hand, 
+// However, if the type is a major concept to the domain at hand,
 // it makes sense to lift it to its own type (single case sum type)
 type HouseNumber = HouseNumber of int
 
@@ -105,7 +105,7 @@ Math.Sqrt(houseNumber);
 
 // But this wouldn't
 let houseNumber = HouseNumber 400
-Math.Sqrt(houseNumber); // fails to compile with 
+Math.Sqrt(houseNumber); // fails to compile with
                         // "This expression was expected to have type 'float' but here has type 'HouseNumber'"
 ```
 
@@ -119,7 +119,7 @@ One way you can determine if you’re needing a composite type like this is if y
 
 > An Address consists of a HouseNumber _and_ a StreetName _and_ a State
 
- 
+
 ```csharp
 public class Address
 {
@@ -150,7 +150,7 @@ Now that we’ve talked about some different modeling techniques, let’s see ho
 Yielding the following graph
 
 <figure markdown>
-  ![Domain model for Mars Rover](../images/simple-domain-model-relationships.png)
+  ![Domain model for Mars Rover](./images/simple-domain-model-relationships.png)
   <figcaption>Domain model relationships where Rover has a Location and an Orientation. Orientation is a Direction and Command is not related to anything.</figcaption>
 </figure>
 
@@ -185,7 +185,7 @@ public enum Command
 ```
 
 ```fsharp
-type Command = MoveForward | MoveBackward 
+type Command = MoveForward | MoveBackward
              | TurnLeft | TurnRight | Quit
 ```
 
@@ -199,11 +199,11 @@ When we ask additional questions, we find out that a _Coordinate_ refers to the 
 With this new information, our mental model has changed to be the following
 
 <figure markdown>
-  ![Domain model for Mars Rover](../images/domain-model-relationships-x-y.png)
+  ![Domain model for Mars Rover](./images/domain-model-relationships-x-y.png)
   <figcaption>Domain model relationships where Rover has a Location and an Orientation. Location is a Coordinate where Coordinate has an X and Y value. Orientation is a Direction and Command is not related to anything.</figcaption>
 </figure>
- 
- 
+
+
 Going into further discussion, we find out that both X and Y will be whole numbers for our emulation and that they can be negative. Based on these properties, it sounds like X and Y can be modeled as integers and therefore fall under the second rule.
 
 Given that a Coordinate has to have both an X and Y value, it sounds like _Coordinate_ falls under the third rule and that this concept is a composition of X and Y.

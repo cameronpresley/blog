@@ -1,7 +1,7 @@
 ---
 draft: false
 date: 2020-06-03
-authors: 
+authors:
   - cameronpresley
 description: >
   Implementing the constructor for Rover
@@ -66,9 +66,9 @@ Like everything in development, there are multiple ways we could implement this 
 1. Provide a default constructor for `Rover` that sets those values explicitly
 2. Update the Program.cs file to set those values for `Rover`
 
-With the first approach, we’re encoding this business rule into the `Rover` type and forcing that when anyone creates an instance of `Rover`, it will always be at (0, 0) facing North which is a nice way of putting the business rule into the right component. 
+With the first approach, we’re encoding this business rule into the `Rover` type and forcing that when anyone creates an instance of `Rover`, it will always be at (0, 0) facing North which is a nice way of putting the business rule into the right component.
 
-With the second approach, we’re going to let `Rover` be a dumb component and have some other component decide these values. The downside to this approach is that if there’s an error with `Rover`, we won’t know if it’s because of how `Rover` is behaving or how it was created. 
+With the second approach, we’re going to let `Rover` be a dumb component and have some other component decide these values. The downside to this approach is that if there’s an error with `Rover`, we won’t know if it’s because of how `Rover` is behaving or how it was created.
 
 Both approaches are valid, so I’m just going to pick one and use that for now. If later down the road we need to make a change, we’ll update as needed. With that being said, I’m leaning towards the first approach, so let’s go ahead and write our first unit test on making sure that `Rover` is facing `North`.
 
@@ -82,7 +82,7 @@ public void ThenTheRoverIsFacingNorth()
 {
   // Arrange and Act
   var rover = new Rover();
-  
+
   // Assert
   Assert.AreEqual(Direction.North, rover.Orientation);
 }
@@ -98,7 +98,7 @@ public class Rover
 }
 ```
 
-We don’t have any constructors defined nor are we setting values for the two properties, so how does it know that `Orientation` is `North`? 
+We don’t have any constructors defined nor are we setting values for the two properties, so how does it know that `Orientation` is `North`?
 
 Magic?
 
@@ -139,9 +139,9 @@ public Direction
 then our test fails with our expected error.
 
 <figure markdown>
-  ![Failing unit test for Mars Rover](../images/mars-rover-failed-orientation.png)
+  ![Failing unit test for Mars Rover](./images/mars-rover-failed-orientation.png)
   <figcaption>Failing unit test for Mars Rover as the expected value was North, but the value was South.</figcaption>
-</figure> 
+</figure>
 
 I don’t know about you, but someone changing the ordering of an _enum_ shouldn’t be causing a failing test. Luckily, resolving this issue is as simple as explicitly stating the `Orientation` in `Rover`‘s default constructor.
 
@@ -150,7 +150,7 @@ public class Rover
 {
   public Direction Orientation {get; set;}
   public Coordinate Location {get; set;}
-  
+
   public Rover()
   {
     Orientation = Direction.North;
@@ -170,18 +170,18 @@ public void ThenTheRoverIsAt00()
 {
   // Arrange and Act
   var rover = new Rover();
-  
+
   var expectedLocation = new Coordinate{X=0, Y=0};
-  Assert.AreEqual(expectedLocation, rover.Location); 
+  Assert.AreEqual(expectedLocation, rover.Location);
 }
 ```
 
 When we run the test, we get the following error:
 
 <figure markdown>
-  ![Failing coordinate test for rover](../images/mars-rover-failed-location.png)
+  ![Failing coordinate test for rover](./images/mars-rover-failed-location.png)
   <figcaption>Failed test for Rover since it was expecting a Coordinate, but the Location was null.</figcaption>
-</figure> 
+</figure>
 
 Ah, yeah, that makes sense, `Location` is a `Coordinate` which is an object. Because we’ve not explicitly set `Location`, the default value is `null`.
 
@@ -196,7 +196,7 @@ public class Rover
 {
   public Direction Orientation {get; set;}
   public Coordinate Location {get; set;}
-  
+
   public Rover()
   {
     Orientation = Direction.North;
@@ -213,22 +213,22 @@ public void ThenTheRoverIsAt00()
 {
   // Arrange and Act
   var rover = new Rover();
-  
+
   var expectedLocation = new Coordinate{X=0, Y=0};
-  Assert.AreEqual(expectedLocation, rover.Location); 
+  Assert.AreEqual(expectedLocation, rover.Location);
 }
 ```
 
 <figure markdown>
-  ![Failing test for coordinate since they're different](../images/mars-rover-coordinate-difference.png)
+  ![Failing test for coordinate since they're different](./images/mars-rover-coordinate-difference.png)
   <figcaption>Failed unit test since the expected coordinate is not the same as the actual coordinate..</figcaption>
-</figure> 
+</figure>
 
 What’s going on here?
 
 ### Not All Locations Are Created Equally
 
-When we leverage `Assert.AreEqual`, under the hood, it’s leveraging the built-in `Equals` method for the values being passed in. For primitive types, this will do a comparison by _values_, but if we’re comparing objects, then it will do comparison by _reference_. 
+When we leverage `Assert.AreEqual`, under the hood, it’s leveraging the built-in `Equals` method for the values being passed in. For primitive types, this will do a comparison by _values_, but if we’re comparing objects, then it will do comparison by _reference_.
 
 Given this, the problem we’re running into now is that even though I have two `Coordinate`s that have the same value, since they are two different objects, then `Assert.AreEqual` will fail. We’ve got a couple of different ways to solve this problem.
 
@@ -238,7 +238,7 @@ One way to solve the problem is by overriding the `Equals` method on the `Coordi
 
 First, if the class gains a new property, you will need to remember to update the `Equals` method, otherwise, you’ll get interesting behavior when two objects that have a single difference are being treated as the same.
 
-Next, if you override `Equals`, [then you must override GetHashCode as well](https://docs.microsoft.com/en-us/dotnet/api/system.object.gethashcode?view=netcore-3.1#remarks). If you fail to do this, this will generate a warning during compilation time, but the bigger problem is that for two objects that are the same based on the definition of `Equals` but hash differently, then you will fail to find the item correctly in `Dictionary` and `HashSet` structures. When implementing `GetHashCode`, you should use the same properties for hashing as you would for equality checking. 
+Next, if you override `Equals`, [then you must override GetHashCode as well](https://docs.microsoft.com/en-us/dotnet/api/system.object.gethashcode?view=netcore-3.1#remarks). If you fail to do this, this will generate a warning during compilation time, but the bigger problem is that for two objects that are the same based on the definition of `Equals` but hash differently, then you will fail to find the item correctly in `Dictionary` and `HashSet` structures. When implementing `GetHashCode`, you should use the same properties for hashing as you would for equality checking.
 
 Overall, I will use this approach if equality for this type needs to be by value for everywhere in the application but this isn’t my favorite approach because developers need to remember to update both `Equals` and `GetHashCode` when new properties are added.
 

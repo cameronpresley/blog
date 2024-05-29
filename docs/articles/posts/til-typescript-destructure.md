@@ -65,7 +65,7 @@ function sendEmail(email:Email, content:string): Promise<void> {
 
 Now, when we get a compilation error when we try passing in a phoneNumber.
 
-![Compilation error that we can't pass a string to an email](../images/til-destructure-error.png)
+![Compilation error that we can't pass a string to an email](./images/til-destructure-error.png)
 
 One downside to this approach is that if you want to get the value from the `Email` type, you need to access it's `value` property. This can be a bit hard to read and keep track of.
 

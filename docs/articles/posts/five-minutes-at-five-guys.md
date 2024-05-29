@@ -21,7 +21,7 @@ Let's look at a real-world example with the popular fast food chain, Five Guys.
 
 Five Guys is known for making good burgers and delivering a mountain of piping hot fries as part of your order. Seriously, an order of small fries is a mountain of spuds. Five Guys make their fries to order, so they're not sitting around under a heat lamp.
 
-![Yo Dawg, I heard you wanted fries, so I put fries in your fries](../images/five-guys/fries-with-fries.jpg){width="500"}
+![Yo Dawg, I heard you wanted fries, so I put fries in your fries](./images/five-guys/fries-with-fries.jpg){width="500"}
 
 This approach works great when ordering in person, but what happens if you order online? The process is essentially the same, the crew works on the burgers, but they won't start the fries until you're at the restaurant, so they're always guaranteeing that you get fresh made fries.
 
@@ -31,7 +31,7 @@ At this point, it's clear that receiving a mountain of hot, cooked-to-order frie
 
 ## In the Name Of Progress
 
-I recently ordered Five Guys online, and after placing the order, I got a link to a new feature, the ability to let the restaurant know when you're on the way over. 
+I recently ordered Five Guys online, and after placing the order, I got a link to a new feature, the ability to let the restaurant know when you're on the way over.
 
 _Oh, that's cool. I bet it gives the kitchen a better time of when to start cooking the burger, so that it's not sitting around._
 
@@ -57,7 +57,7 @@ As a customer, I like the sound of this as it means I'm not waiting around all d
 
 But here's the question - how do you determine someone's arrival time? For in-person orders, this is easy as it's the time the order is placed. But what about online pick-up orders?
 
-It turns out that once you click the _I'm Here_ button, that starts the timer. And herein lies the issue. There's nothing in the interface that tells me that I should click on that button once I'm inside, only when I'm here. 
+It turns out that once you click the _I'm Here_ button, that starts the timer. And herein lies the issue. There's nothing in the interface that tells me that I should click on that button once I'm inside, only when I'm here.
 
 So when I clicked the button while sitting in my car, it put the kitchen in a weird spot because they don't see anyone there to pick up the food. Should they start cooking the fries in the hopes that I show up? Or should they wait until I'm physically there? What if I had clicked the button by mistake? What if there was a software bug?
 

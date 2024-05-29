@@ -38,7 +38,7 @@ For this step, we'll follow the instructions [in the docs](https://api.slack.com
 
 After following the steps, you should see something like the following:
 
-![Image of Slack App with Incoming Webhook](../images/deno-slack/slack.png)
+![Image of Slack App with Incoming Webhook](./images/deno-slack/slack.png)
 
 We can test that things are working correctly by running the `curl` command provided. If the message `Hello World` appears in the channel, congrats, you've got the incoming webhook created!
 
@@ -48,7 +48,7 @@ We have the Slack app created and verified that the incoming webhook is working,
 
 Since we have this incoming webhook URL and **Slack recommends treating this as a secret**, we'll need to add this to our `.env` file.
 
-![Keep your webhook ULR safe image](../images/deno-slack/keep-url-safe.png)
+![Keep your webhook ULR safe image](./images/deno-slack/keep-url-safe.png)
 
 ```.env title=".env"
 GITHUB_API_TOKEN="<yourTokenHere>"
@@ -121,7 +121,7 @@ function createMessage(pairs: Pair<GetOrganizationMemberResponse>[]): string {
 
 And if we were to run the above, we can see the following message get sent to Slack.
 
-![Message from Random Coffee](../images/deno-slack/coffee-post.png)
+![Message from Random Coffee](./images/deno-slack/coffee-post.png)
 
 Nice! We could leave it here, but we could make the message prettier (having an unordered list and italicizing names), so let's work on that next.
 
@@ -150,7 +150,7 @@ function createMessage(pairs: Pair<GetOrganizationMemberResponse>[]): string {
 
 By making this small change, we now see the following message:
 
-![Formatted Slack Message with italics and bullets](../images/deno-slack/formatted-slack-message.png){width:300px}
+![Formatted Slack Message with italics and bullets](./images/deno-slack/formatted-slack-message.png){width:300px}
 
 The messaging is better, but we're still missing some clarity. For example, what date is this for? Or what's the purpose of the message? Looking through [these docs](https://app.slack.com/block-kit-builder/T0432GV8P), it seems like we could add different text blocks (like titles). So let's see what this could look like.
 
@@ -225,7 +225,7 @@ await sendMessage(message);
 
 When we run the script now, we get the following message:
 
-![Random Coffee Message with Header and Icons](../images/deno-slack/pretty-printed-message.png)
+![Random Coffee Message with Header and Icons](./images/deno-slack/pretty-printed-message.png)
 
 ## Wrapping Up
 

@@ -1,7 +1,7 @@
 ---
 draft: false
 date: 2020-06-23
-authors: 
+authors:
   - cameronpresley
 description: >
   Implementing Turn Left for Rover
@@ -41,9 +41,9 @@ public void AndFacingNorthThenTheRoverFacesWest()
 {
   var rover = new Rover {Orientation=Direction.North};
   var initialLocation = rover.Location;
-  
+
   rover.TurnLeft();
-  
+
   Assert.AreEqual(initialLocation, rover.Location);
   Assert.AreEqual(Direction.West, rover.Orientation);
 }
@@ -74,9 +74,9 @@ public void AndFacingWestThenTheRoverFacesSouth()
 {
   var rover = new Rover {Orientation=Direction.West};
   var initialLocation = rover.Location;
-  
+
   rover.TurnLeft();
-  
+
   Assert.AreEqual(initialLocation, rover.Location);
   Assert.AreEqual(Direction.South, rover.Orientation);
 }
@@ -110,9 +110,9 @@ public void AndFacingSouthThenTheRoverFacesEast()
 {
   var rover = new Rover {Orientation=Direction.South};
   var initialLocation = rover.Location;
-  
+
   rover.TurnLeft();
-  
+
   Assert.AreEqual(initialLocation, rover.Location);
   Assert.AreEqual(Direction.East, rover.Orientation);
 }
@@ -149,9 +149,9 @@ public void AndFacingEastThenTheRoverFacesNorth()
 {
   var rover = new Rover {Orientation=Direction.East};
   var initialLocation = rover.Location;
-  
+
   rover.TurnLeft();
-  
+
   Assert.AreEqual(initialLocation, rover.Location);
   Assert.AreEqual(Direction.North, rover.Orientation);
 }
@@ -212,45 +212,45 @@ public class WhenTurningLeft
   {
     var rover = new Rover {Orientation=Direction.North};
     var initialLocation = rover.Location;
-    
+
     rover.TurnLeft();
-    
+
     Assert.AreEqual(initialLocation, rover.Location);
     Assert.AreEqual(Direction.West, rover.Orientation);
   }
-  
+
   [Test]
   public void AndFacingWestThenTheRoverFacesSouth()
   {
     var rover = new Rover {Orientation=Direction.West};
     var initialLocation = rover.Location;
-    
+
     rover.TurnLeft();
-    
+
     Assert.AreEqual(initialLocation, rover.Location);
     Assert.AreEqual(Direction.South, rover.Orientation);
   }
-  
+
   [Test]
   public void AndFacingSouthThenTheRoverFacesEast()
   {
     var rover = new Rover {Orientation=Direction.South};
     var initialLocation = rover.Location;
-    
+
     rover.TurnLeft();
-    
+
     Assert.AreEqual(initialLocation, rover.Location);
     Assert.AreEqual(Direction.East, rover.Orientation);
   }
-  
+
   [Test]
   public void AndFacingEastThenTheRoverFacesNorth()
   {
     var rover = new Rover {Orientation=Direction.East};
     var initialLocation = rover.Location;
-    
+
     rover.TurnLeft();
-    
+
     Assert.AreEqual(initialLocation, rover.Location);
     Assert.AreEqual(Direction.North, rover.Orientation);
   }
@@ -289,7 +289,7 @@ Finally, we updated how we initialized the `Rover` by setting it’s `Orientatio
 With this new test in place, let’s run it and verify that our changes worked
 
 <figure markdown>
-  ![Single test passing for when rover faces north)](../images/turn-left-test-case-refactor.png)
+  ![Single test passing for when rover faces north)](./images/turn-left-test-case-refactor.png)
   <figcaption>Single test passing for when Rover faces North</figcaption>
 </figure>
 
@@ -317,7 +317,7 @@ public void RoverTurningLeft(Direction start, Direction expected)
 And if we run our test suite, we verify that everything passes!
 
 <figure markdown>
-  ![Full test suite passing)](../images/turn-left-test-case-full-refactor.png)
+  ![Full test suite passing)](./images/turn-left-test-case-full-refactor.png)
   <figcaption>All four tests passing</figcaption>
 </figure>
 
@@ -326,7 +326,7 @@ With this in place, we can remove the other tests in this file, which yields the
 ```csharp
 [TestFixture]
 public class WhenTurningLeft
-{  
+{
   [Test]
   [TestCase(Direction.North, Direction.West, TestName = "AndFacingNorthThenTheRoverFacesWest")]
   [TestCase(Direction.West, Direction.South, TestName = "AndFacingWestThenTheRoverFacesSouth")]

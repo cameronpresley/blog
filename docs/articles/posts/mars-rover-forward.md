@@ -1,7 +1,7 @@
 ---
 draft: false
 date: 2020-06-09
-authors: 
+authors:
   - cameronpresley
 description: >
   Implementing Moving Forward for Rover
@@ -77,7 +77,7 @@ public void MoveForward()
 Hmm, when we try to compile this code though, we get the following error
 
 <figure markdown>
-  ![Compiler error when trying to update the Location's Y property)](../images/mars-rover-struct-problem.png)
+  ![Compiler error when trying to update the Location's Y property)](./images/mars-rover-struct-problem.png)
   <figcaption>Compiler error when trying to update the Location's Y Property</figcaption>
 </figure>
 
@@ -182,10 +182,10 @@ public void AndFacingNorthThenYIncreasesByOne()
 {
   // Arrange
   var rover = new Rover {Orientation = Direction.North};
-  
+
   // Act
   rover.MoveForward();
-  
+
   // Assert
   var expectedLocation = new Coordinate { X = 0, Y = 1};
   Assert.AreEqual(expectedLocation, rover.Location);
@@ -211,15 +211,15 @@ We could change our `Arrange` step to explicitly set the initial location of `Ro
 public void AndFacingNorthThenYIncreasesByOne()
 {
   // Arrange
-  var rover = new Rover 
+  var rover = new Rover
   {
-    Orientation = Direction.North, 
+    Orientation = Direction.North,
     Location = new Coordinate {X = 0, Y = 0},
   };
-  
+
   // Act
   rover.MoveForward();
-  
+
   // Assert
   var expectedLocation = new Coordinate { X = 0, Y = 1};
   Assert.AreEqual(expectedLocation, rover.Location);
@@ -238,10 +238,10 @@ public void AndFacingNorthThenYIncreasesByOne()
   // Arrange
   var rover = new Rover {Orientation = Direction.North};
   var initialLocation = rover.Location; // capturing the initial location
-  
+
   // Act
   rover.MoveForward();
-  
+
   // Assert
   var expectedLocation = new Coordinate { X = initialLocation.X, Y = initialLocation.Y+1};
   Assert.AreEqual(expectedLocation, rover.Location);
@@ -263,10 +263,10 @@ public void AndFacingSouthThenYDecreasesByOne()
   // Arrange
   var rover = new Rover {Orientation = Direction.South};
   var initialLocation = rover.Location; // capturing the inital location
-  
+
   // Act
   rover.MoveForward();
-  
+
   // Assert
   var expectedLocation = new Coordinate { X = initialLocation.X, Y = initialLocation.Y-1};
   Assert.AreEqual(expectedLocation, rover.Location);
@@ -307,10 +307,10 @@ Now that the `Rover` can move forward when facing `North` or `South`, let’s go
     // Arrange
     var rover = new Rover {Orientation = Direction.East};
     var initialLocation = rover.Location;
-    
+
     // Act
     rover.MoveForward();
-    
+
     // Assert
     var expectedLocation = new Coordinate { X = initialLocation.X+1, Y = initialLocation.Y};
     Assert.AreEqual(expectedLocation, rover.Location);
@@ -413,10 +413,10 @@ Now that we’ve refactored the business rules and our test suite is passing cor
     // Arrange
     var rover = new Rover {Orientation = Direction.North};
     var initialLocation = rover.Location; // capturing the inital location
-    
+
     // Act
     rover.MoveForward();
-    
+
     // Assert
     var expectedLocation = new Coordinate { X = initialLocation.X, Y = initialLocation.Y+1};
     Assert.AreEqual(expectedLocation, rover.Location);
@@ -431,10 +431,10 @@ public void AndFacingSouthThenYDecreasesByOne()
   // Arrange
   var rover = new Rover {Orientation = Direction.South};
   var initialLocation = rover.Location; // capturing the inital location
-  
+
   // Act
   rover.MoveForward();
-  
+
   // Assert
   var expectedLocation = new Coordinate { X = initialLocation.X, Y = initialLocation.Y-1};
   Assert.AreEqual(expectedLocation, rover.Location);
@@ -449,10 +449,10 @@ public void AndFacingEastThenXIncreasesByOne()
   // Arrange
   var rover = new Rover {Orientation = Direction.East};
   var initialLocation = rover.Location;
-  
+
   // Act
   rover.MoveForward();
-  
+
   // Assert
   var expectedLocation = new Coordinate { X = initialLocation.X+1, Y = initialLocation.Y};
   Assert.AreEqual(expectedLocation, rover.Location);
@@ -477,10 +477,10 @@ public void AndFacingWestThenXDecreasesByOne()
   // Arrange
   var rover = new Rover {Orientation = Direction.West};
   var initialLocation = rover.Location;
-  
+
   // Act
   rover.MoveForward();
-  
+
   // Assert
   var expectedLocation = new Coordinate { X = initialLocation.X-1, Y = initialLocation.Y};
   Assert.AreEqual(expectedLocation, rover.Location);
@@ -517,13 +517,13 @@ public class Rover
 {
   public Direction Orientation {get; set;}
   public Coordinate Location {get; set;}
-  
+
   public Rover()
   {
     Orientation = Direction.North;
     Location = new Coordinate(){X=0, Y=0};
   }
-  
+
   public void MoveForward()
   {
     if (Orientation == Direction.North) {
@@ -545,66 +545,66 @@ public class Rover
 ```csharp
 [TestFixture]
 public class WhenMovingForward()
-{  
+{
   [Test]
   public void AndFacingNorthThenYIncreasesByOne()
   {
     // Arrange
     var rover = new Rover {Orientation = Direction.North};
     var initialLocation = rover.Location;
-    
+
     // Act
     rover.MoveForward();
-    
+
     // Assert
     var expectedLocation = new Coordinate { X = initialLocation.X, Y = initialLocation.Y+1};
     Assert.AreEqual(expectedLocation, rover.Location);
     Assert.AreEqual(Direction.North, rover.Orientation);
   }
-  
+
   [Test]
   public void AndFacingSouthThenYDecreasesByOne()
   {
     // Arrange
     var rover = new Rover {Orientation = Direction.South};
-    var initialLocation = rover.Location; 
-    
+    var initialLocation = rover.Location;
+
     // Act
     rover.MoveForward();
-    
+
     // Assert
     var expectedLocation = new Coordinate { X = initialLocation.X, Y = initialLocation.Y-1};
     Assert.AreEqual(expectedLocation, rover.Location);
     Assert.AreEqual(Direction.South, rover.Orientation);
   }
-  
+
   [Test]
   public void AndFacingEastThenXIncreasesByOne()
   {
     // Arrange
     var rover = new Rover {Orientation = Direction.East};
     var initialLocation = rover.Location;
-    
+
     // Act
     rover.MoveForward();
-    
+
     // Assert
     var expectedLocation = new Coordinate { X = initialLocation.X+1, Y = initialLocation.Y};
     Assert.AreEqual(expectedLocation, rover.Location);
     Assert.AreEqual(Direction.East, rover.Orientation);
   }
-  
-  
+
+
   [Test]
   public void AndFacingWestThenXDecreasesByOne()
   {
     // Arrange
     var rover = new Rover {Orientation = Direction.West};
     var initialLocation = rover.Location;
-    
+
     // Act
     rover.MoveForward();
-    
+
     // Assert
     var expectedLocation = new Coordinate { X = initialLocation.X-1, Y = initialLocation.Y};
     Assert.AreEqual(expectedLocation, rover.Location);

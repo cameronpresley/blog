@@ -51,7 +51,7 @@ While adding your secrets, you'll note that we can't have a secret start with `G
 
 Once we've added our secrets, we should have a screen that looks like the following:
 
-![Listing of Secrets](../images/deno-actions/secret-configuration.png)
+![Listing of Secrets](./images/deno-actions/secret-configuration.png)
 
 With this done, let's work on creating our GitHub Action.
 
@@ -131,7 +131,7 @@ on:
 Nice! At this point, our script will run at 8 am on Mondays (and sometimes at 7 am on Mondays, yay, Daylight Savings Time!). With this final piece, we've completed our Random Coffee script for the Justice League.
 
 <figure markdown>
-![Superman and Batman having coffee](../images/deno-actions/batman-superman-coffee.png)
+![Superman and Batman having coffee](./images/deno-actions/batman-superman-coffee.png)
 <figcaption>Credit to <a href="https://www.youtube.com/watch?v=4QFPuyDrIIk&t=3s">How It Should Have Ended</a> for the image and video
 </figure>
 

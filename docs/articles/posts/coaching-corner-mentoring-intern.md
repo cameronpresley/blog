@@ -34,7 +34,7 @@ First, thank you for caring about your intern and wanting to do right by them. I
 I think you're wise not to put them in front of videos for learning everything and using that as coaching, a la Matrix style.
 
 <figure markdown>
-![I know Kung-Fu](../images/coaching-corner/know-kunfu.jpg)
+![I know Kung-Fu](./images/coaching-corner/know-kunfu.jpg)
 <figcaption>I know <strike>Kung Fu</strike> Web Development</figcaption>
 </figure>
 
@@ -62,7 +62,7 @@ Without having a basic understanding of source control, it's hard to establish a
 - Merge a pull request
 - Pull changes
 
-If they can complete the above steps, they know enough to complete development work. The cool thing here is that you don't have to spend much time on this, as the projects they'll be working on will build this habit into them. 
+If they can complete the above steps, they know enough to complete development work. The cool thing here is that you don't have to spend much time on this, as the projects they'll be working on will build this habit into them.
 
 I don't care how they do this (whether through the command line or a GUI); the important thing is that they know how to do it. I have a cheat sheet I give them so that if they're using the command line, they can get going quickly.
 
@@ -76,13 +76,13 @@ When it comes to mentoring, I've found that having a mix of pairing and then ind
 
 ### Creating a Repository
 
-If you can have them learn/experiment in your main repository, then awesome, feel free to skip this step. 
+If you can have them learn/experiment in your main repository, then awesome, feel free to skip this step.
 
 If not, I would spend the first session helping them get their first repository stood up and walk them through switching branches, adding a file (like a README), creating a pull request, and merging that in.
 
 ### Pair On Something Small
 
-To start, I would make sure that we created a basic scaffolding so that they could run their project and see their changes. For example, if I were teaching HTML, we'd work to create a file that printed Hello World and get that to show up in the browser. To simplify, I would have a simple `.html` file that they could open up. 
+To start, I would make sure that we created a basic scaffolding so that they could run their project and see their changes. For example, if I were teaching HTML, we'd work to create a file that printed Hello World and get that to show up in the browser. To simplify, I would have a simple `.html` file that they could open up.
 
 Once the scaffolding was in place, I would pair with them to teach some fundamental concepts and then give them an assignment to code independently. For example, if they're learning HTML, we'd work together to build a version of the Google home page as it's relatively simple and teaches them about labels, input controls, and buttons.
 
@@ -106,5 +106,4 @@ By dividing the work up, you're allowing them autonomy in how the work gets done
 
 ----
 
-_Do you have a question about leadership, career, or software engineering? Would you like a different perspective on these topics? Drop a line at [CoachingCorner@TheSoftwareMentor.com](mailto:CoachingCorner@TheSoftwareMentor.com) or you can remain anonymous by filling out [this form](https://forms.gle/eTqzoUo5hFWrmVKK6)._ 
-
+_Do you have a question about leadership, career, or software engineering? Would you like a different perspective on these topics? Drop a line at [CoachingCorner@TheSoftwareMentor.com](mailto:CoachingCorner@TheSoftwareMentor.com) or you can remain anonymous by filling out [this form](https://forms.gle/eTqzoUo5hFWrmVKK6)._
