@@ -52,6 +52,7 @@ Reading is important, because if you can read, you can learn anything about ever
 - _[So Good They Can't Ignore You: Why Skills Trump Passion in the Quest for Work You Love](https://www.goodreads.com/book/show/13525945-so-good-they-can-t-ignore-you)_
 - _[Damn Good Advice(For People with Talent!): How To Unleash Your Creative Potential](https://www.goodreads.com/book/show/12859410-damn-good-advice-for-people-with-talent)_
 - _[Deep Work- Rules for Focused Success In a Distracted World](https://www.goodreads.com/book/show/25744928-deep-work)_
+- _[Hidden Potential - The Science of Achieving Great Things](https://www.goodreads.com/book/show/157095669-hidden-potential)_
 
 
 ## Process
