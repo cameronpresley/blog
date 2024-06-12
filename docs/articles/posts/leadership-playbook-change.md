@@ -21,9 +21,9 @@ In this post, I'll share some tips and tricks for leading the team through chang
 
 A common mistake I see leaders make is introducing a change without discussing _why_ the change is happening. Let's look at a hypothetical situation where you're introducing the team to pull request templates.
 
-> Hey team! Starting next sprint, we're going to starting using this new PR template. You can find it ....
+> Hey team! Starting next sprint, we're going to start using this new PR template. You can find it ....
 
-On the one hand, the message is clear on the what's changing (using new PR template) and what's changing. However, it completely missed the point, why are we making this change? When we don't include the why, we catch people off-guard because they may not immediately understand the problem that the change is supposed to solve.
+On the one hand, the message is clear on what's changing (using new PR template). However, it completely missed the point, why are we making this change? When we don't include the why, we catch people off-guard because they may not immediately understand the problem that the change is supposed to solve.
 
 When we put people in an information vacuum, they draw their own conclusions, which can give the wrong impression behind the change. This in turn, can cause the rumor mill to go into overdrive, making your job much harder.
 
@@ -90,4 +90,12 @@ Instead of having multiple layoffs, if companies had one (albeit larger) layoff,
 
 ## Wrapping Up
 
-Navigating change isn't always the easiest, however, if you remember to explain why the change, are transparent about the changes, and are mindful of the impact and recovery of the changes, your chances of keeping the team together will increase.
+Navigating change is hard - especially when you aren't just going through the change yourself, but also leading others at the same time. 
+
+The next time you're going through a change, try starting here and see how it goes
+
+- Explain the "why" behind the change.
+- Be transparent about the changes, even if it's uncomfortable.
+- Be mindful that everyone processes change differently and may feel a greater impact or need more time to recover from teh change.
+
+By starting here, your chances of moving forward without significant disruption will improve dramatically.
