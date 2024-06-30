@@ -47,6 +47,9 @@ markdown_extensions:
   - toc:
       toc_depth: "1-1"
 
+# extra_css:
+#   - stylesheets/page.css
+
 extra:
   analytics:
     provider: google
