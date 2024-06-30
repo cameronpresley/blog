@@ -14,8 +14,6 @@ hide:
   - toc
 ---
 
-<link rel="stylesheet" href="../../stylesheets/page.css">
-
 # Today I Learned - Using TypeSpec to Generate OpenAPI Specs
 
 Recently, I was doing analysis for a project where we needed to build out a set of APIs for consumers to use. Even though [I'm a big believer of iterative design](), we wanted to have a solid idea of what the routes and data models were going to look like. 
