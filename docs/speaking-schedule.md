@@ -7,7 +7,7 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
-### Carolina Code Conference - Greenville, SC (Aug 23-24, 2024) _[more info]()_
+### Carolina Code Conference - Greenville, SC (Aug 23-24, 2024) _[more info](https://blog.carolina.codes/p/announcing-our-2024-speakers)_
 
 - [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
 
@@ -15,6 +15,9 @@ hide:
 
 - [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
 
+### Connect.Tech - Atlanta, GA (Nov 18-20, 2024) _[more info](https://2024.connect.tech/)_
+
+- Removing Repetition By Building Your Own Automation Framework
 ---
 ## Past Sessions
 
