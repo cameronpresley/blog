@@ -7,6 +7,10 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
+### Twin Cities .NET User Group - Virtual (Aug 1, 2024) _[more info](https://www.meetup.com/tcdnug/events/302408427/)_
+
+- [How Functional Programming Made Me a Better Developer](./presentations.md#how-functional-programming-made-me-a-better-developer)
+
 ### Carolina Code Conference - Greenville, SC (Aug 23-24, 2024) _[more info](https://blog.carolina.codes/p/announcing-our-2024-speakers)_
 
 - [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
