@@ -85,7 +85,7 @@ In this talk, I’ll walk you through my experiences learning functional program
 
 ### Resources
 - Presentations
-    - [Slides](https://www.slideshare.net/secret/qXW3PfeiKI2uDS) (SlideShare)
+    - [Slides](https://docs.google.com/presentation/d/1wIoPG9E7WWtSpZhhV772p2zywok-jffFcql5X5Sqk2I/edit?usp=sharing) (Google Slides)
 - Books
     - _[Haskell Programming from First Principles (Haskell Book)](https://gumroad.com/l/haskellbook)_ by Christopher Allen and Julie Moronuki
     - _[Domain  Modeling Made Functional](https://pragprog.com/book/swdddf/domain-modeling-made-functional)_ by Scott Wlaschin
