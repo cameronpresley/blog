@@ -1,5 +1,12 @@
 # P. Cameron Presley - Resume
 
+## Table of Contents
+- [About Me](#about-me)
+- [Experience](#experience)
+- [Community Involvement](#community-involvement)
+- [Certifications](#certifications)
+- [Education](#education)
+
 ## About Me
 
 I've been a software engineer for over a decade and in leadership for over five years. I pride myself in helping the team be successful while maintaining my technical aptitude as I don't believe you can be a technical leader without the ability to be in the work with your team.
@@ -11,6 +18,23 @@ Another strength of mine is that Second, I excel at looking at a process, unders
 I enjoy learning new technology and I have a track record of picking up new technologies on the fly to accomplish new tasks.
 
 ## Experience
+
+### Lean TECHniques
+#### Professional Software Consultant
+
+As a Professional Software Consultant, my responsibilities were two fold. First, help our clients improve their software delivery practices and experiences. This could be through process coaching, technical coaching, or through custom tooling. Second, help our clients with
+
+#### Client Accomplishments
+
+- Working with a financial company, I developed a training program for their mainframe engineers to teach TypeScript and AWS. Skills learned were basic programming with TypeScript. leveraging Amazon CDK as Infrastructure-as-Code (IaC).
+- During the same engagement, I worked with multiple delivery teams to help them deliver their projects using TypeScript, AWS services (Lambdas, SNS, SQS, DynamoDB, and Fargate). This was a mix of hands-on work and architecture design.
+- While working with an education company, I architected and designed a solution that allowed their users to create custom forms to be sent out to students and parents. This involved creating Entity Relationship Diagrams, Sequence Diagrams, and Architecture Diagrams.
+
+#### Lean TECHniques (LT) Accomplishments
+
+- Developed an internship onboarding program to help our interns become effective faster. This was an area that LT historically struggled in, but combining a mix of hands-on training and real-world projects, our interns were able to be effective within their first two weeks
+- To help improve our interview process, I lead a project team to replace a core component of our technical assessment by replacing a third party API with one that we wrote. This involved coaching the team on building various AWS Lambdas, with storage into DynamoDB, all behind an API Gateway.
+
 
 ### Rocket Central
 #### Senior Team Leader
@@ -119,6 +143,11 @@ I was one of the software developers responsible for Data Courier and EMFI, tool
 - Presented at over 70 conferences (see [https://blog.thesoftwarementor.com/speaking-schedule](https://blog.thesoftwarementor.com/speaking-schedule))
 - [Microsoft MVP in Developer Technologies (2018-2023)](https://mvp.microsoft.com/en-us/PublicProfile/5002989)
 - Director of Speaker Relation for CodeStock (2018-2022)
+
+## Certifications
+
+- [Microsoft Certified: Azure Administrator Associate](https://learn.microsoft.com/en-us/users/cameronpresley-4042/credentials/2cb0f6ef15460e5c?ref=https%3A%2F%2Fwww.linkedin.com%2F)
+- [Microsoft Certified: Azure Developer Associate](https://learn.microsoft.com/en-us/users/cameronpresley-4042/credentials/ec65dd88cb49f4a2?ref=https%3A%2F%2Fwww.linkedin.com%2F)
 
 ## Education
 
