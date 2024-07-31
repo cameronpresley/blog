@@ -19,6 +19,10 @@ hide:
 
 - [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
 
+### Concord Software Developers - Concord, NC (Sept 12, 2024) _[more info](https://www.meetup.com/concord-software-developers/events/301441881/)_
+
+- [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
+
 ### Connect.Tech - Atlanta, GA (Nov 18-20, 2024) _[more info](https://2024.connect.tech/)_
 
 - Removing Repetition By Building Your Own Automation Framework
