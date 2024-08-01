@@ -22,13 +22,22 @@ I enjoy learning new technology and I have a track record of picking up new tech
 ### Lean TECHniques
 #### Professional Software Consultant
 
-As a Professional Software Consultant, my responsibilities were two fold. First, help our clients improve their software delivery practices and experiences. This could be through process coaching, technical coaching, or through custom tooling. Second, help our clients with
+As a Professional Software Consultant, my main responsibility is to help our clients improve their software delivery practices and experiences by process coaching, technical coaching, custom tooling, or software delivery.
 
 #### Client Accomplishments
 
-- Working with a financial company, I developed a training program for their mainframe engineers to teach TypeScript and AWS. Skills learned were basic programming with TypeScript. leveraging Amazon CDK as Infrastructure-as-Code (IaC).
-- During the same engagement, I worked with multiple delivery teams to help them deliver their projects using TypeScript, AWS services (Lambdas, SNS, SQS, DynamoDB, and Fargate). This was a mix of hands-on work and architecture design.
-- While working with an education company, I architected and designed a solution that allowed their users to create custom forms to be sent out to students and parents. This involved creating Entity Relationship Diagrams, Sequence Diagrams, and Architecture Diagrams.
+#### Fortune 500 Financial Company
+
+I developed a training program to teach their engineers modern software development using TypeScript and Amazon Web Services (AWS). As part of this training, engineers learned how to architect solutions using Lambdas, DynamoDB, SNS, SQS, EventBridge, and Fargate Tasks, all of which was deployed by leveraging the Amazon Cloud Development Kit (CDK).
+
+In addition, I was an embedded technical coach for various teams, responsible for showing and guiding them on their technology modernization efforts. This involved both teaching modern development practices (vertical slicing, feature flags, test driven development) and DevOps practices (logging and metric analysis).
+
+#### Education Company
+
+In order to create a product differentiator, I architected and designed the ability for an admin to send out custom forms to parents and students. This feature was highly requested by their clients and saved an immense amount of manual work (clients would normally send out 1,000 forms at the beginning of the year). This involved designing a system to work with a React front-end, communicating with a .NET Core API, that stores data into Azure SQL DB, all of which in Azure.
+
+To be successful, I worked with engineers and business stakeholders to define a three milestone approach that would allow for delivery in a tight timeline and to iterate on the design faster, getting feedback sooner. By creating Entity Relationship Diagrams, Sequence Diagrams, and User Workflows, the team was able to hit the ground running with minimal ramp-up time.
+
 
 #### Lean TECHniques (LT) Accomplishments
 
@@ -141,7 +150,7 @@ I was one of the software developers responsible for Data Courier and EMFI, tool
 ## Community Involvement
 
 - Presented at over 70 conferences (see [https://blog.thesoftwarementor.com/speaking-schedule](https://blog.thesoftwarementor.com/speaking-schedule))
-- [Microsoft MVP in Developer Technologies (2018-2023)](https://mvp.microsoft.com/en-us/PublicProfile/5002989)
+- [Microsoft MVP in Developer Technologies (2018-2024)](https://mvp.microsoft.com/en-us/PublicProfile/5002989)
 - Director of Speaker Relation for CodeStock (2018-2022)
 
 ## Certifications
