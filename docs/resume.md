@@ -1,5 +1,12 @@
 # P. Cameron Presley - Resume
 
+## Table of Contents
+- [About Me](#about-me)
+- [Experience](#experience)
+- [Community Involvement](#community-involvement)
+- [Certifications](#certifications)
+- [Education](#education)
+
 ## About Me
 
 I've been a software engineer for over a decade and in leadership for over five years. I pride myself in helping the team be successful while maintaining my technical aptitude as I don't believe you can be a technical leader without the ability to be in the work with your team.
@@ -11,6 +18,32 @@ Another strength of mine is that Second, I excel at looking at a process, unders
 I enjoy learning new technology and I have a track record of picking up new technologies on the fly to accomplish new tasks.
 
 ## Experience
+
+### Lean TECHniques
+#### Professional Software Consultant
+
+As a Professional Software Consultant, my main responsibility is to help our clients improve their software delivery practices and experiences by process coaching, technical coaching, custom tooling, or software delivery.
+
+#### Client Accomplishments
+
+#### Fortune 500 Financial Company
+
+I developed a training program to teach their engineers modern software development using TypeScript and Amazon Web Services (AWS). As part of this training, engineers learned how to architect solutions using Lambdas, DynamoDB, SNS, SQS, EventBridge, and Fargate Tasks, all of which was deployed by leveraging the Amazon Cloud Development Kit (CDK).
+
+In addition, I was an embedded technical coach for various teams, responsible for showing and guiding them on their technology modernization efforts. This involved both teaching modern development practices (vertical slicing, feature flags, test driven development) and DevOps practices (logging and metric analysis).
+
+#### Education Company
+
+In order to create a product differentiator, I architected and designed the ability for an admin to send out custom forms to parents and students. This feature was highly requested by their clients and saved an immense amount of manual work (clients would normally send out 1,000 forms at the beginning of the year). This involved designing a system to work with a React front-end, communicating with a .NET Core API, that stores data into Azure SQL DB, all of which in Azure.
+
+To be successful, I worked with engineers and business stakeholders to define a three milestone approach that would allow for delivery in a tight timeline and to iterate on the design faster, getting feedback sooner. By creating Entity Relationship Diagrams, Sequence Diagrams, and User Workflows, the team was able to hit the ground running with minimal ramp-up time.
+
+
+#### Lean TECHniques (LT) Accomplishments
+
+- Developed an internship onboarding program to help our interns become effective faster. This was an area that LT historically struggled in, but combining a mix of hands-on training and real-world projects, our interns were able to be effective within their first two weeks
+- To help improve our interview process, I lead a project team to replace a core component of our technical assessment by replacing a third party API with one that we wrote. This involved coaching the team on building various AWS Lambdas, with storage into DynamoDB, all behind an API Gateway.
+
 
 ### Rocket Central
 #### Senior Team Leader
@@ -117,8 +150,13 @@ I was one of the software developers responsible for Data Courier and EMFI, tool
 ## Community Involvement
 
 - Presented at over 70 conferences (see [https://blog.thesoftwarementor.com/speaking-schedule](https://blog.thesoftwarementor.com/speaking-schedule))
-- [Microsoft MVP in Developer Technologies (2018-2023)](https://mvp.microsoft.com/en-us/PublicProfile/5002989)
+- [Microsoft MVP in Developer Technologies (2018-2024)](https://mvp.microsoft.com/en-us/PublicProfile/5002989)
 - Director of Speaker Relation for CodeStock (2018-2022)
+
+## Certifications
+
+- [Microsoft Certified: Azure Administrator Associate](https://learn.microsoft.com/en-us/users/cameronpresley-4042/credentials/2cb0f6ef15460e5c?ref=https%3A%2F%2Fwww.linkedin.com%2F)
+- [Microsoft Certified: Azure Developer Associate](https://learn.microsoft.com/en-us/users/cameronpresley-4042/credentials/ec65dd88cb49f4a2?ref=https%3A%2F%2Fwww.linkedin.com%2F)
 
 ## Education
 
