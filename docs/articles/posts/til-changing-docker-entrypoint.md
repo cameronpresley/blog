@@ -37,7 +37,7 @@ Let's say that I'm using a container that was created from another team, called 
 docker run -it deps:latest
 ```
 
-![Node error stating that it could not find module '/app/hello.js'](../posts/images/til-docker-entrypoint/image-1.png)
+![Node error stating that it could not find module '/app/hello.js'](./images/til-docker-entrypoint/image-1.png)
 
 Looking at the error message, it says that it couldn't find `/app/hello.js`. I could let the other team know and let them figure it out. However, I'd like to give them a bit more info and possible advice, so I could use the `bash` trick from before and see if I can spot the problem.
 
@@ -46,7 +46,7 @@ Looking at the error message, it says that it couldn't find `/app/hello.js`. I c
 docker run -it deps:latest bash
 ```
 
-![Node error stating that it could not find module '/app/hello.js](../posts/images/til-docker-entrypoint/image-1.png)
+![Node error stating that it could not find module '/app/hello.js](./images/til-docker-entrypoint/image-1.png)
 
 Wait a minute! Why did I get the same error?
 
@@ -64,7 +64,7 @@ docker run -it --entrypoint "bash" deps:latest
 
 And if I run the `ls` command, I can see that the issue is that the file is called index.js, not hello.js. 
 
-![There's not a file called hello.js, but it's called index.js](../posts/images/til-docker-entrypoint/image-3.png)
+![There's not a file called hello.js, but it's called index.js](./posts/images/til-docker-entrypoint/image-3.png)
 
 From here, I can give this information to the other team and they can make the necessary changes to their Dockerfile.
 
