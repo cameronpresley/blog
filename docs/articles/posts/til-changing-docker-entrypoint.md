@@ -64,7 +64,7 @@ docker run -it --entrypoint "bash" deps:latest
 
 And if I run the `ls` command, I can see that the issue is that the file is called index.js, not hello.js. 
 
-![There's not a file called hello.js, but it's called index.js](./posts/images/til-docker-entrypoint/image-3.png)
+![There's not a file called hello.js, but it's called index.js](./images/til-docker-entrypoint/image-3.png)
 
 From here, I can give this information to the other team and they can make the necessary changes to their Dockerfile.
 
