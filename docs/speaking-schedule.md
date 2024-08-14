@@ -19,6 +19,10 @@ hide:
 
 - [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
 
+### Global Day Code Retreat Charlotte - Cornelius, NC (Nov 9, 2024) _[more info](https://www.eventbookings.com/b/event/global-day-of-code-retreat-charlotte)
+
+- Come join is for a fun day of coding!
+
 ### Connect.Tech - Atlanta, GA (Nov 18-20, 2024) _[more info](https://2024.connect.tech/)_
 
 - Removing Repetition By Building Your Own Automation Framework
