@@ -157,6 +157,7 @@ I was one of the software developers responsible for Data Courier and EMFI, tool
 
 - [Microsoft Certified: Azure Administrator Associate](https://learn.microsoft.com/en-us/users/cameronpresley-4042/credentials/2cb0f6ef15460e5c?ref=https%3A%2F%2Fwww.linkedin.com%2F)
 - [Microsoft Certified: Azure Developer Associate](https://learn.microsoft.com/en-us/users/cameronpresley-4042/credentials/ec65dd88cb49f4a2?ref=https%3A%2F%2Fwww.linkedin.com%2F)
+- [Microsoft Certified: DevOps Engineer Expert](https://learn.microsoft.com/en-us/users/cameronpresley-4042/credentials/aabf4a1a96bb75e6?ref=https%3A%2F%2Fwww.linkedin.com%2F)
 
 ## Education
 
