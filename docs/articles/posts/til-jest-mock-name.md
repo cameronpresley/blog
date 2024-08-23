@@ -16,7 +16,7 @@ hide:
 
 # Today I Learned - Leveraging Mock Names with Jest
 
-I was working through the [Mars Rover kata](http://localhost:8000/articles/2020/05/20/learning-through-example--mars-rover-kata/) the other day and found myself in a predicament when trying to test one of the functions, the `convertCommandToAction` function.
+I was working through the [Mars Rover kata](https://blog.thesoftwarementor.com/articles/2020/05/20/learning-through-example--mars-rover-kata/) the other day and found myself in a predicament when trying to test one of the functions, the `convertCommandToAction` function.
 
 The idea behind the function is that based on the Command you pass in, it'll return the right function to call. The code looks something like this.
 
