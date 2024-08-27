@@ -99,7 +99,7 @@ In the case of `&&`, that's our operation, so now we need to find the identity e
 ```ts
 const id: boolean = ...
 id && true === true
-id && false === true
+id && false === false
 ```
 
 Since `id` has to be a boolean, the answer is `true`. Therefore, we can define our Monoid like so
