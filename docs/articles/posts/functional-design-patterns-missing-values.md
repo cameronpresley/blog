@@ -20,7 +20,7 @@ When working in software, a common problem that we run into is what should we do
 
 For example, let's say that you go to the library to checkout the latest book from [Nathalia Holt](https://www.nathaliaholt.com/), but when you search for it, you realize that they don't have any copies in stock.
 
-How do you handle the absence of value? From an Object Oriented Programming (OOP), you might be able to leverage a reasonable default or the [Null Object Pattern](). Another approach would be to return to always return a list and if there are no values, then the list would be empty.
+How do you handle the absence of value? From an Object Oriented Programming (OOP), you might be able to leverage a reasonable default or the [Null Object Pattern](https://refactoring.guru/introduce-null-object). Another approach would be to return to always return a list and if there are no values, then the list would be empty.
 
 No matter the choice you make, we need some way to model the lack of a value. [Tony Hoare referred to null as his billion dollar mistake](https://en.wikipedia.org/wiki/Tony_Hoare) as its inclusion in languages have created countless bugs and errors.
 
