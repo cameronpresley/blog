@@ -7,10 +7,6 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
-### Springfield Dev Night - Virtual (Sept 4, 2024) _[more info](https://www.meetup.com/sgfdevs/events/302655626/)_
-
-- [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
-
 ### Concord Software Developers - Concord, NC (Sept 12, 2024) _[more info](https://www.meetup.com/concord-software-developers/events/301441881/)_
 
 - [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
@@ -25,6 +21,11 @@ hide:
 
 ---
 ## Past Sessions
+
+### Springfield Dev Night - Virtual (Sept 4, 2024) _[more info](https://www.meetup.com/sgfdevs/events/302655626/)_
+
+- [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
+
 
 ### Carolina Code Conference - Greenville, SC (Aug 23-24, 2024) _[more info](https://blog.carolina.codes/p/announcing-our-2024-speakers)_
 
