@@ -7,11 +7,7 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
-### Concord Software Developers - Concord, NC (Sept 12, 2024) _[more info](https://www.meetup.com/concord-software-developers/events/301441881/)_
-
-- [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
-
-### Global Day Code Retreat Charlotte - Cornelius, NC (Nov 9, 2024) _[more info](https://www.eventbookings.com/b/event/global-day-of-code-retreat-charlotte)_
+### Queen City Code Retreat - Cornelius, NC (Nov 9, 2024) _[more info](https://www.eventbookings.com/b/event/queen-city-code-retreat)_
 
 - Come join us for a fun day of coding!
 
@@ -21,6 +17,10 @@ hide:
 
 ---
 ## Past Sessions
+
+### Concord Software Developers - Concord, NC (Sept 12, 2024) _[more info](https://www.meetup.com/concord-software-developers/events/301441881/)_
+
+- [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
 
 ### Springfield Dev Night - Virtual (Sept 4, 2024) _[more info](https://www.meetup.com/sgfdevs/events/302655626/)_
 
