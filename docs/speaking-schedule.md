@@ -7,6 +7,10 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
+### LEAN BYTES - Virtual (Nov 5, 2024) _[more_info](https://leantechniques.com/events/learning-from-failure-post-mortems-for-more-resilient-teams/)_
+
+- Learning from Failure: Post-Mortems for More Resilient Teams
+
 ### Queen City Code Retreat - Cornelius, NC (Nov 9, 2024) _[more info](https://www.eventbookings.com/b/event/queen-city-code-retreat)_
 
 - Come join us for a fun day of coding!
