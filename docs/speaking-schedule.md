@@ -7,7 +7,7 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
-### LEAN BYTES - Virtual (Nov 5, 2024) _[more_info](https://leantechniques.com/events/learning-from-failure-post-mortems-for-more-resilient-teams/)_
+### LEAN BYTES - Virtual (Nov 5, 2024) _[more info](https://leantechniques.com/events/learning-from-failure-post-mortems-for-more-resilient-teams/)_
 
 - Learning from Failure: Post-Mortems for More Resilient Teams
 
