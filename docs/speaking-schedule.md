@@ -20,7 +20,7 @@ hide:
 
 ### LEAN BYTES - Virtual (Nov 5, 2024) _[more info](https://leantechniques.com/events/learning-from-failure-post-mortems-for-more-resilient-teams/)_
 
-- Learning from Failure: Post-Mortems for More Resilient Teams
+- Learning from Failure: Post-Mortems for More Resilient Teams ([YouTube Recording](https://youtu.be/WpdjXzeNGNk?si=TY7D2noqQhpcYv8Q))
 
 ### Concord Software Developers - Concord, NC (Sept 12, 2024) _[more info](https://www.meetup.com/concord-software-developers/events/301441881/)_
 
