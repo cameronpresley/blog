@@ -7,16 +7,16 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
-### Queen City Code Retreat - Cornelius, NC (Nov 9, 2024) _[more info](https://www.eventbookings.com/b/event/queen-city-code-retreat)_
-
-- Come join us for a fun day of coding!
-
 ### Connect.Tech - Atlanta, GA (Nov 18-20, 2024) _[more info](https://2024.connect.tech/)_
 
 - Removing Repetition By Building Your Own Automation Framework
 
 ---
 ## Past Sessions
+
+### Queen City Code Retreat - Cornelius, NC (Nov 9, 2024) _[more info](https://www.eventbookings.com/b/event/queen-city-code-retreat)_
+
+- Come join us for a fun day of coding!
 
 ### LEAN BYTES - Virtual (Nov 5, 2024) _[more info](https://leantechniques.com/events/learning-from-failure-post-mortems-for-more-resilient-teams/)_
 
