@@ -192,3 +192,23 @@ Intended for engineers of all experience levels, you will have an example playbo
 - [Slides](https://www.slideshare.net/CameronPresley/the-engineers-playbook-starting-a-new-role) (via SlideShare)
 - [Trello Board](https://trello.com/b/6JPBOHyR/engineers-playbook-starting-a-new-role)
 - [Question(s) of the Day](https://gist.github.com/cameronpresley/1fcdbca448717c5964890717826dce9f)
+
+
+## Removing Repetition By Building Your Own Automation Framework
+
+As engineers, we don't like repetition and we want to automate as much as possible. Sometimes, this can be with our tasks, but other times, it's by improving the processes for our team or department. We could have our automation run locally on our box, but how do we share this with others? How can we build out patterns for others to follow so that they can be successful? 
+
+In this session, I'm going to walk you through three different problems I needed to solve and my approach for building out an automation framework using TypeScript, Deno, and GitHub Actions, however, this approach is general enough that it could be done with other technology choices. 
+
+Intended for engineers who are interested in building out their own workflows that can be shared with others, by the end of this session, you will know how to approach designing and building out your own automation framework.
+
+### Resources
+- [Slide Deck](https://docs.google.com/presentation/d/1bk8Z-jrLIO0zcvuHhe5bAjTK_1I4edZW_LN16SagTuw/edit?usp=sharing) (via Google Slides)
+- [GitHub Repo](https://github.com/cameronpresley/automation-framework)
+- [Creating A Slack Application](https://api.slack.com/quickstart)
+- [Formatting Slack Posts](https://api.slack.com/block-kit)
+- [GitHub Action Triggers](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows)
+- [Deno Docs](https://docs.deno.com/runtime/getting_started/installation/)
+- [PagerDuty Docs](https://developer.pagerduty.com/api-reference/)
+- [Building Your Own Coffee Chat Bot Series](./articles/posts/having-coffee-with-deno-part1.md)
+- [Building Your Own Bot For Finding Stale Docs Series](./articles/posts/automating-doc-freshness-finding-stale-docs.md)
