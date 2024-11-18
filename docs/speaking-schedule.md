@@ -9,7 +9,7 @@ hide:
 
 ### Connect.Tech - Atlanta, GA (Nov 18-20, 2024) _[more info](https://2024.connect.tech/)_
 
-- Removing Repetition By Building Your Own Automation Framework
+- [Removing Repetition By Building Your Own Automation Framework](./presentations.md#removing-repetition-by-building-your-own-automation-framework)
 
 ---
 ## Past Sessions
