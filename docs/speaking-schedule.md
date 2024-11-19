@@ -7,12 +7,13 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
+---
+## Past Sessions
+
 ### Connect.Tech - Atlanta, GA (Nov 18-20, 2024) _[more info](https://2024.connect.tech/)_
 
 - [Removing Repetition By Building Your Own Automation Framework](./presentations.md#removing-repetition-by-building-your-own-automation-framework)
 
----
-## Past Sessions
 
 ### Queen City Code Retreat - Cornelius, NC (Nov 9, 2024) _[more info](https://www.eventbookings.com/b/event/queen-city-code-retreat)_
 
