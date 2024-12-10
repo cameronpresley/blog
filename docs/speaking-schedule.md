@@ -7,13 +7,16 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
+### Tulsa Developer Associate - Tulsa, OK (Dec 17, 2024) _[more info](https://www.meetup.com/dotnet-virtual-user-group/events/305017375)_
+
+- [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
+
 ---
 ## Past Sessions
 
 ### Connect.Tech - Atlanta, GA (Nov 18-20, 2024) _[more info](https://2024.connect.tech/)_
 
 - [Removing Repetition By Building Your Own Automation Framework](./presentations.md#removing-repetition-by-building-your-own-automation-framework)
-
 
 ### Queen City Code Retreat - Cornelius, NC (Nov 9, 2024) _[more info](https://www.eventbookings.com/b/event/queen-city-code-retreat)_
 
@@ -31,11 +34,9 @@ hide:
 
 - [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
 
-
 ### Carolina Code Conference - Greenville, SC (Aug 23-24, 2024) _[more info](https://blog.carolina.codes/p/announcing-our-2024-speakers)_
 
 - [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
-
 
 ### Twin Cities .NET User Group - Virtual (Aug 1, 2024) _[more info](https://www.meetup.com/tcdnug/events/302408427/)_
 
@@ -44,7 +45,6 @@ hide:
 ### JavaScript KC - Virtual (May 22, 2024) _[more info](https://www.meetup.com/javascriptkc/events/300211972/)_
 
 - [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
-
 
 ### Detroit Tech Watch - Virtual (May 21, 2024) _[more info](https://www.meetup.com/detroit-tech-watch/events/300725509/)_
 
