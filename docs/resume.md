@@ -13,7 +13,7 @@ I've been a software engineer for over a decade and in leadership for over five 
 
 One of my greatest strengths is that I can explain anything to anyone, tailoring my message to be effective with my audience. With this ability, I'm a natural coach and as such, have grown many engineers from intern->associate->mid->senior.
 
-Another strength of mine is that Second, I excel at looking at a process, understanding the goal, and then fine tuning so that everything is better. This can be how a team approaches work, our development lifecycle, how we interact with clients, etc... Because of this strength, I can level up a group quickly because I can amplify our strengths and make the weaknesses a non-issue.
+Another strength of mine is that I excel at looking at a process, understanding the goal, and then fine tuning so that everything is better. This can be how a team approaches work, our development lifecycle, how we interact with clients, etc... Because of this strength, I can level up a group quickly because I can amplify our strengths and make the weaknesses a non-issue.
 
 I enjoy learning new technology and I have a track record of picking up new technologies on the fly to accomplish new tasks.
 
