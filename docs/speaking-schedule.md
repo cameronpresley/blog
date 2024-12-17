@@ -11,6 +11,10 @@ hide:
 
 - [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
 
+### University of North Carolina: Charlotte - Charlotte, NC (Mar 26, 2025) _[more info](https://charlotte-csm.symplicity.com/students/?s=event&ss=ws&mode=form&id=e912ef77bc019314e4cfc18f5df7ea78)_
+
+- Come learn how to leverage your career & self-development skills as well as technology know-how in various stages of the job interview led by a Professional Problem Solver & Microsoft MVP Developer with over a decade of industry experience!
+
 ### Indy .NET Consortium - Indianapolis, IN (May 7, 2025) _[more info](https://www.meetup.com/indy-net-consortium/events/305129423)_
 
 - [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
