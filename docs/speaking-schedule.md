@@ -7,7 +7,11 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
-### Tulsa Developer Associate - Tulsa, OK (Dec 17, 2024) _[more info](https://www.meetup.com/dotnet-virtual-user-group/events/305017375)_
+### Tulsa Developer Association - Tulsa, OK (Dec 17, 2024) _[more info](https://www.meetup.com/dotnet-virtual-user-group/events/305017375)_
+
+- [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
+
+### Indy .NET Consortium - Indianapolis, IN (May 7, 2025) _[more info](https://www.meetup.com/indy-net-consortium/events/305129423)_
 
 - [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
 
