@@ -17,9 +17,7 @@ hide:
 
 As the year comes to a close, I like to take this time to reflect on the past year: what got done, how do I feel like things are progressing, and are there any changes that I should be working on for the next year.
 
-With that in mind, I generally break my 
-
-As the year comes to a close, I thought it might be interesting to take a look back at the previous year on what all I was able to accomplish.
+With that in mind, I generally break my goals into three sections: what progress did I make for my career? what progress did I make for the community, and finally, what progress did I make for myself?
 
 
 ## Professional
@@ -57,11 +55,12 @@ Outside of new talks, I authored 23 different blogs posts with my most common to
 
 ## Personal
 
-
 - Read 32 books in various genres (biographical, investing, leadership, history, consulting, process, science fiction, and general fiction)
 - Learned the basics of knitting, made scarves and baby blankets using both seed and garter stitches
 - Learned the basics of working with chisels and planes (including sharpening) for woodworking
-- Built a [catio]() for our new cat, Trix.
+- Built a catio for our new cat, Trix.
+![Catio for Tix](./images/trix-catio.jpg)
+
 - Learned how to make two different kinds of coffee drinks (Americano and Latte)
 - Built my first computer from components (major shout-out to [Isaac](https://bsky.app/profile/azwyrd.bsky.social) for helping me figure out the components)
 - Picked up over 30 bags of trash around the neighborhood
