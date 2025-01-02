@@ -7,6 +7,10 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
+### Cleveland C# User Group - Cleveland, OH (Jan 22, 2025) _[more info](https://meetu.ps/e/NLSld/vjPPr/i)_
+
+- [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
+
 ### University of North Carolina: Charlotte - Charlotte, NC (Mar 26, 2025) _[more info](https://charlotte-csm.symplicity.com/students/?s=event&ss=ws&mode=form&id=e912ef77bc019314e4cfc18f5df7ea78)_
 
 - Come learn how to leverage your career & self-development skills as well as technology know-how in various stages of the job interview led by a Professional Problem Solver & Microsoft MVP Developer with over a decade of industry experience!
