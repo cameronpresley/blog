@@ -11,6 +11,10 @@ hide:
 
 - [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
 
+### Roanoke Valley .NET User Group - Salem, VA (Mar 6, 2025) _[more info](https://www.meetup.com/roanoke-valley-net-user-group/events/305484464/)_
+
+- [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
+
 ### University of North Carolina: Charlotte - Charlotte, NC (Mar 26, 2025) _[more info](https://charlotte-csm.symplicity.com/students/?s=event&ss=ws&mode=form&id=e912ef77bc019314e4cfc18f5df7ea78)_
 
 - Come learn how to leverage your career & self-development skills as well as technology know-how in various stages of the job interview led by a Professional Problem Solver & Microsoft MVP Developer with over a decade of industry experience!
