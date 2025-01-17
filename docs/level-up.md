@@ -43,6 +43,7 @@ Reading is important, because if you can read, you can learn anything about ever
 - _[Working Effectively with Legacy Code](https://www.goodreads.com/book/show/44919.Working_Effectively_with_Legacy_Code)_
 - _[Refactoring: Improving the Design of Existing Code](https://www.goodreads.com/book/show/44936.Refactoring)_
 - _[Debugging: The 9 Indispensable Rules for Finding Even the Most Elusive Software and Hardware Problems](https://www.goodreads.com/en/book/show/3938178)_
+- _[Modern Software Engineering: Doing What Works to Build Better Software Faster](https://www.goodreads.com/book/show/57345270-modern-software-engineering)_
 
 ## Career
 
@@ -72,6 +73,7 @@ Reading is important, because if you can read, you can learn anything about ever
 - _[A Whole New Mind: Why Right-Brainers Will Rule the Future](https://www.goodreads.com/book/show/99315.A_Whole_New_Mind)_
 - _[Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones](https://www.goodreads.com/book/show/40121378-atomic-habits)_
 - _[Tiny Habits: The Small Changes That Change Everything](https://www.goodreads.com/book/show/43261127-tiny-habits)_
+- _[The Book of Beautiful Questions: The Powerful Questions That Will Help You Decide, Create, Connect, and Lead](https://www.goodreads.com/en/book/show/37941659-the-book-of-beautiful-questions)_
 
 ## Biographies
 
@@ -79,6 +81,7 @@ Reading is important, because if you can read, you can learn anything about ever
 - _[Making It So: A Memoir by Patrick Stewart](https://www.goodreads.com/book/show/101160634-making-it-so)_
 - _[Disrupting the Game - From the Bronx to the Top of Nintendo by Reggie Fils-Aimé](https://www.goodreads.com/book/show/58429316-disrupting-the-game)_
 - _[The Storyteller - Tales of Life and Music by Dave Grohl](https://www.goodreads.com/book/show/57648017-the-storyteller)_
+- _[Ingrained: The Making of a Craftsman](https://www.goodreads.com/book/show/199793433-ingrained)_ 
 
 ## History
 
