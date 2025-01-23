@@ -7,10 +7,6 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
-### Cleveland C# User Group - Cleveland, OH (Jan 22, 2025) _[more info](https://meetu.ps/e/NLSld/vjPPr/i)_
-
-- [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
-
 ### Central Ohio .NET User Group - Colombus, OH (Feb 27, 2025) _[more info](https://www.meetup.com/central-ohio-net-developers-group-condg/events/305588427/)_
 
 - [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
@@ -29,6 +25,10 @@ hide:
 
 ---
 ## Past Sessions
+
+### Cleveland C# User Group - Cleveland, OH (Jan 22, 2025) _[more info](https://meetu.ps/e/NLSld/vjPPr/i)_
+
+- [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
 
 ### Tulsa Developer Association - Tulsa, OK (Dec 17, 2024) _[more info](https://www.meetup.com/dotnet-virtual-user-group/events/305017375)_
 
