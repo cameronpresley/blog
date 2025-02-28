@@ -7,10 +7,6 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
-### Central Ohio .NET User Group - Colombus, OH (Feb 27, 2025) _[more info](https://www.meetup.com/central-ohio-net-developers-group-condg/events/305588427/)_
-
-- [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
-
 ### Roanoke Valley .NET User Group - Salem, VA (Mar 6, 2025) _[more info](https://www.meetup.com/roanoke-valley-net-user-group/events/305484464/)_
 
 - [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
@@ -29,6 +25,10 @@ hide:
 
 ---
 ## Past Sessions
+
+### Central Ohio .NET User Group - Colombus, OH (Feb 27, 2025) _[more info](https://www.meetup.com/central-ohio-net-developers-group-condg/events/305588427/)_
+
+- [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
 
 ### Cleveland C# User Group - Cleveland, OH (Jan 22, 2025) _[more info](https://meetu.ps/e/NLSld/vjPPr/i)_
 
