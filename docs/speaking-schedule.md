@@ -7,10 +7,6 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
-### Roanoke Valley .NET User Group - Salem, VA (Mar 6, 2025) _[more info](https://www.meetup.com/roanoke-valley-net-user-group/events/305484464/)_
-
-- [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
-
 ### University of North Carolina: Charlotte - Charlotte, NC (Mar 26, 2025) _[more info](https://charlotte-csm.symplicity.com/students/?s=event&ss=ws&mode=form&id=e912ef77bc019314e4cfc18f5df7ea78)_
 
 - Come learn how to leverage your career & self-development skills as well as technology know-how in various stages of the job interview led by a Professional Problem Solver & Microsoft MVP Developer with over a decade of industry experience!
@@ -25,6 +21,10 @@ hide:
 
 ---
 ## Past Sessions
+
+### Roanoke Valley .NET User Group - Salem, VA (Mar 6, 2025) _[more info](https://www.meetup.com/roanoke-valley-net-user-group/events/305484464/)_
+
+- [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
 
 ### Central Ohio .NET User Group - Colombus, OH (Feb 27, 2025) _[more info](https://www.meetup.com/central-ohio-net-developers-group-condg/events/305588427/)_
 
