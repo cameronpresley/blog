@@ -38,6 +38,12 @@ In order to create a product differentiator, I architected and designed the abil
 
 To be successful, I worked with engineers and business stakeholders to define a three milestone approach that would allow for delivery in a tight timeline and to iterate on the design faster, getting feedback sooner. By creating Entity Relationship Diagrams, Sequence Diagrams, and User Workflows, the team was able to hit the ground running with minimal ramp-up time.
 
+#### Manufacturing Company
+
+I came onto a team that was struggling with story creation and capturing the “why” behind the work. Working with their Product Owner, I helped develop a new approach for introducing work to the team, sharply decreasing the amount of rework and bugs being shipped.
+
+In addition, I helped build out various automations that drastically reduced the amount of time spent on support tasks. For example, one automation would capture support requests and send that to our tracking system so that stakeholders had visibility on the work being done.
+
 
 #### Lean TECHniques (LT) Accomplishments
 
@@ -158,6 +164,11 @@ I was one of the software developers responsible for Data Courier and EMFI, tool
 - [Microsoft Certified: Azure Administrator Associate](https://learn.microsoft.com/en-us/users/cameronpresley-4042/credentials/2cb0f6ef15460e5c?ref=https%3A%2F%2Fwww.linkedin.com%2F)
 - [Microsoft Certified: Azure Developer Associate](https://learn.microsoft.com/en-us/users/cameronpresley-4042/credentials/ec65dd88cb49f4a2?ref=https%3A%2F%2Fwww.linkedin.com%2F)
 - [Microsoft Certified: DevOps Engineer Expert](https://learn.microsoft.com/en-us/users/cameronpresley-4042/credentials/aabf4a1a96bb75e6?ref=https%3A%2F%2Fwww.linkedin.com%2F)
+- [LaunchDarkly Bronze Developer Certification](https://verify.skilljar.com/c/g9t7xpv2gnd8)
+- [LaunchDarkly Silver Developer Certification](https://verify.skilljar.com/c/y6894ikm4x6n)
+- [LaunchDarkly Gold Developer Certification](https://verify.skilljar.com/c/vwnp98d6gebi)
+- [LaunchDarkly Platinum Developer Certification](https://verify.skilljar.com/c/sir2thqwm9bc)
+- [Graph Developer Associate - Apollo GraphQL](https://www.apollographql.com/tutorials/certifications/a77be40c-1085-45c8-895f-464d2dcf4cd6)
 
 ## Education
 
