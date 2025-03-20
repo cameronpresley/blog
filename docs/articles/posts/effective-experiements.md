@@ -64,7 +64,7 @@ After sending this meeting, my job is to help the team implement the experiment 
 
 While we are going the through the experiment, I'm going to note any changes that I'm noticing. For example, if we're running an experiment to have asynchronous stand-ups, I'm going to take notes on how I'm feeling about the team getting updates and how they're communicating with each other.
 
-Depending on what comes up in our [one-on-ones](./building-relationships-through-one-on-ones.md#bonus---seeding-a-conversation), I might even use this as a starter question.
+Depending on what comes up in our [one-on-ones](./building-relationships-through-one-on-ones.md#bonus-seeding-a-conversation), I might even use this as a starter question.
 
 ## Retrospective
 

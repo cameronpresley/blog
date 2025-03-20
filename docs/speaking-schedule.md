@@ -130,7 +130,7 @@ hide:
 
 ### Philly Code Camp - Virtual (Mar 4, 2022) _[more info](https://www.meetup.com/Philly-NET/events/281245125/)_
 
-- [Establishing a SOLID Foundation – An Intro to Software Design](presentations.md#establishing-a-solid-foundation-–-an-intro-to-software-design)
+- [Establishing a SOLID Foundation – An Intro to Software Design](presentations.md#establishing-a-solid-foundation-an-intro-to-software-design)
 - [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
 - [How To Have Code Reviews Developers Actually Want](presentations.md#how-to-have-code-reviews-developers-actually-want)
 
@@ -189,7 +189,7 @@ hide:
 
 ### Northern Virginia Code Camp - Reston, VA (Sept 26, 2020) _[more info](https://novacodecamp.org/)_
 
-- [Establishing a SOLID Foundation – An Intro to Software Design](presentations.md#establishing-a-solid-foundation-–-an-intro-to-software-design)
+- [Establishing a SOLID Foundation – An Intro to Software Design](presentations.md#establishing-a-solid-foundation-an-intro-to-software-design)
 
 ### IndySA - Caramel, IN (Sept 17, 2020) _[more info](https://www.meetup.com/indysa/events/dppdnrybcmbwb/)_
 
@@ -231,7 +231,7 @@ hide:
 
 ### .NET DC User Group - Washington, DC (April 21, 2020) _[more info](https://www.meetup.com/dotnetdc/events/269899403/)_
 
-- [Establishing a SOLID Foundation – An Intro to Software Design](presentations.md#establishing-a-solid-foundation-–-an-intro-to-software-design)
+- [Establishing a SOLID Foundation – An Intro to Software Design](presentations.md#establishing-a-solid-foundation-an-intro-to-software-design)
 
 ### IndySA - Caramel, IN (April 16, 2020) _[more info](https://www.meetup.com/indysa/events/dppdnrybcgbvb/)_
 
@@ -239,7 +239,7 @@ hide:
 
 ### dev up - St. Louis, MO (Oct 14-16, 2019) _[more info](https://www.devupconf.org/)_
 
-- [Establishing a SOLID Foundation – An Intro to Software Design](presentations.md#establishing-a-solid-foundation-–-an-intro-to-software-design)
+- [Establishing a SOLID Foundation – An Intro to Software Design](presentations.md#establishing-a-solid-foundation-an-intro-to-software-design)
 - [How To Have Code Reviews Developers Actually Want](presentations.md#how-to-have-code-reviews-developers-actually-want)
 - [How Functional Programming Made Me a Better Developer](./presentations.md#how-functional-programming-made-me-a-better-developer)
 
@@ -268,7 +268,7 @@ hide:
 ### Kansas City Developer Conference – Kansas City, MO (Jul 18-19, 2019) _[more info](http://www.kcdc.info/)_
 
 - [How To Have Code Reviews Developers Actually Want](presentations.md#how-to-have-code-reviews-developers-actually-want)
-- [Establishing a SOLID Foundation – An Intro to Software Design](presentations.md#establishing-a-solid-foundation-–-an-intro-to-software-design)
+- [Establishing a SOLID Foundation – An Intro to Software Design](presentations.md#establishing-a-solid-foundation-an-intro-to-software-design)
 
 ### GLUGnet User Group - (Remote) Okemos, MI (Jun 20, 2019) _[more info](https://www.meetup.com/GLUGnet/events/qkmgpkyzjbbc/)_
 
@@ -276,7 +276,7 @@ hide:
 
 ### Beer City Code - Grand Rapids, MI (May 31-Jun 1, 2019) _[more info](https://www.eventbrite.com/e/beer-city-code-2019-tickets-58613218715#tickets)_
 
-- [Establishing a SOLID Foundation – An Intro to Software Design](presentations.md#establishing-a-solid-foundation-–-an-intro-to-software-design)
+- [Establishing a SOLID Foundation – An Intro to Software Design](presentations.md#establishing-a-solid-foundation-an-intro-to-software-design)
 
 ### Northern Virginia Code Camp - Reston, VA (May 18, 2019) _[more info](https://novacodecamp.org/)_
 
@@ -292,7 +292,7 @@ hide:
 
 ### Windsor-Essex .NET User Group (Nov 27, 2018) _[more info](https://www.meetup.com/wenetdevelopers/events/256436754/)_
 
-- [Establishing a SOLID Foundation - An Intro to Software Design](presentations.md#establishing-a-solid-foundation-–-an-intro-to-software-design)
+- [Establishing a SOLID Foundation – An Intro to Software Design](presentations.md#establishing-a-solid-foundation-an-intro-to-software-design)
 
 ### DevSpace - Huntsville, AL (Oct 12-13, 2018) _[more info](https://www.devspaceconf.com/)_
 
@@ -330,7 +330,7 @@ hide:
 ### KCDC - Kansas City, MO (Aug 2-4, 2017) _[more info](http://www.kcdc.info/)_
 
 - [Taking a Gamble on F# - Implementing Blackjack](presentations.md#taking-a-gamble-on-f-implementing-blackjack)
-- [Making the Unstable Stable - An Introduction to Testing](./presentations.md#making-the-unstable-stable-–-an-introduction-to-testing)
+- [Making the Unstable Stable - An Introduction to Testing](./presentations.md#making-the-unstable-stable-an-introduction-to-testing)
 
 ### Scenic City Summit - Chattanooga, TN (Jul 28, 2017) _[more info](https://www.sceniccitysummit.com/)_
 
@@ -338,18 +338,18 @@ hide:
 
 ### Detroit.Code() - Detroit, MI (Jul 10-12, 2017) _[more info](https://detroitcode.amegala.com/)_
 
-- [Establishing a SOLID Foundation - An Intro to Software Design](presentations.md#establishing-a-solid-foundation-–-an-intro-to-software-design)
+- [Establishing a SOLID Foundation – An Intro to Software Design](presentations.md#establishing-a-solid-foundation-an-intro-to-software-design)
 - [How Functional Programming Made Me a Better Developer](./presentations.md#how-functional-programming-made-me-a-better-developer)
 
 ### Chattanooga Area .NET User Group (Jun 20, 2017) _[more info](https://www.meetup.com/Chattanooga-Area-NET-User-Group-CHADNUG/events/240331818/)_
 
-- [Making the Unstable Stable - An Introduction to Testing](./presentations.md#making-the-unstable-stable-–-an-introduction-to-testing)
+- [Making the Unstable Stable - An Introduction to Testing](./presentations.md#making-the-unstable-stable-an-introduction-to-testing)
 
 ### CodePaLOUsa - Louisville, KY (Jun 7-9, 2017)
 
-- [Making the Unstable Stable - An Introduction to Testing](./presentations.md#making-the-unstable-stable-–-an-introduction-to-testing)
+- [Making the Unstable Stable - An Introduction to Testing](./presentations.md#making-the-unstable-stable-an-introduction-to-testing)
 - [How to Have Code Reviews Developers Actually Want](presentations.md#how-to-have-code-reviews-developers-actually-want)
-- [Establishing a SOLID Foundation - An Intro to Software Design](presentations.md#establishing-a-solid-foundation-–-an-intro-to-software-design)
+- [Establishing a SOLID Foundation – An Intro to Software Design](presentations.md#establishing-a-solid-foundation-an-intro-to-software-design)
 
 ### Music City Code - Nashville, TN (Jun 1-3, 2017) _[more info](https://www.musiccitycode.com/)_
 
@@ -372,17 +372,17 @@ hide:
 
 ### Detroit Dev Day - Troy, MI (Nov 12, 2016) _[more info](http://detroitdevday.org/index.php/our-sessions/)_
 
-- [Establishing a SOLID Foundation - An Intro to Software Design](presentations.md#establishing-a-solid-foundation-–-an-intro-to-software-design)
+- [Establishing a SOLID Foundation – An Intro to Software Design](presentations.md#establishing-a-solid-foundation-an-intro-to-software-design)
 
 ### DevSpace - Huntsville, AL (Oct 14-15, 2016) _[more info](https://www.devspaceconf.com/2016/sessions.html)_
 
 - [Taking a Gamble with F#: Implementing Blackjack](presentations.md#taking-a-gamble-on-f-implementing-blackjack)
-- [Making the Unstable Stable - An Intro to Testing](./presentations.md#making-the-unstable-stable-–-an-introduction-to-testing)
-- [Establishing a SOLID Foundation - An Intro to Software Design](presentations.md#establishing-a-solid-foundation-–-an-intro-to-software-design)
+- [Making the Unstable Stable - An Introduction to Testing](./presentations.md#making-the-unstable-stable-an-introduction-to-testing)
+- [Establishing a SOLID Foundation – An Intro to Software Design](presentations.md#establishing-a-solid-foundation-an-intro-to-software-design)
 
 ### Music City Code - Nashville, TN (Aug 18-20, 2016) _[more info](https://2016.musiccitycode.com/)_
 
-- [Establishing a SOLID Foundation - An Intro to Software Design](presentations.md#establishing-a-solid-foundation-–-an-intro-to-software-design)
+- [Establishing a SOLID Foundation – An Intro to Software Design](presentations.md#establishing-a-solid-foundation-an-intro-to-software-design)
 
 ### ThatConference - Wisconsin Dells, WI (Aug 8-10, 2016) _[more info](https://www.thatconference.com/Schedule?year=2016)_
 
@@ -390,10 +390,10 @@ hide:
 
 ### CodeStock - Knoxville, TN (July 15-16, 2016 _[more info]()_
 
-- [Establishing a SOLID Foundation - An Intro to Software Design](presentations.md#establishing-a-solid-foundation-–-an-intro-to-software-design)
-- [Making the Unstable Stable - An Introduction to Testing](./presentations.md#making-the-unstable-stable-–-an-introduction-to-testing)
+- [Establishing a SOLID Foundation – An Intro to Software Design](presentations.md#establishing-a-solid-foundation-an-intro-to-software-design)
+- [Making the Unstable Stable - An Introduction to Testing](./presentations.md#making-the-unstable-stable-an-introduction-to-testing)
 
 ### DevSpace - Huntsville, AL (Oct 9-10, 2015) _[more info](https://www.devspaceconf.com/2015/sessions.html)_
 
-- [Establishing a SOLID Foundation - An Intro to Software Design](presentations.md#establishing-a-solid-foundation-–-an-intro-to-software-design)
-- [Making the Unstable Stable - An Introduction to Testing](./presentations.md#making-the-unstable-stable-–-an-introduction-to-testing)
+- [Establishing a SOLID Foundation – An Intro to Software Design](presentations.md#establishing-a-solid-foundation-an-intro-to-software-design)
+- [Making the Unstable Stable - An Introduction to Testing](./presentations.md#making-the-unstable-stable-an-introduction-to-testing)
