@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="61.096 36.32 319.571 227.255" xmlns="http://www.w3.org/2000/svg">
+  <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="123.879" cy="175.622" rx="62.783" ry="65.328"/>
+  <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="333.721" cy="175.056" rx="46.946" ry="65.328"/>
+  <path style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0); mix-blend-mode: darken;" d="M 144.243 69.363 C 235.969 69.363 300.928 98.482 321.819 148.963" transform="matrix(0.911202, -0.411959, 0.411959, 0.911202, -24.278084, 105.692657)"/>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 15.8px;" x="94.457" y="259.05">Strings</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 15.8px;" x="301.471" y="260.181">Number</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 15.8px;" x="191.178" y="76.922">monthToNumber</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 15.8px; text-anchor: middle;" x="132.919" y="164.593" transform="matrix(1, 0, 0, 1, 204.751129, -21.493214)">1<tspan x="132.91900634765625" dy="1em">​</tspan>2<tspan x="132.91900634765625" dy="1em">​</tspan>3<tspan x="132.91900634765625" dy="1em">​</tspan>...<tspan x="132.91900634765625" dy="1em">​</tspan>12<tspan x="132.91900634765625" dy="1em">​</tspan></text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 15.8px; text-anchor: middle;" x="132.919" y="164.593" transform="matrix(1, 0, 0, 1, -14.313073, -21.136452)">January<tspan x="132.91900634765625" dy="1em">​</tspan>February<tspan x="132.91900634765625" dy="1em">​</tspan>March<tspan x="132.91900634765625" dy="1em">​</tspan>...<tspan x="132.91900634765625" dy="1em">​</tspan>December<tspan x="132.91900634765625" dy="1em">​</tspan>platypus</text>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="145.362" y1="140.837" x2="331.448" y2="140.837"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="153.28" y1="156.109" x2="332.013" y2="154.412"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="143.099" y1="170.814" x2="329.751" y2="170.249"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="129.525" y1="188.914" x2="327.489" y2="187.217"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="159.502" y1="202.488" x2="325.226" y2="201.923"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="150.17" y1="220.872" x2="226.528" y2="250.284"/>
+  <text style="fill: rgb(247, 9, 9); font-family: Arial, sans-serif; font-size: 15.8px; font-weight: 700; white-space: pre;" x="226.81" y="255.091">???</text>
+</svg>
