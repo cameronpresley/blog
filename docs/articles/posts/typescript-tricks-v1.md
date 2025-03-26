@@ -16,7 +16,7 @@ hide:
 
 # Tips and Tricks with TypeScript
 
-One of my most recent projects has been tackling how to model the card game, [Love Letter](). For those who've seen me present my [How Functional Programming Made Me a Better Developer](../../presentations.md#how-functional-programming-made-me-a-better-developer) talk, you might recall that this was my second project to tackle in F# and that even though I was able to get some of it to work, there were some inconsistency in the rules that I wasn't able to reason about.
+One of my most recent projects has been tackling how to model the card game, [Love Letter](https://boardgamegeek.com/boardgame/129622/love-letter). For those who've seen me present my [How Functional Programming Made Me a Better Developer](../../presentations.md#how-functional-programming-made-me-a-better-developer) talk, you might recall that this was my second project to tackle in F# and that even though I was able to get some of it to work, there were some inconsistency in the rules that I wasn't able to reason about.
 
 While implementing in TypeScript, I came across some cool tricks and thought I'd share some of them here, enjoy!
 
