@@ -7,6 +7,10 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
+### Atlanta .NET User Group - Alpharetta, GA (April 28, 2025) _[more info](https://www.meetup.com/atlanta-net-user-group/events/306662207)_
+
+- [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
+
 ### StirTrek - Colombus, OH (May 2, 2025) _[more info](https://stirtrek.com/)_
 
 - [Taking a Gamble With Functional Domain Modeling](presentations.md#taking-a-gamble-with-functional-domain-modeling)
