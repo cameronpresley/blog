@@ -19,6 +19,10 @@ hide:
 
 - [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
 
+### Cincy.Deliver - Mason, OH (Aug 1, 2025) _[more info](https://www.cincydeliver.org/Home/Index)_
+
+- [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
+
 ---
 ## Past Sessions
 
