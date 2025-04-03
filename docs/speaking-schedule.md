@@ -11,6 +11,10 @@ hide:
 
 - [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
 
+### Atlanta JavaScript User Group - Atlanta, GA (June 24, 2025) _[more info]()
+
+- - [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
+
 ### StirTrek - Colombus, OH (May 2, 2025) _[more info](https://stirtrek.com/)_
 
 - [Taking a Gamble With Functional Domain Modeling](presentations.md#taking-a-gamble-with-functional-domain-modeling)
