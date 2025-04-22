@@ -15,6 +15,10 @@ hide:
 
 - [Taking a Gamble With Functional Domain Modeling](presentations.md#taking-a-gamble-with-functional-domain-modeling)
 
+### Capital Area .NET User Group - Loudoun, VA (May 6, 2025) _[more info](https://www.meetup.com/caparea-net/events/307412739)_
+
+- [Preventing Bugs with Better Types - An Intro to Type Driven Design]()
+
 ### Indy .NET Consortium - Indianapolis, IN (May 7, 2025) _[more info](https://www.meetup.com/indy-net-consortium/events/305129423)_
 
 - [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
