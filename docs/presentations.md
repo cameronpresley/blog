@@ -159,7 +159,7 @@ In this talk, I’m going to show you how to tackle these concerns as we model t
 
 - Presentations
     - _[Domain Modeling Made Functional](https://www.youtube.com/watch?v=Up7LcbGZFuo)_ by Scott Wlaschin (YouTube)
-    - [Slides](https://docs.google.com/presentation/d/14FfKsfw4leLCnE_3L4tIeC3SpJGPcrLKH9EW5ZrAVgo/edit?usp=sharing)
+    - [Slides (Google Slides)](https://docs.google.com/presentation/d/1Dyg7SP7JOXiFlbQ9wcZ_YJxPuLTGGEhtuzAYgPE63Rw/edit?usp=sharing)
 - Articles
     - [Thinking Functionally (series)](https://fsharpforfunandprofit.com/series/thinking-functionally.html) by Scott Wlaschin
     - [Functional Architecture : a definition](https://blog.ploeh.dk/2018/11/19/functional-architecture-a-definition/) by Mark Seemann
