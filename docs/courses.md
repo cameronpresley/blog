@@ -14,5 +14,4 @@ In this course, I walk you through solving the Mars Rover kata by using function
 
 Designed for those who are new to functional programming concepts, but are familiar with TypeScript, you'll leave the course having the tools needed to start writing your own programs.
 
-Interested? Use this 
-[referral link](https://www.udemy.com/course/navigating-mars-using-ts-and-fp/?referralCode=134CA0E5EF78A43698B3) to purchase the course so that I can earn a higher commission on the course)
+Interested? You can find the course [here on Udemy](https://www.udemy.com/course/navigating-mars-using-ts-and-fp/?referralCode=134CA0E5EF78A43698B3).
