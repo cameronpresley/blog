@@ -7,10 +7,6 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
-### StirTrek - Colombus, OH (May 2, 2025) _[more info](https://stirtrek.com/)_
-
-- [Taking a Gamble With Functional Domain Modeling](presentations.md#taking-a-gamble-with-functional-domain-modeling)
-
 ### Capital Area .NET User Group - Loudoun, VA (May 6, 2025) _[more info](https://www.meetup.com/caparea-net/events/307412739)_
 
 - [Preventing Bugs with Better Types - An Intro to Type Driven Design]()
@@ -33,6 +29,10 @@ hide:
 
 ---
 ## Past Sessions
+
+### StirTrek - Colombus, OH (May 2, 2025) _[more info](https://stirtrek.com/)_
+
+- [Taking a Gamble With Functional Domain Modeling](presentations.md#taking-a-gamble-with-functional-domain-modeling)
 
 ### Atlanta .NET User Group - Alpharetta, GA (April 28, 2025) _[more info](https://www.meetup.com/atlanta-net-user-group/events/306662207)_
 
