@@ -213,3 +213,14 @@ Intended for engineers who are interested in building out their own workflows th
 - [PagerDuty Docs](https://developer.pagerduty.com/api-reference/)
 - [Building Your Own Coffee Chat Bot Series](./articles/posts/having-coffee-with-deno-part1.md)
 - [Building Your Own Bot For Finding Stale Docs Series](./articles/posts/automating-doc-freshness-finding-stale-docs.md)
+ 
+## Preventing Bugs with Better Types - An Intro to Type Driven Design
+
+Have you ever shipped a logic error to production? What about writing code that allowed you to do something that violated business rules? Wouldn't it have been nice if the code itself prevented you from doing the wrong thing?
+
+By leveraging key concepts from Functional Programming, I'll show you how you can design your business domain such that your code can't get into a bad state (or at the very least, without jumping through some hoops).
+
+Intended for those with C# or TypeScript, I'll demonstrate concepts like sum types/product types for better data modeling and design patterns like Option/Result to handle when things can go wrong while we build out the game of Blackjack.
+
+### Resources
+- [Slides](https://docs.google.com/presentation/d/1TnNEPi7IJe1XWcwjKD12Bbnacb-dN5d263EoeCDW6aw/edit?usp=sharing) (via Google Slides)
