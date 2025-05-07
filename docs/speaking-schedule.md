@@ -7,14 +7,6 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
-### Capital Area .NET User Group - Loudoun, VA (May 6, 2025) _[more info](https://www.meetup.com/caparea-net/events/307412739)_
-
-- [Preventing Bugs with Better Types - An Intro to Type Driven Design]()
-
-### Indy .NET Consortium - Indianapolis, IN (May 7, 2025) _[more info](https://www.meetup.com/indy-net-consortium/events/305129423)_
-
-- [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
-
 ### Atlanta .NET User Group - Alpharetta, GA (June 23, 2025) _[more info](https://www.meetup.com/atlanta-net-user-group/events/307573789/)_
 
 - [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
@@ -29,6 +21,14 @@ hide:
 
 ---
 ## Past Sessions
+
+### Indy .NET Consortium - Indianapolis, IN (May 7, 2025) _[more info](https://www.meetup.com/indy-net-consortium/events/305129423)_
+
+- [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
+
+### Capital Area .NET User Group - Loudoun, VA (May 6, 2025) _[more info](https://www.meetup.com/caparea-net/events/307412739)_
+
+- [Preventing Bugs with Better Types - An Intro to Type Driven Design]()
 
 ### StirTrek - Colombus, OH (May 2, 2025) _[more info](https://stirtrek.com/)_
 
