@@ -316,4 +316,4 @@ In this post, we took a look at using tuples in TypeScript by tackling a portion
 
 ## Interested in knowing more?
 
-If you've enjoyed the above, then you might be interested in my new course (launching Summer 2025) where we build out the game of Blackjack using these concepts in TypeScript. [Click here](mailto:cameron@thesoftwarementor.com?subject=Interested%20In%20Udemy%Course&body=I%20am%20interested%20in%20your%20upcoming%20course%20on%20Blackjack%20let%20me%20know%20when%20its%20ready) if you're interested in getting an update for when the course goes live!
+If you've enjoyed the above, then you might be interested in my new course (launching Summer 2025) where we build out the game of Blackjack using these concepts in TypeScript. [Click here](mailto:cameron@thesoftwarementor.com?subject=Interested%20In%20Udemy%20Course&body=I%27m%20interested%20in%20your%20upcoming%20course%20on%20Blackjack%2C%20let%20me%20know%20when%20it%27s%20ready%21) if you're interested in getting an update for when the course goes live!
