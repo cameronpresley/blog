@@ -20,144 +20,151 @@ I enjoy learning new technology and I have a track record of picking up new tech
 ## Experience
 
 ### Lean TECHniques
-#### Professional Software Consultant
+#### Professional Software Consultant (Aug 2023 - May 2025)
 
-As a Professional Software Consultant, my main responsibility is to help our clients improve their software delivery practices and experiences by process coaching, technical coaching, custom tooling, or software delivery.
+As a Software Consultant, my engagements followed two patterns. The more common engagement is what we called the embedded "player coach" where I would be embedded into a feature delivery team to coach/mentor engineers while also delivering functionality. The other type of engagement is leadership coaching where I would work with a Team Lead or Engineering Manager to help streamline processes or to provide guidance on how to navigate leadership topics like performance management, career progression, adopting an experimental mindset, and team process.
 
-#### Client Accomplishments
+Recent client accomplishments include:
 
-#### Fortune 500 Financial Company
+- Developed and taught a custom training program for TypeScript and Amazon Web Services (AWS), focusing on building distributed systems leveraging tools like SNS, SQS, Lambda, Fargate, EventBridge, and DyanmoDB, all of which was managed by using the CDK for deployments.
+- Designed, Implemented, and Deployed a custom solution solution to help combine Dynatrace alerts with Microsoft Teams to notify on-call when an issue was detected
+- Created multiple PowerAutomate flows to automate support requests
+- Worked with Team Leader, Product Owner, and Delivery Manager to overhaul the work breakdown process to ensure that the team knows the "why" behind the work and what "done" looks like:
 
-I developed a training program to teach their engineers modern software development using TypeScript and Amazon Web Services (AWS). As part of this training, engineers learned how to architect solutions using Lambdas, DynamoDB, SNS, SQS, EventBridge, and Fargate Tasks, all of which was deployed by leveraging the Amazon Cloud Development Kit (CDK).
+Recent company accomplishments include:
 
-In addition, I was an embedded technical coach for various teams, responsible for showing and guiding them on their technology modernization efforts. This involved both teaching modern development practices (vertical slicing, feature flags, test driven development) and DevOps practices (logging and metric analysis).
-
-#### Education Company
-
-In order to create a product differentiator, I architected and designed the ability for an admin to send out custom forms to parents and students. This feature was highly requested by their clients and saved an immense amount of manual work (clients would normally send out 1,000 forms at the beginning of the year). This involved designing a system to work with a React front-end, communicating with a .NET Core API, that stores data into Azure SQL DB, all of which in Azure.
-
-To be successful, I worked with engineers and business stakeholders to define a three milestone approach that would allow for delivery in a tight timeline and to iterate on the design faster, getting feedback sooner. By creating Entity Relationship Diagrams, Sequence Diagrams, and User Workflows, the team was able to hit the ground running with minimal ramp-up time.
-
-#### Manufacturing Company
-
-I came onto a team that was struggling with story creation and capturing the “why” behind the work. Working with their Product Owner, I helped develop a new approach for introducing work to the team, sharply decreasing the amount of rework and bugs being shipped.
-
-In addition, I helped build out various automations that drastically reduced the amount of time spent on support tasks. For example, one automation would capture support requests and send that to our tracking system so that stakeholders had visibility on the work being done.
-
-
-#### Lean TECHniques (LT) Accomplishments
-
-- Developed an internship onboarding program to help our interns become effective faster. This was an area that LT historically struggled in, but combining a mix of hands-on training and real-world projects, our interns were able to be effective within their first two weeks
-- To help improve our interview process, I lead a project team to replace a core component of our technical assessment by replacing a third party API with one that we wrote. This involved coaching the team on building various AWS Lambdas, with storage into DynamoDB, all behind an API Gateway.
-
+- Developed and led a mentorship program for interns, leading to a faster onboarding experience.
+- Key contributor to a client account team (client was high 7 figure spend) to manage relationships and to find additional opportunities for Lean TECHniques
+- Mentored and coached multiple associate and mid level consultants to their next career progression
+- Presented multiple internal trainings on topics like post-mortems and functional programming.
 
 ### Rocket Central
-#### Senior Team Leader
+#### Senior Team Leader (Aug 2022 - Aug 2023)
 
-In August 2022, a new initiative, the MyRocket Dashboard, was created where my team and I were selected to help get this project started.
+As part of new priorities, the team and I were moved to Rocket Central to work on a new project, the MyRocket Dashboard, a new offering to help clients navigate the home buying journey.
 
-The MyRocket Dashboard helps our client's in their biggest moments. Whether that's buying their first home, paying off debt, or opening up a credit card, my team builds the software that powers these experiences from the other parts of Rocket.
+During this project, I worked with the team to design, develop, deploy, and support the API layer for the application. Technologies used was TypeScript and Nestjs for the REST API framework, Node for the runtime, all of which was deployed to AWS leveraging API Gateway and Lambda with data being stored in DynamoDB. The infrastructure was managed through Terraform being deployed via CircleCI.
 
+Specific responsibilities included:
 
-#### Accomplishments
-- In first three months, we launched the Home Buying Plan, the first part of the MyRocket Dashboard where clients could work on their approach for buying their first home
-- Created the launch plan for this product, coordinated the day of logistics, the quality testing, and various other aspects of launch
-- Worked with our Solution Architect on the technical approach for the API layer for MyRocket Dashboard, leveled up the team, and coordinated the on-time completion of the API so that other teams/departments could use it for their work
-- Coached other Team Leads on process improvements
-- Created a Teams Bot framework that allowed anyone to create their own bot quickly and to re-use existing bots I had created.
-- To get the engineering health of our product, I wrote a bot that calculated how long a pull request was open before being merged, giving us insight on where in the lifecycle we were spending time
-- To help reduce the amount of toil for on-call engineers, I wrote additional bots that automated stand-ups, daily checklists, and production deployments
-- To help our department feel closer, I created a bot that would pair members of the department together to get a coffee and converse
-- Interviewed Software Engineer and Team Leader candidates
-- Mentored Team Leaders
-- Coached Associate Software Engineers to Mid Software Engineers
+- Being the Launch Coordinate for the MyRocket Dashboard (launched to well over a million users)
+- Conducted multiple performance reviews with both my team and other teams
+- Promoted engineers from Associate to Mid and from Mid to Senior
+- Key component of interviewing for both engineers and for team leaders
+- Led multiple engineering teams (3) when leaders were not available for extended period of time
+- Mentored other team leaders on experiments, how to have effective one-on-ones, and performance management
 
 ### Rocket Mortgage
-#### Senior Team Leader
+#### Senior Team Leader (Sept 2021 - Aug 2022)
 
-I was part of Rocket Pro TPO, where we helped our partners with the loan origination process for their clients.
+As a Senior Team Leader, I was responsible for a delivery team (8 members) in the Rocket Pro TPO space, where we helped our partners with the home loan origination process for their clients.
 
-My team was responsible for the loan once it was registered and we were responsible for making sure the information was accurate as this could cause issues for other teams if the info was missing or incorrect.
+Accomplishments:
 
-#### Accomplishments
-- Overhauled the work intake process for the team. Before, we were delivering one/two stories in a sprint was now delivering ten stories in a sprint
-- Coached the team to be more full-stack by developing individual training plans and 1-1 coaching on missing skills
-- Developed an onboarding plan for an intern
-- Interviewed Software Engineers and Team Leader candidates
-- To help fellow team leads to problem solve, I created TL Office Hours where we could bring up concerns and workshop solutions together
-- Coached the team to be comfortable with production support by showing them firsthand, supporting their mistakes, and teaching how to document fixes
-- Coached my product owner on vertical slicing, feature flags, and how we could ship more frequently
-- Repaired relationships and adjusted the reputation that the team had from before, improving our effectiveness and teams willing to work with us
-- To catch production issues faster, I created Data Quality scripts that would flag problematic loans before they would impact production so that we could fix it.
-- In order to know the team and grow individuals, I develop coaching plans, helping team members find the right spot, and overall, help everyone be successful
+- Overhauled the delivery process by cutting out not needed meetings, changing how stories were refined and broken down, drastically reducing lead and cycle time (going from 1-2 stories a sprint to 10 stories a sprint).
+- Established a formal support rotation process for the team which had improvements like: a support playbook, a set of data quality  scripts, and domain training from product owner to the team
+- Created specialized training for the engineers to reduce bus-factors (cross-training in domains and technology stacks)
+- Created Team Lead Office Hours where leads could talk about issues they're running into and get advice from others (Mastermind Group)
+- Overhauled the reputation of the team by improving the quality of work and the speed of shipping
+
+Responsibilities:
+
+- Conducted multiple performance reviews with both my team and other teams
+- Promoted engineers from Associate to Mid and from Mid to Senior
+- Key component of interviewing for both engineers and for team leaders
+- Mentored other team leaders on experiments, how to have effective one-on-ones, and performance management
+
+Common technologies used included: C#, ASP.NET Core, Postgres, AWS, Dynatrace, CircleCI, Angular, and TypeScript
 
 ### SentryOne
-#### Staff Software Engineer
-#### Technical Lead Developer
-#### Software Development Engineer Lead
-#### Senior Software Engineer
+#### Staff Software Engineer (Feb 2021 - Sep 2021)
+#### Technical Lead Developer (Aug 2020 - Feb 2021)
+#### Software Development Engineer Lead (Jan 2019 - Aug 2020)
+#### Senior Software Engineer (Jul 2018 - Jan 2019)
 
-As a Senior Software Engineer, I wrote software for the S1 Plan Explorer product, a tool that allowed database admins to see the execution plan for their queries and offer suggestions for improvements.
+As a Senior Software Engineer, I was responsible for the SentryOne Plan Explorer product, a tool that allowed database admins to see the execution plan for their queries and offer suggestions for improvements. During development, I would deliver new functionality, pair with other engineers to get them unstuck, teach engineering practices (test driven development, automated testing, and improving deployments).
 
-As a Lead, I was responsible for the growing and coaching of an engineering team to work on the SentryOne SQL Sentry product, a tool that allowed database administrators to monitor their databases and catch issues before their users did.
+As an Engineering Lead and Staff Software Engineer, I was responsible for leading a software delivery team (5 members) to work on our flagship product, SentryOne. I was responsible I was responsible for both technical decisions (e.g. how to approach a problem) and  
 
+Accomplishments:
 
-#### Accomplishments
-- Overhauled the onboarding process for new engineers so that they could contribute after their first sprint
-- Mentored multiple interns to Associate Engineers, multiple Associate Engineers to Mid Software Engineers
-- Created the technical approach for an important request, enabling us to close the largest deal in SentryOne history
-- Led the team developing SentryOne Monitor, our SaaS solution for performance monitoring, leveraging technologies like Docker, .NET Core, Azure, and Terraform
-- Overhauled our CI/CD pipelines from GUI definitions to YAML files
-- Onboarded an engineering team into a new product and tech stack, requiring learning about MySQL, Golang, Docker, Kubernetes, and AWS
+- Added a highly requested feature in a short period of time that landed a seven figure deal
+- Built a brand new team of recently hired interns such that they were performing as strong as teams with mid and senior engineers
+- Ported Azure DevOp pipelines from GUI to YAML
+- Led the team to launch SentryOne Monitor, our first SaaS solution for performance monitoring using tools like Docker, C#, .NET Core, Azure, and Terraform
+- Onboarded a new team into a new tech stack with MySQL, Golang, Docker, Kubernetes, React, and AWS
+- Created the desktop installer that allowed us to launch our first web product
+
+Responsibilities:
+
+- Coached associate engineers to mid-level engineers
+- Led technical breakdown of features and architecture decisions
 - Completed performance reviews, bonuses, raises, and coaching conversations for the team
 - Worked with the members of the team to define career goals and how to get them there
+- Conducted interviews for engineers
+- Partnered with our support team to triage and assign support requests
+- Worked with Product to define a roadmap and work breakdown for the team
+
 
 ### Pilot Flying J
-#### Application Architect II
-#### Senior Software Engineer
+#### Application Architect II (Jun 2017 - Jul 2018)
+#### Senior Software Engineer (Aug 2016 - Jun 2017)
 
-At Pilot, my responsibility was to help our engineers be "more effective", which in this case, improving the quality and speed of which code was being shipped to production. With this context, I was an engineering coach, training teams and improving individual skill sets.
+As an Architect, I was responsible for designing and architecting various solutions for all of our delivery teams. This would include monolithic applications to distributed messaging systems, to microservice architectures. The main goal was to help each team to be more effective than they would be by themselves.
 
-#### Accomplishments
+Accomplishments:
 
-- I designed and implemented an enterprise wide continuous integration / continuous deployment workflow for applications. For the first team, this led to production deployments taking 4 hours down to 6 minutes. The approach developed here was the foundation for other teams to use going forward.
-- As part of individual learning, I created training presentations and labs to teach software architecture, SOLID design principles, automated testing, refactoring, source control, and pair programming.
-- To reduce the amount of ramp-up time on new projects, I created multiple solution templates that demonstrated layered architecture, plugin architecture, and Domain Driven Design principles.
-- By working with our Supply and Distribution team for a quarter, I was able to optimize their process of work and delivery which reduced their amount of production hot fixes by 40%.
+- Migrated multiple Team Foundation Version Control (TFVC) repositories to Git (while maintaining history)
+- Implemented and deployed and enterprise wide solution for Continuous Integration/Continuous Deployment pipelines leveraging Azure DevOps
+- Created and taught multiple delivery teams on automated testing, test driven development, and overall good engineering practices
+- Worked on an internal tool, Sparkplug, that would generate application architecture for "well-known" problems at Pilot.
+- Build relationships with Network and Server team to embrace a "DevOps" mindset where developers owned deployments and support, but Network and Server helped us with overall system health (prelude to a platform team)
 
+Technologies used include: C#, VB.NET, ASP.NET Core, WinForms, MS SQL Server, Docker, Git, Azure DevOps, TypeScript, JavaScript, Angular, React, and PowerShell.
 
 ### InVizion LLC
-#### Programmer Analyst III
+#### Programmer Analyst III (Aug 2014 - Aug 2016)
 
-At InVizion, I was responsible for the development and quality of the InVizion Analyzer, a tool that allowed project managers to complete "What-If" scenarios regarding resource management.
+As an Analyst III, I was responsible for the development and quality of our flagship product, the InVizion Analyzer, a tool that allows project managers to complete multiple "what-if" scenarios for resource management.
 
 #### Accomplishments
 - To improve the release process, I fine-tuned our installer creation step from taking hours to minutes by automating the process using WiX.
-- When a contractor was unable to finish a project, I led the team to come up with a design which I implemented, getting the project back on track
-- In order to reduce regressions in our software, I spearheaded writing tests for our code base and in turn, trained other team members on testing. In the first year alone, we improved code coverage from 10% to 55% which in turn dramatically decreased our bug count.
-- In response to customer request, I have implemented multiple stand alone features for the application including non-government fiscal years, custom import formats, and relationship loop detection.
+- When a contractor was unable to finish a project, I designed and developed a solution which got the project back on track.
+- To reduce regressions, I spearheaded writing automated tests for our codebase and training other engineers on how testing as well. In the first year, coverage improved from 10% to 55%, which helped dramatically reduced our bug count.
+- Implemented a feature to have a flexible start month for Fiscal Year, which allowed us to start selling the product to non-government entities.
+
+Technologies used include: C#, WinForms, MS SQL Server, GitHub, Jenkins, DevExpress, and Telerik
 
 ### DAXOR Corporation
-#### Software Engineer
+#### Software Engineer (Sep 2012 - Aug 2014)
 
-I was responsible for the software that accompanied the Blood Volume Analyzer 100, a diagnostic medical device.
+As a Software Engineer, I was responsible for the flagship product, the Blood Volume Analyzer 100, a diagnostic medical device to be used in a nuclear lab.
 
-My responsibilities included writing code, developing documentation, writing automated tests, traveling to client for maintenance, and working with management in the development of new features.
+### Accomplishments
+- Created a Continuous Integration pipeline using Jenkins
+- Created an error number code system that streamlined our support processes
+- Implemented a new module, Quality Control, that allowed users to use our tool for calibration tests
+- Created an Android application to facilitate communication between users and DAXOR
 
-#### Accomplishments
+Technologies used include: Jenkins, C#, Windows Presentation Framework (WPF), Windows Communication Framework (WCF), MS SQL Server, Jenkins, TFS, JIRA
 
-To help give engineers a stable production environment, I created  the Continuous Integration/Continuous Deployment process for DAXOR by using Jenkins to automate the process of spinning up a new VM, installing our software upon there, which reduced the time needed to deploy our software and reduced the number of errors from testing our code.
+### Epic Health Systems 
+#### Software Developer (Oct 2011 - Aug 2012)
 
-### Epic Health Systems
-#### Software Developer
+As a Software Developer, I supported the Data Courier and EMFI applications, tools that allow for hospitals to send data from one environment to another.
 
-I was one of the software developers responsible for Data Courier and EMFI, tools that allow for data to be sent from one Epic installation to another.
+### Responsibilities
+- Fixed miscellaneous bugs
+- Attended various go-live events to help troubleshoot issues
+- Worked with QA to ensure that the right thing was being built
+
+Technologies used include: MUMPS, VB6, Subversion, ActiveX
 
 ## Community Involvement
 
 - Presented at over 70 conferences (see [https://blog.thesoftwarementor.com/speaking-schedule](https://blog.thesoftwarementor.com/speaking-schedule))
 - [Microsoft MVP in Developer Technologies (2018-2024)](https://mvp.microsoft.com/en-us/PublicProfile/5002989)
-- Director of Speaker Relation for CodeStock (2018-2022)
+- Director of Speaker Relation for CodeStock technical conference (2018-2022)
 
 ## Certifications
 
