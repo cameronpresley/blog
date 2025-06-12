@@ -11,7 +11,7 @@ hide:
 
 - [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
 
-### Atlanta JavaScript User Group - Atlanta, GA (June 24, 2025) _[more info]()_
+### Atlanta JavaScript User Group - Atlanta, GA (June 24, 2025) _[more info](https://www.meetup.com/atlantajavascript/events/308417893/)_
 
 - [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
 
