@@ -15,7 +15,7 @@ hide:
 
 - [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
 
-### San Antonio .NET User Group - Virtual (June 26, 2025) _[more info](https://www.meetup.com/sadnug/events/308561280/)
+### San Antonio .NET User Group - Virtual (June 26, 2025) _[more info](https://www.meetup.com/sadnug/events/308561280/)_
 
 - [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
 
