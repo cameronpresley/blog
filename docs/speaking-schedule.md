@@ -7,14 +7,6 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
-### Atlanta .NET User Group - Alpharetta, GA (June 23, 2025) _[more info](https://www.meetup.com/atlanta-net-user-group/events/307573789/)_
-
-- [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
-
-### Atlanta JavaScript User Group - Atlanta, GA (June 24, 2025) _[more info](https://www.meetup.com/atlantajavascript/events/308417893/)_
-
-- [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
-
 ### San Antonio .NET User Group - Virtual (June 26, 2025) _[more info](https://www.meetup.com/sadnug/events/308561280/)_
 
 - [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
@@ -25,6 +17,14 @@ hide:
 
 ---
 ## Past Sessions
+
+### Atlanta JavaScript User Group - Atlanta, GA (June 24, 2025) _[more info](https://www.meetup.com/atlantajavascript/events/308417893/)_
+
+- [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
+
+### Atlanta .NET User Group - Alpharetta, GA (June 23, 2025) _[more info](https://www.meetup.com/atlanta-net-user-group/events/307573789/)_
+
+- [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
 
 ### Indy .NET Consortium - Indianapolis, IN (May 7, 2025) _[more info](https://www.meetup.com/indy-net-consortium/events/305129423)_
 
