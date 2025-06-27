@@ -7,16 +7,16 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
-### San Antonio .NET User Group - Virtual (June 26, 2025) _[more info](https://www.meetup.com/sadnug/events/308561280/)_
-
-- [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
-
 ### CincyDeliver - Mason, OH (Aug 1, 2025) _[more info](https://www.cincydeliver.org/Home/Index)_
 
 - [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
 
 ---
 ## Past Sessions
+
+### San Antonio .NET User Group - Virtual (June 26, 2025) _[more info](https://www.meetup.com/sadnug/events/308561280/)_
+
+- [Level up on Functional Programming by rebuilding LINQ](./presentations.md#level-up-on-functional-programming-by-rebuilding-linq)
 
 ### Atlanta JavaScript User Group - Atlanta, GA (June 24, 2025) _[more info](https://www.meetup.com/atlantajavascript/events/308417893/)_
 
