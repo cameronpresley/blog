@@ -21,7 +21,7 @@ In this post, I'm going to show you how to create a Node project from scratch th
 
 Let's get started!
 
-_Note: Do you prefer learning via video? You can find [this on YouTube](https://youtu.be/mphKoDUiZVg?si=jJt1ZN-qZURXysgd)
+_Note: Do you prefer learning via video? You can find [this article on YouTube](https://youtu.be/mphKoDUiZVg?si=jJt1ZN-qZURXysgd)_
 
 ## Step 0 - Dependencies
 
