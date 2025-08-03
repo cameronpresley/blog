@@ -7,12 +7,16 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
-### CincyDeliver - Mason, OH (Aug 1, 2025) _[more info](https://www.cincydeliver.org/Home/Index)_
+### Pittsburgh Tech Fest - Pittsburgh, PA (Oct 24, 2025) _[more info](https://www.pghtech.org/events/2025TechFest)_
 
-- [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
+- [The Engineer's Playbook: Starting a New Role](presentations.md#the-engineers-playbook-starting-a-new-role) 
 
 ---
 ## Past Sessions
+
+### CincyDeliver - Mason, OH (Aug 1, 2025) _[more info](https://www.cincydeliver.org/Home/Index)_
+
+- [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
 
 ### San Antonio .NET User Group - Virtual (June 26, 2025) _[more info](https://www.meetup.com/sadnug/events/308561280/)_
 
