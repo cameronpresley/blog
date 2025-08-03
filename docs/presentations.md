@@ -114,6 +114,7 @@ Intended for those who have experience with TypeScript or C#, by the end of this
 - Presentation
     - [TypeScript Slides](https://docs.google.com/presentation/d/12NOkQWN42VTQK2fCNuoLhby5Aat1BFUNNGWL0_upRIU/edit?usp=sharing)(Google Slides)
     - [C# Slides](https://docs.google.com/presentation/d/1W5wwxkERD0iD2CC2LLydI1DHFxfzzQNBYBuJ3FWfUTA/edit?usp=sharing)(Google Slides)
+- [Code Repository via GitHub](https://github.com/cameronpresley/fp-first-principles) 
 - Videos
     - _[Professor Frisby Introduces Composable Functional JavaScript](https://egghead.io/courses/professor-frisby-introduces-composable-functional-javascript)_
 - Articles
