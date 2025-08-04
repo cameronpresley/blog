@@ -127,7 +127,7 @@ We're able to run our file, but as you could imagine, it's going to get annoying
 
 Let's improve this by adding a script to our `package.json` file.
 
-Back in [setting up node](#step-2---setting-up-node), I mentioned that one of the cool things about `package.json` is that you can define custom scripts.
+Back in [setting up node](#step-2-setting-up-node), I mentioned that one of the cool things about `package.json` is that you can define custom scripts.
 
 A common script to have defined is `start`, so let's update our `package.json` with that script.
 

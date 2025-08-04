@@ -25,10 +25,10 @@ _Note: Do you prefer learning via video? You can find [a version of this article
 
 At a high level, we'll be doing the following
 
-1. [Setting the Foundation](#step-1---setting-the-foundation)
-1. [Update our project to compiler TypeScript to JavaScript](#step-2---compiling-typescript-to-javascript)
-1. [Update our testing workflow](#step-3---updating-jest-to-run-the-right-files)
-1. [Set up our executable](#step-4---setting-up-the-executable)
+1. [Setting the Foundation](#step-1-setting-the-foundation)
+1. [Update our project to compiler TypeScript to JavaScript](#step-2-compiling-typescript-to-javascript)
+1. [Update our testing workflow](#step-3-updating-jest-to-run-the-right-files)
+1. [Set up our executable](#step-4-setting-up-the-executable)
 
 ## Step 0 - Dependencies
 
