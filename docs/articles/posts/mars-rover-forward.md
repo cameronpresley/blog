@@ -77,7 +77,7 @@ public void MoveForward()
 Hmm, when we try to compile this code though, we get the following error
 
 <figure markdown>
-  ![Compiler error when trying to update the Location's Y property)](./images/mars-rover-struct-problem.png)
+  ![Compiler error when trying to update the Location's Y property)](https://softwarementorblog.blob.core.windows.net/images/mars-rover-struct-problem.png)
   <figcaption>Compiler error when trying to update the Location's Y Property</figcaption>
 </figure>
 

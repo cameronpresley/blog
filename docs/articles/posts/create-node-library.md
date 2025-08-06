@@ -109,7 +109,7 @@ At this point, we have our TypeScript being compiled into JavaScript, so we're c
 npm run test
 ```
 
-![Image of jest tests running and it's found two files: index.spec.ts and index.spec.js](./images/multiple-jest-tests.png)
+![Image of jest tests running and it's found two files: index.spec.ts and index.spec.js](https://softwarementorblog.blob.core.windows.net/images/multiple-jest-tests.png)
 
 Uh oh, it looks like `jest` is not only running the tests in the `src` folder, but also in the `dist` folder. We'll need to tweak our `jest.config.js` file to ignore the dist folder.
 
@@ -123,7 +123,7 @@ testPathIgnorePatterns: ['dist/'] // this will ignore any matches in the dist fo
 
 If we run our test command again, we'll only see the index.spec.ts file in the listing.
 
-![Image of jest tests running and it's found one file: index.spec.ts](./images/single-jest-test.png)
+![Image of jest tests running and it's found one file: index.spec.ts](https://softwarementorblog.blob.core.windows.net/images/single-jest-test.png)
 
 ## Step 4 - Setting up the executable
 

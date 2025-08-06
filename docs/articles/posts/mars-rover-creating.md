@@ -139,7 +139,7 @@ public Direction
 then our test fails with our expected error.
 
 <figure markdown>
-  ![Failing unit test for Mars Rover](./images/mars-rover-failed-orientation.png)
+  ![Failing unit test for Mars Rover](https://softwarementorblog.blob.core.windows.net/images/mars-rover-failed-orientation.png)
   <figcaption>Failing unit test for Mars Rover as the expected value was North, but the value was South.</figcaption>
 </figure>
 
@@ -179,7 +179,7 @@ public void ThenTheRoverIsAt00()
 When we run the test, we get the following error:
 
 <figure markdown>
-  ![Failing coordinate test for rover](./images/mars-rover-failed-location.png)
+  ![Failing coordinate test for rover](https://softwarementorblog.blob.core.windows.net/images/mars-rover-failed-location.png)
   <figcaption>Failed test for Rover since it was expecting a Coordinate, but the Location was null.</figcaption>
 </figure>
 
@@ -220,7 +220,7 @@ public void ThenTheRoverIsAt00()
 ```
 
 <figure markdown>
-  ![Failing test for coordinate since they're different](./images/mars-rover-coordinate-difference.png)
+  ![Failing test for coordinate since they're different](https://softwarementorblog.blob.core.windows.net/images/mars-rover-coordinate-difference.png)
   <figcaption>Failed unit test since the expected coordinate is not the same as the actual coordinate..</figcaption>
 </figure>
 

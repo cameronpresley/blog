@@ -42,13 +42,13 @@ When refactoring a mapping, I tend to stick with option 1 because if we can prev
 
 Let's say that we're working on a "word calculator" where the user can enter a phrase like "one thousand twelve" and it returns "1012" as output. If we think about our input set (domain) and outputs, we would have the following (mapping from string to number).
 
-![Mapping from string to number](./images/functional-missing-values/initial-mapping.png){width=750px}
+![Mapping from string to number](https://softwarementorblog.blob.core.windows.net/images/functional-missing-values/initial-mapping.png){width=750px}
 
 The issue is that we can't guarantee that the strings the user gives us would represent a number (for example, how would you convert "platypus" to a number?)
 
 Since we can't restrict the input, we have to expand the output. So let's update our output to be `number | 'invalid'` 
 
-![Mapping from string to number or 'invalid'](./images/functional-missing-values/updated-mapping.png){width=750px}
+![Mapping from string to number or 'invalid'](https://softwarementorblog.blob.core.windows.net/images/functional-missing-values/updated-mapping.png){width=750px}
 
 With this change, anytime we call `convertToNumber`, we'll need to add some handling on what to do if the output is `invalid`. 
 
@@ -80,7 +80,7 @@ function square (x:number): number {
 
 With both `convertToNumber` and `square` defined, let's try to combine these together: 
 
-![Compilation error when combining convertToNumber and Square](./images/functional-missing-values/image-1.png)
+![Compilation error when combining convertToNumber and Square](https://softwarementorblog.blob.core.windows.net/images/functional-missing-values/compilation-error.png)
 
 This doesn't work because `convertToNumber` can return `invalid` which there's no way for the `square` function to work with that. Due to this limitation, we could rewrite the code to check for `invalid` before calling `square`.
 

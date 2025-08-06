@@ -37,7 +37,7 @@ While I find value in the synchronization with product, I don't find very much v
 
 If we look at the value that estimates provide, the goal is to ensure that the team is taking on a reasonable load for the sprint (e.g., what are our commitments) and not over-extending as that can cause burn-out.
 
-I have two problems with estimations. First, they're way too easy to be taken as a deadline (so much so, that you've probably [seen this meme spread around](images/agile-estimates.jpg)). Which in turn, causes the team to go deeper into estimating stories (breaking them down to single tasks), which causes a feedback loop. 
+I have two problems with estimations. First, they're way too easy to be taken as a deadline (so much so, that you've probably [seen this meme spread around](https://softwarementorblog.blob.core.windows.net/images/hippogriff/agile-estimates.jpg)). Which in turn, causes the team to go deeper into estimating stories (breaking them down to single tasks), which causes a feedback loop. 
 
 If this keeps up, you'll eventually find yourself going into Waterfall mode where the team needs every single requirement up front before they can do any development, the opposite of what we're trying to do.
 

@@ -150,7 +150,7 @@ Now that we’ve talked about some different modeling techniques, let’s see ho
 Yielding the following graph
 
 <figure markdown>
-  ![Domain model for Mars Rover](./images/simple-domain-model-relationships.png)
+  ![Domain model for Mars Rover](https://softwarementorblog.blob.core.windows.net/images/simple-domain-model-relationships.png)
   <figcaption>Domain model relationships where Rover has a Location and an Orientation. Orientation is a Direction and Command is not related to anything.</figcaption>
 </figure>
 
@@ -199,7 +199,7 @@ When we ask additional questions, we find out that a _Coordinate_ refers to the 
 With this new information, our mental model has changed to be the following
 
 <figure markdown>
-  ![Domain model for Mars Rover](./images/domain-model-relationships-x-y.png)
+  ![Domain model for Mars Rover](https://softwarementorblog.blob.core.windows.net/images/domain-model-relationships-x-y.png)
   <figcaption>Domain model relationships where Rover has a Location and an Orientation. Location is a Coordinate where Coordinate has an X and Y value. Orientation is a Direction and Command is not related to anything.</figcaption>
 </figure>
 

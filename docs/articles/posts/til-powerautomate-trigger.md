@@ -35,14 +35,14 @@ Combining these concepts, I can create a flow like the following:
 
 First, let's set up a trigger that takes in a payload. In this case, the caller will give us the message content and a bit more info on which team and channel to post this message into.
 
-![Setting up the trigger](./images/powerautomate-request-trigger/image-1.png)
+![Setting up the trigger](https://softwarementorblog.blob.core.windows.net/images/powerautomate-requrest-trigger/image-1.png)
 
 After setting up the trigger, we can then add a step for posting a message in Teams. Instead of using the pre-populated options that we get from our connection, we can use the values from the trigger instead.
 
-![Setting up the message step](./images/powerautomate-request-trigger/image-2.png)
+![Setting up the message step](https://softwarementorblog.blob.core.windows.net/images/powerautomate-requrest-trigger/image-2.png)
 
 After saving, our entire flow looks like the following
 
-![Full flow](./images/powerautomate-request-trigger/image-3.png)
+![Full flow](https://softwarementorblog.blob.core.windows.net/images/powerautomate-requrest-trigger/image-3.png)
 
 From here, we can then use the URL that was created as part of the trigger and have our application invoke the flow.

@@ -91,7 +91,7 @@ components: {}
 
 So far, not much to look at. However, if we copy this code and render feed it to an online render (like [https://editor.swagger.io/](https://editor.swagger.io/)), we'll get a message about no operations.
 
-![Swagger.io saying there are no operations](./images/til-typespec/image-1.png)
+![Swagger.io saying there are no operations](https://softwarementorblog.blob.core.windows.net/images/til-typespec/image-1.png)
 
 <!-- <img src= "../images/til-typespec/image-1.png" alt="Swagger.io saying there are no operations"> -->
 
@@ -111,7 +111,7 @@ namespace Bookstore {
 
 After running `tsp compile .`, we'll see that our yaml has been updated and if we render it again, we'll have our first endpoint
 
-![Swagger.io rendering inventory by ID route](./images/til-typespec/image-2.png)
+![Swagger.io rendering inventory by ID route](https://softwarementorblog.blob.core.windows.net/images/til-typespec/image-2.png)
 
 This is closer to what we want, however, we know that we're returning back a `string`, but a `Book`.
 
@@ -148,7 +148,7 @@ namespace Bookstore {
 
 After another run of `tsp compile` and rendering the yaml file, we see that we have a schema for our get method now.
 
-![Swagger showing the updated model](./images/til-typespec/image-3.png)
+![Swagger showing the updated model](https://softwarementorblog.blob.core.windows.net/images/til-typespec/image-3.png)
 
 ## Refactoring a Model
 
@@ -177,7 +177,7 @@ model Book {
 
 After making this change, we can see that we now have a nested model for `Book`.
 
-![Swagger showing both Book and Author model](./images/til-typespec/image-4.png)
+![Swagger showing both Book and Author model](https://softwarementorblog.blob.core.windows.net/images/til-typespec/image-4.png)
 
 ## Handling Failures
 
@@ -202,7 +202,7 @@ Back in `main.tsp`, we're going to change our return type of the `@get` operatio
 
 With this final change, we can compile and render the yaml and see that route can return a 404 as well.
 
-![Swagger showing that the route can return a 404 as well](./images/til-typespec/image-5.png)
+![Swagger showing that the route can return a 404 as well](https://softwarementorblog.blob.core.windows.net/images/til-typespec/image-5.png)
 
 ## Next Steps
 

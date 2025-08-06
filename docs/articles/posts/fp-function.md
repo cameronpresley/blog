@@ -28,7 +28,7 @@ When we talk about _functions_, we're not talking about a programming construct 
 
 Words are cool, but pictures are better. So let's look at the mapping for the `square` function.
 
-![Mapping for the Square Function](images/functional-functions/squaredFunction.png){width=800px}
+![Mapping for the Square Function](https://softwarementorblog.blob.core.windows.net/images/functional-functions/squaredFunction.png){width=800px}
 
 In this example, we have an arrow coming from an element on the left where it _maps_ to an element on the right. To read this image, we have a mapping called _Square_ that maps all possible numbers to the set of positive numbers. So -3 maps to 9 (-3*-3), 2 maps to 4 (2*2), so on and so forth.
 
@@ -42,7 +42,7 @@ When working with dates, it's common to figure out how many days are in the mont
 
 So let's take a look at a mapping from month to the number of days it has.
 
-![Broken Mapping for the Days In Month Function](images/functional-functions/daysInMonthBusted.png){width=800px}
+![Broken Mapping for the Days In Month Function](https://softwarementorblog.blob.core.windows.net/images/functional-functions/daysInMonthBusted.png){width=800px}
 
 Looking at the mapping, we can tell that January, March, May map to 31, April and June both map to 30. But take a look at February. It's got _two_ arrows coming out of it, one to 28 and the other to 29. Because there are two arrows coming out, this mapping isn't a function. Let's try to implement this mapping in TypeScript.
 
@@ -100,7 +100,7 @@ If we look at the type signature of `isLeapYear`, we can see that it takes in no
 
 The better approach is to change our mapping to instead of taking just a month name, it takes two arguments, a `monthName` and `year`.
 
-![Fixed Mapping For Days In Month](./images/functional-functions/daysInMonthFixed.png){width=800px}
+![Fixed Mapping For Days In Month](https://softwarementorblog.blob.core.windows.net/images/functional-functions/daysInMonthFixed.png){width=800px}
 
 With this new mapping, our implementation would look like the following:
 
@@ -162,7 +162,7 @@ The annoying part is that we're iterating the list twice (once for each `map` ca
 
 When we're running the `map`s back-to-back, we're accomplish the following workflow
 
-![Input to Command to Action Mapping](image.png){width=1000px}
+![Input to Command to Action Mapping](https://softwarementorblog.blob.core.windows.net/images/functional-functions/commandToActionMapping.png){width=1000px}
 
 Because each mapping is a function, we can compose the two into a new function, `stringToActionConverter`.
 

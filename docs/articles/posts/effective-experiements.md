@@ -92,7 +92,7 @@ With the write-up completed, you can start simply by sending a link to the group
 
 ## Common Mistakes
 
-When I've worked with leaders to introduce experiments, it can be a lot to take in because this is a different way of thinking. This is especially true if leaders are not in a psychologically safe environment or if they have priori experiences that weren't successful.
+When I've worked with leaders to introduce experiments, it can be a lot to take in because this is a different way of thinking. This is especially true if leaders are not in a psychologically safe environment or if they have prior experiences that weren't successful.
 
 I can't guarantee that you'll run experiments flawlessly, however, if you avoid these common mistakes, your odds of success will be higher.
 
@@ -109,7 +109,7 @@ At some point, you're going to get a directive from your leader that you don't a
 DON'T DO THIS!
 
 <figure markdown>
-![Jimmy Fallon saying It's Totally Not Worth It](./images/dont-do-it.png){width=500px}
+![Jimmy Fallon saying It's Totally Not Worth It](https://softwarementorblog.blob.core.windows.net/images/dont-do-it.png){width=500px}
 <figcaption>
 Really, don't do this!
 </figcaption>
