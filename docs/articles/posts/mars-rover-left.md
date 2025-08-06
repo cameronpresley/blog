@@ -289,7 +289,7 @@ Finally, we updated how we initialized the `Rover` by setting it’s `Orientatio
 With this new test in place, let’s run it and verify that our changes worked
 
 <figure markdown>
-  ![Single test passing for when rover faces north)](./images/turn-left-test-case-refactor.png)
+  ![Single test passing for when rover faces north)](https://softwarementorblog.blob.core.windows.net/images/turn-left-test-case-refactor.png)
   <figcaption>Single test passing for when Rover faces North</figcaption>
 </figure>
 
@@ -317,7 +317,7 @@ public void RoverTurningLeft(Direction start, Direction expected)
 And if we run our test suite, we verify that everything passes!
 
 <figure markdown>
-  ![Full test suite passing)](./images/turn-left-test-case-full-refactor.png)
+  ![Full test suite passing)](https://softwarementorblog.blob.core.windows.net/images/turn-left-test-case-full-refactor.png)
   <figcaption>All four tests passing</figcaption>
 </figure>
 

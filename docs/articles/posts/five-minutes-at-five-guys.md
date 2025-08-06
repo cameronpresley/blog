@@ -21,7 +21,7 @@ Let's look at a real-world example with the popular fast food chain, Five Guys.
 
 Five Guys is known for making good burgers and delivering a mountain of piping hot fries as part of your order. Seriously, an order of small fries is a mountain of spuds. Five Guys make their fries to order, so they're not sitting around under a heat lamp.
 
-![Yo Dawg, I heard you wanted fries, so I put fries in your fries](./images/five-guys/fries-with-fries.jpg){width="500"}
+![Yo Dawg, I heard you wanted fries, so I put fries in your fries](https://softwarementorblog.blob.core.windows.net/images/five-guys/fries-with-fries.jpg){width="500"}
 
 This approach works great when ordering in person, but what happens if you order online? The process is essentially the same, the crew works on the burgers, but they won't start the fries until you're at the restaurant, so they're always guaranteeing that you get fresh made fries.
 

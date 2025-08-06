@@ -34,7 +34,7 @@ First, thank you for caring about your intern and wanting to do right by them. I
 I think you're wise not to put them in front of videos for learning everything and using that as coaching, a la Matrix style.
 
 <figure markdown>
-![I know Kung-Fu](./images/coaching-corner/know-kunfu.jpg)
+![I know Kung-Fu](https://softwarementorblog.blob.core.windows.net/images/coaching-corner/know-kunfu.jpg)
 <figcaption>I know <strike>Kung Fu</strike> Web Development</figcaption>
 </figure>
 

@@ -51,7 +51,7 @@ When working to define the ubiquitous language, a common approach is to find the
 Looking over the description again, these nouns stood out to me:
 
 <figure markdown>
-  ![Identifies domain (Rover, Command, Location, Direction, and Orientation)](./images/domain-models.jpg)
+  ![Identifies domain (Rover, Command, Location, Direction, and Orientation)](https://softwarementorblog.blob.core.windows.net/images/domain-models.jpg)
   <figcaption>Domain models: Rover, Command, Location, Direction, and Orientation</figcaption>
 </figure>
 
@@ -71,7 +71,7 @@ To help identify these relationships, I would work with the SME to understand wh
 With this new understanding, our concepts and relationships would look something like this:
 
 <figure markdown>
-  ![Domain model for Mars Rover](./images/simple-domain-model-relationships.png)
+  ![Domain model for Mars Rover](https://softwarementorblog.blob.core.windows.net/images/simple-domain-model-relationships.png)
   <figcaption>Domain model relationships where Rover has a Location and an Orientation. Orientation is a Direction and Command is not related to anything.</figcaption>
 </figure>
 

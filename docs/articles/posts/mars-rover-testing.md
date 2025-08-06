@@ -59,7 +59,7 @@ Now that we’ve learned a bit more about Given/When/Then, let’s talk about ho
 In the case of Mars Rover, if I have a project called _MarsRover_, then I’d have a project called _MarsRover.UnitTests_. Once I have this new project created, I’ll create a folder called _xyzTests_ where _xyz_ is the name of the class I’m writing tests against. So if I’m writing tests against the _Rover_ class in the _MarsRover_ project, then I would have a folder called _RoverTests_ in the _MarsRover.UnitTests_ project.
 
 <figure markdown>
-  ![Solution Layout for Mars Rover in VS Code](./images/example-test-layout.png)
+  ![Solution Layout for Mars Rover in VS Code](https://softwarementorblog.blob.core.windows.net/images/example-test-layout.png)
   <figcaption>Project naming conventions outlined in red. The test class and folder naming conventions outlined in blue</figcaption>
 </figure>
 
@@ -67,7 +67,7 @@ In the case of Mars Rover, if I have a project called _MarsRover_, then I’d ha
 From here, I’ll generally create a file per method or workflow that I want to test for the class. So based on our user story above, I would have a file called WhenMovingForward and this file will contain all the different tests for this functionality. Once a file is in place, we can start writing the various test methods for different behaviors. When naming methods, I will include the context for the setup and what the expectations were. By combining the test name and the method name, it will sound like a user story.
 
 <figure markdown>
-  ![Shows the test class with names in the test runner](./images/test-class-with-names.png)
+  ![Shows the test class with names in the test runner](https://softwarementorblog.blob.core.windows.net/images/test-class-with-names.png)
   <figcaption>VS Code Test Runner showing test classes with test names</figcaption>
 </figure>
 

@@ -40,7 +40,7 @@ Where the practice exams shone was helping me identify areas that I needed to fo
 
 Given that I don't come from a networking/IT background, there were some concepts that were quite confusing to me. For example, I was trying to understand why I would need System routes if we already had Network Security Groups and Copilot was able to give me the following:
 
-![Asking Copilot why I would need system routes](./images/az-104/image-1.png)
+![Asking Copilot why I would need system routes](https://softwarementorblog.blob.core.windows.net/images/az-104/image-1.png)
 
 To help make sure I didn't fall victim to [hallucinations](https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)), I followed up on the links that Copilot provided to make sure that I understood the concepts, but given that I learn best by asking questions, this was a major win for me since you can't ask questions to books/videos.
 

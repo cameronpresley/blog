@@ -59,7 +59,7 @@ Outside of new talks, I authored 23 different blogs posts with my most common to
 - Learned the basics of knitting, made scarves and baby blankets using both seed and garter stitches
 - Learned the basics of working with chisels and planes (including sharpening) for woodworking
 - Built a catio for our new cat, Trix.
-![Catio for Tix](./images/trix-catio.jpg)
+![Catio for Tix](https://softwarementorblog.blob.core.windows.net/images/trix-catio.jpg)
 
 - Learned how to make two different kinds of coffee drinks (Americano and Latte)
 - Built my first computer from components (major shout-out to [Isaac](https://bsky.app/profile/azwyrd.bsky.social) for helping me figure out the components)

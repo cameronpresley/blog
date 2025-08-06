@@ -185,7 +185,7 @@ function printData(event: TimelineEvent) {
 ```
 
 Not only do we not have to use the `!` operator to ignore type safety, but we also have better autocomplete (note that `locked_reason` and `rename` don't appear when working with a labeled event).
-![Better autocomplete](./images/typescript-union-intellisense.png)
+![Better autocomplete](https://softwarementorblog.blob.core.windows.net/images/typescript-union-intellisense.png)
 
 ## Deeper Dive
 
