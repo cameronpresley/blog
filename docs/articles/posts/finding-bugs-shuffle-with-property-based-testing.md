@@ -14,12 +14,12 @@ hide:
   - toc
 ---
 
-# Some Title Goes Here
+# Testing Non Deterministic Code - Debugging Shuffle with Property Based Testing
 
 
 ## Background
 
-Now that I've gotten a handle on my work situations, I've been focusing my time to complete working on my [upcoming Functional Blackjack course](../../courses.md#learn-functional-typescript-by-building-blackjack). I've gotten the business rules implemented so I've been playing some games to make sure everything is working the way I'd expect.
+Now that I've gotten a handle on my work situation, I've been focusing my time to complete work on my [upcoming Functional Blackjack course](../../courses.md#learn-functional-typescript-by-building-blackjack). I've gotten the business rules implemented so I've been playing some games to make sure everything is working the way I'd expect.
 
 For example, here's what the UI looks like for when the game is dealt out.
 
@@ -117,7 +117,7 @@ Seems simple enough, let's see what we get:
 
 [Failing test where when given the example of an array with a single element of an empty array, it fails](https://softwarementorblog.blob.core.windows.net/images/shuffle-property-based-testing/failed-maintain-length-test.png)
 
-Whelp, that was easy enough, let's tweak our shuffle function to make that property pass
+Whelp, that was easy enough, let's tweak our shuffle function to make that property pass:
 
 ```ts
 export function shuffle<T>(ts: T[]): T[] {
