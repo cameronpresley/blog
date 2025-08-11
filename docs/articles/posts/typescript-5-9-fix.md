@@ -197,7 +197,7 @@ I'm still working through my thoughts on these changes. On one hand, I like the 
 
 After setting up a [new test application](./create-node-project.md), I tried running my app with `ts-node`, but got an error with one of my exports.
 
-![Error stating that you can't have a top level export when using CommonJS when you have 'verbatimModuleSyntax' set to true](../posts/images/typescript-5-9-fix/image-1.png)
+![Error stating that you can't have a top level export when using CommonJS when you have 'verbatimModuleSyntax' set to true](https://softwarementorblog.blob.core.windows.net/images/typescript-59/image-1.png)
 
 Huh, I'm not familiar with that setting, let's [look into it](https://www.typescriptlang.org/tsconfig/#verbatimModuleSyntax).
 
@@ -207,7 +207,7 @@ At a high level, this setting makes sure that you're not accidentally mixing Com
 
 Weird, I'm not aware that I'm using CommonJS syntax anywhere, so I wonder where that's coming from. Doing some digging, I find out that there's a `type` setting you can specify for `package.json` with the following docs:
 
-![Help text from package.json that states if you don't have a type set, the default is commonjs](../posts/images/typescript-5-9-fix/image-2.png)
+![Help text from package.json that states if you don't have a type set, the default is commonjs](https://softwarementorblog.blob.core.windows.net/images/typescript-59/image-2.png)
 
 Ah, yeah, that will do it. So the issue is that by default, when you generate a package.json file, it doesn't create a `type` setting, so by default, it will be CommonJS.
 
@@ -235,7 +235,7 @@ At this point, I figured I was in a good spot, so I tried `npx ts-node src/index
 
 However, I was greeted with the following:
 
-![Error message from ts-node stating that it doesn't recognize ts files](../posts/images/typescript-5-9-fix/image-3.png)
+![Error message from ts-node stating that it doesn't recognize ts files](https://softwarementorblog.blob.core.windows.net/images/typescript-59/image-3.png)
 
 ## Fighting with ts-node
 
