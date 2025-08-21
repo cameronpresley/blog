@@ -7,6 +7,10 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
+### Atlanta Developers' Conference - Atlanta, GA (Oct 11, 2025) _[more info](https://www.atldevcon.com/)_
+
+- [The Engineer's Playbook: Starting a New Role](presentations.md#the-engineers-playbook-starting-a-new-role) 
+
 ### Pittsburgh Tech Fest - Pittsburgh, PA (Oct 24, 2025) _[more info](https://www.pghtech.org/events/2025TechFest)_
 
 - [The Engineer's Playbook: Starting a New Role](presentations.md#the-engineers-playbook-starting-a-new-role) 
