@@ -23,15 +23,15 @@ Now that I've gotten a handle on my work situation, I've been focusing my time t
 
 For example, here's what the UI looks like for when the game is dealt out.
 
-[Console output of a game of blackjack with a dealer and four players](https://softwarementorblog.blob.core.windows.net/images/shuffle-property-based-testing/working-setup.png)
+![Console output of a game of blackjack with a dealer and four players](https://softwarementorblog.blob.core.windows.net/images/shuffle-property-based-testing/working-setup.png)
 
 So far, so good. However, every now then, I'd see error messages like this one where I'd be trying to calculate the score of a null card.
 
-[Console output of a function failing because an object was null](https://softwarementorblog.blob.core.windows.net/images/shuffle-property-based-testing/busted-rank.png)
+![Console output of a function failing because an object was null](https://softwarementorblog.blob.core.windows.net/images/shuffle-property-based-testing/busted-rank.png)
 
 Doing some digging, I discovered that when I was creating my player, they could have a null card!
 
-[Console output of a player object with a hand array property where one of the elements is null](https://softwarementorblog.blob.core.windows.net/images/shuffle-property-based-testing/busted-player-setup.png)
+![Console output of a player object with a hand array property where one of the elements is null](https://softwarementorblog.blob.core.windows.net/images/shuffle-property-based-testing/busted-player-setup.png)
 
 What could be happening? I'm leveraging functional programming techniques (immutable data structures, pure functions for business rules). Given that it doesn't happen all the time, it must be in some of my side-effect code. Combine that thought with the fact the game would break upon start, I had an idea of what might be the cause.
 
@@ -115,7 +115,7 @@ describe("shuffle", () => {
 
 Seems simple enough, let's see what we get:
 
-[Failing test where when given the example of an array with a single element of an empty array, it fails](https://softwarementorblog.blob.core.windows.net/images/shuffle-property-based-testing/failed-maintain-length-test.png)
+![Failing test where when given the example of an array with a single element of an empty array, it fails](https://softwarementorblog.blob.core.windows.net/images/shuffle-property-based-testing/failed-maintain-length-test.png)
 
 Whelp, that was easy enough, let's tweak our shuffle function to make that property pass:
 
@@ -198,7 +198,7 @@ export function shuffle<T>(ts: T[]): T[] {
 
 If we run the test now, we get the following:
 
-[console log message stating that 2 was not in the original list](https://softwarementorblog.blob.core.windows.net/images/shuffle-property-based-testing/failed-original-items-with-two.png)
+![console log message stating that 2 was not in the original list](https://softwarementorblog.blob.core.windows.net/images/shuffle-property-based-testing/failed-original-items-with-two.png)
 
 Based on the tests and the code change that we made, I'm feeling confident that my bug was found and has been solved.
 
