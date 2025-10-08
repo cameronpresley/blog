@@ -11,6 +11,10 @@ hide:
 
 - [The Engineer's Playbook: Starting a New Role](presentations.md#the-engineers-playbook-starting-a-new-role) 
 
+### NoVA Code Camp - Reston, VA (Oct 18, 2025) _[more info](https://novacodecamp.org/)_
+
+- [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
+
 ### Pittsburgh Tech Fest - Pittsburgh, PA (Oct 24, 2025) _[more info](https://www.pghtech.org/events/2025TechFest)_
 
 - [The Engineer's Playbook: Starting a New Role](presentations.md#the-engineers-playbook-starting-a-new-role) 
