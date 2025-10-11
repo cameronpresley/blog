@@ -191,7 +191,7 @@ In this session, I’m going to walk you through my playbook for starting a new 
 Intended for engineers of all experience levels, you will have an example playbook that you can use when you start a new role by the end of this session.
 
 ### Resources
-- [Slides](https://www.slideshare.net/CameronPresley/the-engineers-playbook-starting-a-new-role) (via SlideShare)
+- [Slides](https://docs.google.com/presentation/d/1ZHCv-eeoYeR0Q4e8xsYqUAMZaGg0kOKZZWzjAkqFCLI/edit?usp=sharing) (via Google Drive)
 - [Trello Board](https://trello.com/b/6JPBOHyR/engineers-playbook-starting-a-new-role)
 - [Question(s) of the Day](https://gist.github.com/cameronpresley/1fcdbca448717c5964890717826dce9f)
 
