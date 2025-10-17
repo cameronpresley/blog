@@ -7,20 +7,24 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
-### Atlanta Developers' Conference - Atlanta, GA (Oct 11, 2025) _[more info](https://www.atldevcon.com/)_
+### Pittsburgh Tech Fest - Pittsburgh, PA (Oct 24, 2025) _[more info](https://www.pghtech.org/events/2025TechFest)_
 
 - [The Engineer's Playbook: Starting a New Role](presentations.md#the-engineers-playbook-starting-a-new-role) 
+
+### Pittsburgh .NET User Group - Virtual (Oct 30, 2025) _[more info](https://www.meetup.com/pghdotnet/events/)_
+
+- [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles) 
+
+---
+## Past Sessions
 
 ### NoVA Code Camp - Reston, VA (Oct 18, 2025) _[more info](https://novacodecamp.org/)_
 
 - [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
 
-### Pittsburgh Tech Fest - Pittsburgh, PA (Oct 24, 2025) _[more info](https://www.pghtech.org/events/2025TechFest)_
+### Atlanta Developers' Conference - Atlanta, GA (Oct 11, 2025) _[more info](https://www.atldevcon.com/)_
 
 - [The Engineer's Playbook: Starting a New Role](presentations.md#the-engineers-playbook-starting-a-new-role) 
-
----
-## Past Sessions
 
 ### CincyDeliver - Mason, OH (Aug 1, 2025) _[more info](https://www.cincydeliver.org/Home/Index)_
 
