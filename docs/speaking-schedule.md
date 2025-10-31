@@ -7,16 +7,16 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
-### Pittsburgh Tech Fest - Pittsburgh, PA (Oct 24, 2025) _[more info](https://www.pghtech.org/events/2025TechFest)_
+---
+## Past Sessions
 
-- [The Engineer's Playbook: Starting a New Role](presentations.md#the-engineers-playbook-starting-a-new-role) 
-
-### Pittsburgh .NET User Group - Virtual (Oct 30, 2025) _[more info](https://www.meetup.com/pghdotnet/events/)_
+### Pittsburgh .NET User Group - Virtual (Oct 30, 2025) _[more info](https://www.meetup.com/pghdotnet/events/311656633/)_
 
 - [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles) 
 
----
-## Past Sessions
+### Pittsburgh Tech Fest - Pittsburgh, PA (Oct 24, 2025) _[more info](https://www.pghtech.org/events/2025TechFest)_
+
+- [The Engineer's Playbook: Starting a New Role](presentations.md#the-engineers-playbook-starting-a-new-role) 
 
 ### NoVA Code Camp - Reston, VA (Oct 18, 2025) _[more info](https://novacodecamp.org/)_
 
