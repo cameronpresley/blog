@@ -7,7 +7,7 @@ description: >
   TIL - Auto Configuring HttpClient
 
 categories:
-  - Dotnet
+  - .NET
   - Today I Learned
 
 hide:

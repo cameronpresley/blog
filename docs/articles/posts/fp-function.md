@@ -7,7 +7,7 @@ description: >
   Functional Foundations - Functions
 
 categories:
-  - Functional
+  - Functional Programming
   - TypeScript
 
 hide:
