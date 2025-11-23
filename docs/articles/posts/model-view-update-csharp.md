@@ -26,7 +26,7 @@ In this post, I'm going to show you a pattern that I've recently ported to C#, t
 
 ## Inspiration of the Pattern
 
-Back in 2017, I came across a new functional language called [Elm]() that took a different approach for web development. At a high level, Elm argues that you can think of an application as four pieces.
+Back in 2017, I came across a new functional language called [Elm](https://elm-lang.org/) that took a different approach for web development. At a high level, Elm argues that you can think of an application as four pieces.
 
 1. The _Model_ - What data are we presenting to the user?
 1. The _View_ - How should we format the model?
