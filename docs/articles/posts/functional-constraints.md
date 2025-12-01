@@ -7,7 +7,7 @@ description: >
   Using F# for Constraint Solving
 
 categories:
-  - Functional
+  - Functional Programming
 
 hide:
   - toc

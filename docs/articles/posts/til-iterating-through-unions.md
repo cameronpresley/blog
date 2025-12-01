@@ -6,7 +6,7 @@ authors:
 description: >
   TIL - Iterating Through Union Type
 categories:
-  - Functional
+  - Functional Programming
   - TypeScript
   - Today I Learned
 

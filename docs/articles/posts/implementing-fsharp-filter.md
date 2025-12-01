@@ -7,7 +7,8 @@ description: >
   Implementing F# List.filter
 
 categories:
-  - Functional
+  - Functional Programming
+  - .NET
 
 hide:
   - toc

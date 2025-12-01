@@ -7,7 +7,7 @@ description: >
   Better Domain Modeling with Discriminated Unions
 
 categories:
-  - Functional
+  - Functional Programming
   - TypeScript
 
 hide:
