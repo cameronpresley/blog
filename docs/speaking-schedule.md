@@ -7,16 +7,17 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
-### Alburquerque .NET User Group - Virtual (Jan 28, 2026) _[more info](https://www.meetup.com/albuquerque-net-users-group/events/312683005/)_
-
-- [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
-
 ### CodeStock - Knoxville, TN (Apr 9-10, 2026) _[more info](https://www.codestock.org)_
 
-- [Preventing Bugs with Better Types - An Intro to Type Driven Design]() 
+- [Preventing Bugs with Better Types - An Intro to Type Driven Design]()
+- [The Engineer's Playbook: Starting a New Role](presentations.md#the-engineers-playbook-starting-a-new-role) 
 
 ---
 ## Past Sessions
+
+### Alburquerque .NET User Group - Virtual (Jan 28, 2026) _[more info](https://www.meetup.com/albuquerque-net-users-group/events/312683005/)_
+
+- [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
 
 ### Pittsburgh .NET User Group - Virtual (Oct 30, 2025) _[more info](https://www.meetup.com/pghdotnet/events/311656633/)_
 
