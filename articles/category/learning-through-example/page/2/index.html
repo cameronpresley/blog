@@ -1,0 +1,1949 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Cameron Presley">
+      
+      
+      
+        <link rel="prev" href="../../../leadership/">
+      
+      
+        <link rel="next" href="../../../process/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16+insiders-4.53.16">
+    
+    
+      
+        <title>Learning Through Example - The Software Mentor</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.1caf78d2.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../stylesheets/page.css">
+    
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-ZE0MGVG7RJ"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-ZE0MGVG7RJ",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-ZE0MGVG7RJ",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#learning-through-example" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../../.." title="The Software Mentor" class="md-header__button md-logo" aria-label="The Software Mentor" data-md-component="logo">
+      
+  <img src="../../../../../assets/images/favicon.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            The Software Mentor
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Learning Through Example
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="deep-purple"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  About Me
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../../../" class="md-tabs__link">
+          
+  
+  
+  Articles
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../../courses/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Training Course
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../../level-up/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Level Up Resources
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../../presentations/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Presentations
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../../speaking-schedule/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Speaking Schedule
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../../story/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Story
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../../resume/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Resume
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../../.." title="The Software Mentor" class="md-nav__button md-logo" aria-label="The Software Mentor" data-md-component="logo">
+      
+  <img src="../../../../../assets/images/favicon.png" alt="logo">
+
+    </a>
+    The Software Mentor
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About Me
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Articles
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Articles
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Archive
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Archive
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../archive/2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2025
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../archive/2024/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2024
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../archive/2023/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2023
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../archive/2020/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2020
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../archive/2018/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2018
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../archive/2015/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2015
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../archive/2014/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2014
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../archive/2013/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2013
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Categories
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Categories
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../net/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    .NET
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../aws/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AWS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../basics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Basics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../c/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    C#
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../career/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Career
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../coaching-corner/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Coaching Corner
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../debugging/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Debugging
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../functional-programming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Functional Programming
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../interviewing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interviewing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../leadership/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Leadership
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+      
+    
+  
+  
+    <li class="md-nav__item">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="../../" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learning Through Example
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../process/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Process
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../solid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SOLID
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../today-i-learned/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Today I Learned
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tooling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tooling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../typescript/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TypeScript
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../courses/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Training Course
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../level-up/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Level Up Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../presentations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Presentations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../speaking-schedule/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Speaking Schedule
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../story/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Story
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../resume/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resume
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+  <div class="md-content" data-md-component="content">
+    <div class="md-content__inner">
+      <header class="md-typeset">
+        <h1 id="learning-through-example">Learning Through Example</h1>
+      </header>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://github.com/cameronpresley.png" alt="Cameron Presley">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2020-05-19 00:00:00+00:00">May 19, 2020</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="../../" class="md-meta__link">Learning Through Example</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              8 min read
+            
+          </li>
+        
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="mars-rover-modeling-concepts"><a class="toclink" href="../../../../2020/05/19/mars-rover---modeling-concepts/">Mars Rover - Modeling Concepts</a></h2>
+<p>In the last post, we took a look at the problem description for Mars Rover and developed a set of concepts for the problem. From these concepts, we were able to develop common terminology and determine the relationships between the concepts. In this post, I’m going to show how I think about software design in general and how to apply them when modeling in code.</p>
+<p>As a note, I’ll be showing code in both C# (for Object-Oriented approaches) and F# (for Functional Programming approaches). Once again, these concepts are fundamentals, but depending on your technology stack, the implementations will vary.</p>
+<h3 id="design-guidelines"><a class="toclink" href="../../../../2020/05/19/mars-rover---modeling-concepts/#design-guidelines">Design Guidelines</a></h3>
+<p>When I’m designing my models, my end goal is to produce software that captures the problem at hand using the same terms that the business uses. By striving for this goal, I can have richer conversations with my stakeholders when I run into interesting interactions of various business rules and can speak to them using the right terminology. In addition to capturing the problem, I will focus on designing my models in such a way that a developer can’t violate a business rule because the code won’t compile. At this point, I would have made illegal states unrepresentable in my code.</p>
+<p>I first came across this term while reading Scott Wlashcin‘s work on the terrific F# for Fun and Profit website and it immediately resonated with me. I’ve definitely been bitten before working in a codebase where I wrote some code that compiled but blew up in my face during runtime because the parameter I passed in wasn’t valid for the method I was calling. Wouldn’t it be nice if the compiler told me while I was writing the code that what I was doing wouldn’t work? By thinking a bit more about the models being used and what some of their properties are, we can make this goal achievable.</p>
+<h3 id="modeling-types"><a class="toclink" href="../../../../2020/05/19/mars-rover---modeling-concepts/#modeling-types">Modeling Types</a></h3>
+<p>With these goals in mind, when it comes to modeling concepts, I naturally gravitate to types and find that types will fall in one of three categories.</p>
+<h4 id="the-type-has-a-finite-number-of-values"><a class="toclink" href="../../../../2020/05/19/mars-rover---modeling-concepts/#the-type-has-a-finite-number-of-values">The Type Has a Finite Number of Values</a></h4>
+<p>If the type has a finite number of valid values, then we can remove error conditions by defining the type to only be one of those possible options. For those from an Object-Oriented background, <em>enums</em> are a great example of modeling these types as you can explicitly set a label for the different values. For those from a Functional background, <em>sum types</em> are a great way to model these choices.</p>
+<p>Some examples of such a type include the states in the U.S., the suits for a deck of playing cards, or the months in a year.</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-28-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-28-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-28-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-28-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-28-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-28-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-28-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-28-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-28-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-28-10">10</a></span>
+<span class="normal"><a href="#__codelineno-28-11">11</a></span>
+<span class="normal"><a href="#__codelineno-28-12">12</a></span>
+<span class="normal"><a href="#__codelineno-28-13">13</a></span>
+<span class="normal"><a href="#__codelineno-28-14">14</a></span>
+<span class="normal"><a href="#__codelineno-28-15">15</a></span>
+<span class="normal"><a href="#__codelineno-28-16">16</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-28-1" name="__codelineno-28-1"></a><span class="k">public</span><span class="w"> </span><span class="k">enum</span><span class="w"> </span><span class="n">State</span>
+<a id="__codelineno-28-2" name="__codelineno-28-2"></a><span class="p">{</span>
+<a id="__codelineno-28-3" name="__codelineno-28-3"></a><span class="w">  </span><span class="n">Alabama</span><span class="p">,</span><span class="w"> </span><span class="n">Alaska</span><span class="p">,</span><span class="w"> </span><span class="n">California</span><span class="p">,</span><span class="w"> </span><span class="n">Delaware</span><span class="p">,</span>
+<a id="__codelineno-28-4" name="__codelineno-28-4"></a><span class="w">  </span><span class="n">Florida</span><span class="p">,</span><span class="w"> </span><span class="n">Georgia</span><span class="p">,</span><span class="w"> </span><span class="n">Tennessee</span><span class="p">,</span><span class="w"> </span><span class="n">Wyoming</span>
+<a id="__codelineno-28-5" name="__codelineno-28-5"></a><span class="p">}</span>
+<a id="__codelineno-28-6" name="__codelineno-28-6"></a>
+<a id="__codelineno-28-7" name="__codelineno-28-7"></a><span class="k">public</span><span class="w"> </span><span class="k">enum</span><span class="w"> </span><span class="n">Suit</span>
+<a id="__codelineno-28-8" name="__codelineno-28-8"></a><span class="p">{</span>
+<a id="__codelineno-28-9" name="__codelineno-28-9"></a><span class="w">  </span><span class="n">Hearts</span><span class="p">,</span><span class="w"> </span><span class="n">Clubs</span><span class="p">,</span><span class="w"> </span><span class="n">Spades</span><span class="p">,</span><span class="w"> </span><span class="n">Diamonds</span>
+<a id="__codelineno-28-10" name="__codelineno-28-10"></a><span class="p">}</span>
+<a id="__codelineno-28-11" name="__codelineno-28-11"></a>
+<a id="__codelineno-28-12" name="__codelineno-28-12"></a><span class="k">public</span><span class="w"> </span><span class="k">enum</span><span class="w"> </span><span class="n">Months</span>
+<a id="__codelineno-28-13" name="__codelineno-28-13"></a><span class="p">{</span>
+<a id="__codelineno-28-14" name="__codelineno-28-14"></a><span class="w">  </span><span class="n">January</span><span class="p">,</span><span class="w"> </span><span class="n">February</span><span class="p">,</span><span class="w"> </span><span class="n">March</span><span class="p">,</span><span class="w"> </span><span class="n">April</span><span class="p">,</span><span class="w"> </span><span class="n">May</span><span class="p">,</span><span class="w"> </span><span class="n">June</span><span class="p">,</span>
+<a id="__codelineno-28-15" name="__codelineno-28-15"></a><span class="w">  </span><span class="n">July</span><span class="p">,</span><span class="w"> </span><span class="n">August</span><span class="p">,</span><span class="w"> </span><span class="n">September</span><span class="p">,</span><span class="w"> </span><span class="n">October</span><span class="p">,</span><span class="w"> </span><span class="n">November</span><span class="p">,</span><span class="w"> </span><span class="n">December</span>
+<a id="__codelineno-28-16" name="__codelineno-28-16"></a><span class="p">}</span>
+</code></pre></div></td></tr></table></div>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-29-1">1</a></span>
+<span class="normal"><a href="#__codelineno-29-2">2</a></span>
+<span class="normal"><a href="#__codelineno-29-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-29-1" name="__codelineno-29-1"></a><span class="k">type</span><span class="w"> </span><span class="nc">State</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Alabama</span><span class="w">  </span><span class="o">|</span><span class="w"> </span><span class="n">Alaska</span><span class="w">  </span><span class="o">|</span><span class="w"> </span><span class="n">California</span>
+<a id="__codelineno-29-2" name="__codelineno-29-2"></a><span class="w">           </span><span class="o">|</span><span class="w"> </span><span class="n">Delaware</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">Florida</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">Georgia</span>
+<a id="__codelineno-29-3" name="__codelineno-29-3"></a><span class="w">           </span><span class="o">|</span><span class="w"> </span><span class="n">Tennesee</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">Wyoming</span>
+</code></pre></div></td></tr></table></div>
+<h4 id="the-type-has-an-infinite-number-of-values"><a class="toclink" href="../../../../2020/05/19/mars-rover---modeling-concepts/#the-type-has-an-infinite-number-of-values">The Type Has an Infinite Number of Values</a></h4>
+<p>For other types, however, there are so many possible valid values that it’s impossible to list all of them. For example, if we were looking at valid house numbers for an address, any positive integer would be valid so good luck on defining every positive number as an <em>enum</em> or <em>sum type</em>.</p>
+<p>In these cases, I will leverage built-in primitives to model the concept at first. So in the case of <em>HouseNumber</em>, an integer might be a good enough spot to start. However, if I then find myself writing code that can work on integers, but shouldn’t work on <em>HouseNumbers</em>, then I might wrap a stronger type around the integer (see below).</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-30-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-30-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-30-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-30-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-30-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-30-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-30-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-30-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-30-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-30-10">10</a></span>
+<span class="normal"><a href="#__codelineno-30-11">11</a></span>
+<span class="normal"><a href="#__codelineno-30-12">12</a></span>
+<span class="normal"><a href="#__codelineno-30-13">13</a></span>
+<span class="normal"><a href="#__codelineno-30-14">14</a></span>
+<span class="normal"><a href="#__codelineno-30-15">15</a></span>
+<span class="normal"><a href="#__codelineno-30-16">16</a></span>
+<span class="normal"><a href="#__codelineno-30-17">17</a></span>
+<span class="normal"><a href="#__codelineno-30-18">18</a></span>
+<span class="normal"><a href="#__codelineno-30-19">19</a></span>
+<span class="normal"><a href="#__codelineno-30-20">20</a></span>
+<span class="normal"><a href="#__codelineno-30-21">21</a></span>
+<span class="normal"><a href="#__codelineno-30-22">22</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-30-1" name="__codelineno-30-1"></a><span class="c1">// If the value isn&#39;t a major component of the design, we can use a primitive type</span>
+<a id="__codelineno-30-2" name="__codelineno-30-2"></a><span class="kt">int</span><span class="w"> </span><span class="n">houseNumber</span><span class="p">;</span>
+<a id="__codelineno-30-3" name="__codelineno-30-3"></a>
+<a id="__codelineno-30-4" name="__codelineno-30-4"></a><span class="c1">// However, if the type is a major concept to the domain at hand,</span>
+<a id="__codelineno-30-5" name="__codelineno-30-5"></a><span class="c1">// it makes sense to lift it to its own type</span>
+<a id="__codelineno-30-6" name="__codelineno-30-6"></a><span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">HouseNumber</span>
+<a id="__codelineno-30-7" name="__codelineno-30-7"></a><span class="p">{</span>
+<a id="__codelineno-30-8" name="__codelineno-30-8"></a><span class="w">  </span><span class="k">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">Value</span><span class="w"> </span><span class="p">{</span><span class="k">get</span><span class="p">;}</span>
+<a id="__codelineno-30-9" name="__codelineno-30-9"></a><span class="w">  </span><span class="k">public</span><span class="w"> </span><span class="nf">StreetNumber</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">input</span><span class="p">)</span>
+<a id="__codelineno-30-10" name="__codelineno-30-10"></a><span class="w">  </span><span class="p">{</span>
+<a id="__codelineno-30-11" name="__codelineno-30-11"></a><span class="w">    </span><span class="c1">// validation logic</span>
+<a id="__codelineno-30-12" name="__codelineno-30-12"></a><span class="w">    </span><span class="n">Value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">input</span><span class="p">;</span>
+<a id="__codelineno-30-13" name="__codelineno-30-13"></a><span class="w">  </span><span class="p">}</span>
+<a id="__codelineno-30-14" name="__codelineno-30-14"></a><span class="p">}</span>
+<a id="__codelineno-30-15" name="__codelineno-30-15"></a>
+<a id="__codelineno-30-16" name="__codelineno-30-16"></a><span class="c1">// The difference between the two approaches is that in the first case, this would work</span>
+<a id="__codelineno-30-17" name="__codelineno-30-17"></a><span class="kt">int</span><span class="w"> </span><span class="n">houseNumber</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">400</span><span class="p">;</span>
+<a id="__codelineno-30-18" name="__codelineno-30-18"></a><span class="n">Math</span><span class="p">.</span><span class="n">Sqrt</span><span class="p">(</span><span class="n">houseNumber</span><span class="p">);</span>
+<a id="__codelineno-30-19" name="__codelineno-30-19"></a>
+<a id="__codelineno-30-20" name="__codelineno-30-20"></a><span class="c1">// But this wouldn&#39;t</span>
+<a id="__codelineno-30-21" name="__codelineno-30-21"></a><span class="kt">var</span><span class="w"> </span><span class="n">houseNumber</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">HouseNumber</span><span class="p">(</span><span class="mi">400</span><span class="p">);</span>
+<a id="__codelineno-30-22" name="__codelineno-30-22"></a><span class="n">Math</span><span class="p">.</span><span class="n">Sqrt</span><span class="p">(</span><span class="n">houseNumber</span><span class="p">);</span><span class="w"> </span><span class="c1">// fails to compile with &quot;cannot convert from HouseNumber to double&quot;</span>
+</code></pre></div></td></tr></table></div>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-31-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-31-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-31-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-31-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-31-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-31-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-31-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-31-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-31-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-31-10">10</a></span>
+<span class="normal"><a href="#__codelineno-31-11">11</a></span>
+<span class="normal"><a href="#__codelineno-31-12">12</a></span>
+<span class="normal"><a href="#__codelineno-31-13">13</a></span>
+<span class="normal"><a href="#__codelineno-31-14">14</a></span>
+<span class="normal"><a href="#__codelineno-31-15">15</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-31-1" name="__codelineno-31-1"></a><span class="c1">// If the value isn&#39;t a major component of the design, we can use a primitive type</span>
+<a id="__codelineno-31-2" name="__codelineno-31-2"></a><span class="k">let</span><span class="w"> </span><span class="nv">houseNumber</span><span class="o">:</span><span class="n">int</span><span class="o">;</span>
+<a id="__codelineno-31-3" name="__codelineno-31-3"></a>
+<a id="__codelineno-31-4" name="__codelineno-31-4"></a><span class="c1">// However, if the type is a major concept to the domain at hand,</span>
+<a id="__codelineno-31-5" name="__codelineno-31-5"></a><span class="c1">// it makes sense to lift it to its own type (single case sum type)</span>
+<a id="__codelineno-31-6" name="__codelineno-31-6"></a><span class="k">type</span><span class="w"> </span><span class="nc">HouseNumber</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">HouseNumber</span><span class="w"> </span><span class="k">of</span><span class="w"> </span><span class="n">int</span>
+<a id="__codelineno-31-7" name="__codelineno-31-7"></a>
+<a id="__codelineno-31-8" name="__codelineno-31-8"></a><span class="c1">// The difference between the two approaches is that in the first case, this would work</span>
+<a id="__codelineno-31-9" name="__codelineno-31-9"></a><span class="k">let</span><span class="w"> </span><span class="nv">houseNumber</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">400</span><span class="o">;</span>
+<a id="__codelineno-31-10" name="__codelineno-31-10"></a><span class="nn">Math</span><span class="p">.</span><span class="n">Sqrt</span><span class="o">(</span><span class="n">houseNumber</span><span class="o">);</span>
+<a id="__codelineno-31-11" name="__codelineno-31-11"></a>
+<a id="__codelineno-31-12" name="__codelineno-31-12"></a><span class="c1">// But this wouldn&#39;t</span>
+<a id="__codelineno-31-13" name="__codelineno-31-13"></a><span class="k">let</span><span class="w"> </span><span class="nv">houseNumber</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">HouseNumber</span><span class="w"> </span><span class="mi">400</span>
+<a id="__codelineno-31-14" name="__codelineno-31-14"></a><span class="nn">Math</span><span class="p">.</span><span class="n">Sqrt</span><span class="o">(</span><span class="n">houseNumber</span><span class="o">);</span><span class="w"> </span><span class="c1">// fails to compile with</span>
+<a id="__codelineno-31-15" name="__codelineno-31-15"></a><span class="w">                        </span><span class="c1">// &quot;This expression was expected to have type &#39;float&#39; but here has type &#39;HouseNumber&#39;&quot;</span>
+</code></pre></div></td></tr></table></div>
+<h4 id="the-type-is-a-composition-of-other-types"><a class="toclink" href="../../../../2020/05/19/mars-rover---modeling-concepts/#the-type-is-a-composition-of-other-types">The Type Is a Composition of Other Types</a></h4>
+<p>As the saying goes, large programs are built by composing a bunch of smaller programs, and types are no different. As we begin to model more complicated types, it’s natural to start thinking about types being composed of other types. For these types, we’ll leverage either <em>objects</em> (if following OO) or <em>records</em> (if following FP).</p>
+<p>One way you can determine if you’re needing a composite type like this is if you find yourself using the word and or has when describing the type, then it’s a composition. For example:</p>
+<blockquote>
+<p>An Address has a HouseNumber, it <em>has</em> a StreetName, it <em>has</em> a State.</p>
+<p>An Address consists of a HouseNumber <em>and</em> a StreetName <em>and</em> a State</p>
+</blockquote>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-32-1">1</a></span>
+<span class="normal"><a href="#__codelineno-32-2">2</a></span>
+<span class="normal"><a href="#__codelineno-32-3">3</a></span>
+<span class="normal"><a href="#__codelineno-32-4">4</a></span>
+<span class="normal"><a href="#__codelineno-32-5">5</a></span>
+<span class="normal"><a href="#__codelineno-32-6">6</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-32-1" name="__codelineno-32-1"></a><span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">Address</span>
+<a id="__codelineno-32-2" name="__codelineno-32-2"></a><span class="p">{</span>
+<a id="__codelineno-32-3" name="__codelineno-32-3"></a><span class="w">  </span><span class="k">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">HouseNumber</span><span class="w"> </span><span class="p">{</span><span class="k">get</span><span class="p">;</span><span class="w"> </span><span class="k">set</span><span class="p">;}</span>
+<a id="__codelineno-32-4" name="__codelineno-32-4"></a><span class="w">  </span><span class="k">public</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="n">StreetName</span><span class="w"> </span><span class="p">{</span><span class="k">get</span><span class="p">;</span><span class="w"> </span><span class="k">set</span><span class="p">;}</span>
+<a id="__codelineno-32-5" name="__codelineno-32-5"></a><span class="w">  </span><span class="k">public</span><span class="w"> </span><span class="n">State</span><span class="w"> </span><span class="n">State</span><span class="w"> </span><span class="p">{</span><span class="k">get</span><span class="p">;</span><span class="w"> </span><span class="k">set</span><span class="p">;}</span>
+<a id="__codelineno-32-6" name="__codelineno-32-6"></a><span class="p">}</span>
+</code></pre></div></td></tr></table></div>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-33-1">1</a></span>
+<span class="normal"><a href="#__codelineno-33-2">2</a></span>
+<span class="normal"><a href="#__codelineno-33-3">3</a></span>
+<span class="normal"><a href="#__codelineno-33-4">4</a></span>
+<span class="normal"><a href="#__codelineno-33-5">5</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-33-1" name="__codelineno-33-1"></a><span class="k">type</span><span class="w"> </span><span class="nc">Address</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">{</span>
+<a id="__codelineno-33-2" name="__codelineno-33-2"></a><span class="w">  </span><span class="n">houseNumber</span><span class="o">:</span><span class="n">int</span><span class="o">,</span>
+<a id="__codelineno-33-3" name="__codelineno-33-3"></a><span class="w">  </span><span class="n">streetName</span><span class="o">:</span><span class="kt">string</span><span class="o">,</span>
+<a id="__codelineno-33-4" name="__codelineno-33-4"></a><span class="w">  </span><span class="n">state</span><span class="o">:</span><span class="n">State</span>
+<a id="__codelineno-33-5" name="__codelineno-33-5"></a><span class="o">}</span>
+</code></pre></div></td></tr></table></div>
+<h4 id="modeling-types_1"><a class="toclink" href="../../../../2020/05/19/mars-rover---modeling-concepts/#modeling-types_1">Modeling Types</a></h4>
+<p>Now that we’ve talked about some different modeling techniques, let’s see how we can apply those rules as we start to model Mars Rover. From the previous post, we were able to derive the following concepts and relationships:</p>
+<ul>
+<li>A <em>Rover</em> has a Location and an Orientation</li>
+<li><em>Orientation</em> is the <em>Direction</em> that a Rover is facing</li>
+<li><em>Location</em> is the coordinates that the <em>Rover</em> is located at</li>
+<li>A <em>Command</em> is something that a <em>Rover</em> receives from the User</li>
+<li>A <em>Direction</em> can be North, East, South, or West</li>
+<li>A <em>Command</em> can be Move Forward, Move Backward, Turn Left,  Turn Right, or Quit</li>
+</ul>
+<p>Yielding the following graph</p>
+<figure>
+<p><img alt="Domain model for Mars Rover" src="https://softwarementorblog.blob.core.windows.net/images/simple-domain-model-relationships.png" />
+  </p>
+<figcaption>Domain model relationships where Rover has a Location and an Orientation. Orientation is a Direction and Command is not related to anything.</figcaption>
+</figure>
+<p>Given the above rules, we can start taking a look at how to model these in code! We’ll first start with the models that don’t have a dependency, and then build up from there</p>
+<h4 id="modeling-direction"><a class="toclink" href="../../../../2020/05/19/mars-rover---modeling-concepts/#modeling-direction">Modeling Direction</a></h4>
+<p>From the above requirements, <em>Direction</em> can only be one of four possible values (North, East, South, West). So based on that, it looks like we can leverage the first rule and model <em>Direction</em> like so:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-34-1">1</a></span>
+<span class="normal"><a href="#__codelineno-34-2">2</a></span>
+<span class="normal"><a href="#__codelineno-34-3">3</a></span>
+<span class="normal"><a href="#__codelineno-34-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-34-1" name="__codelineno-34-1"></a><span class="k">public</span><span class="w"> </span><span class="k">enum</span><span class="w"> </span><span class="n">Direction</span>
+<a id="__codelineno-34-2" name="__codelineno-34-2"></a><span class="p">{</span>
+<a id="__codelineno-34-3" name="__codelineno-34-3"></a><span class="w">  </span><span class="n">North</span><span class="p">,</span><span class="w"> </span><span class="n">South</span><span class="p">,</span><span class="w"> </span><span class="n">East</span><span class="p">,</span><span class="w"> </span><span class="n">West</span>
+<a id="__codelineno-34-4" name="__codelineno-34-4"></a><span class="p">}</span>
+</code></pre></div></td></tr></table></div>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-35-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-35-1" name="__codelineno-35-1"></a><span class="k">type</span><span class="w"> </span><span class="nc">Direction</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">North</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">East</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">South</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">West</span>
+</code></pre></div></td></tr></table></div>
+<h4 id="modeling-command"><a class="toclink" href="../../../../2020/05/19/mars-rover---modeling-concepts/#modeling-command">Modeling Command</a></h4>
+<p>From the above requirements, <em>Command</em> can only be one of five possible values (MoveForward, MoveBackward, TurnLeft, TurnRight, and Quit). Based on that, we can once again leverage the first rule and model <em>Command</em> like so:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-36-1">1</a></span>
+<span class="normal"><a href="#__codelineno-36-2">2</a></span>
+<span class="normal"><a href="#__codelineno-36-3">3</a></span>
+<span class="normal"><a href="#__codelineno-36-4">4</a></span>
+<span class="normal"><a href="#__codelineno-36-5">5</a></span>
+<span class="normal"><a href="#__codelineno-36-6">6</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-36-1" name="__codelineno-36-1"></a><span class="k">public</span><span class="w"> </span><span class="k">enum</span><span class="w"> </span><span class="n">Command</span>
+<a id="__codelineno-36-2" name="__codelineno-36-2"></a><span class="p">{</span>
+<a id="__codelineno-36-3" name="__codelineno-36-3"></a><span class="w">  </span><span class="n">MoveForward</span><span class="p">,</span><span class="w"> </span><span class="n">MoveBackward</span><span class="p">,</span>
+<a id="__codelineno-36-4" name="__codelineno-36-4"></a><span class="w">  </span><span class="n">TurnLeft</span><span class="p">,</span><span class="w"> </span><span class="n">TurnRight</span><span class="p">,</span>
+<a id="__codelineno-36-5" name="__codelineno-36-5"></a><span class="w">  </span><span class="n">Quit</span>
+<a id="__codelineno-36-6" name="__codelineno-36-6"></a><span class="p">}</span>
+</code></pre></div></td></tr></table></div>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-37-1">1</a></span>
+<span class="normal"><a href="#__codelineno-37-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-37-1" name="__codelineno-37-1"></a><span class="k">type</span><span class="w"> </span><span class="nc">Command</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">MoveForward</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">MoveBackward</span>
+<a id="__codelineno-37-2" name="__codelineno-37-2"></a><span class="w">             </span><span class="o">|</span><span class="w"> </span><span class="n">TurnLeft</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">TurnRight</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">Quit</span>
+</code></pre></div></td></tr></table></div>
+<h4 id="modeling-location"><a class="toclink" href="../../../../2020/05/19/mars-rover---modeling-concepts/#modeling-location">Modeling Location</a></h4>
+<p>After talking more with our Subject Matter Expert, a <em>Location</em> is the <em>Coordinate</em> where the Rover is located.</p>
+<p>Aha! A new concept!</p>
+<p>When we ask additional questions, we find out that a <em>Coordinate</em> refers to the <a href="https://en.wikipedia.org/wiki/Cartesian_coordinate_system#Two_dimensions">Cartesian Coordinate System</a> and for the problem we’re solving, we can assume that a <em>Coordinate</em> represents two numbers where the first number represents the location from the x-axis and the second number represents the location from the y-axis.</p>
+<p>With this new information, our mental model has changed to be the following</p>
+<figure>
+<p><img alt="Domain model for Mars Rover" src="https://softwarementorblog.blob.core.windows.net/images/domain-model-relationships-x-y.png" />
+  </p>
+<figcaption>Domain model relationships where Rover has a Location and an Orientation. Location is a Coordinate where Coordinate has an X and Y value. Orientation is a Direction and Command is not related to anything.</figcaption>
+</figure>
+<p>Going into further discussion, we find out that both X and Y will be whole numbers for our emulation and that they can be negative. Based on these properties, it sounds like X and Y can be modeled as integers and therefore fall under the second rule.</p>
+<p>Given that a Coordinate has to have both an X and Y value, it sounds like <em>Coordinate</em> falls under the third rule and that this concept is a composition of X and Y.</p>
+<p><div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-38-1">1</a></span>
+<span class="normal"><a href="#__codelineno-38-2">2</a></span>
+<span class="normal"><a href="#__codelineno-38-3">3</a></span>
+<span class="normal"><a href="#__codelineno-38-4">4</a></span>
+<span class="normal"><a href="#__codelineno-38-5">5</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-38-1" name="__codelineno-38-1"></a><span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">Coordinate</span>
+<a id="__codelineno-38-2" name="__codelineno-38-2"></a><span class="p">{</span>
+<a id="__codelineno-38-3" name="__codelineno-38-3"></a><span class="w">  </span><span class="k">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">X</span><span class="w"> </span><span class="p">{</span><span class="k">get</span><span class="p">;</span><span class="w"> </span><span class="k">set</span><span class="p">;}</span>
+<a id="__codelineno-38-4" name="__codelineno-38-4"></a><span class="w">  </span><span class="k">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">Y</span><span class="w"> </span><span class="p">{</span><span class="k">get</span><span class="p">;</span><span class="w"> </span><span class="k">set</span><span class="p">;}</span>
+<a id="__codelineno-38-5" name="__codelineno-38-5"></a><span class="p">}</span>
+</code></pre></div></td></tr></table></div>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-39-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-39-1" name="__codelineno-39-1"></a><span class="k">type</span><span class="w"> </span><span class="nc">Coordinate</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">{</span><span class="n">x</span><span class="o">:</span><span class="n">int</span><span class="o">;</span><span class="w"> </span><span class="n">y</span><span class="o">:</span><span class="n">int</span><span class="o">}</span>
+</code></pre></div></td></tr></table></div></p>
+<h4 id="modeling-orientation"><a class="toclink" href="../../../../2020/05/19/mars-rover---modeling-concepts/#modeling-orientation">Modeling Orientation</a></h4>
+<p>From the above requirements, it seems like <em>Orientation</em> is what we call the <em>Direction</em> that the <em>Rover</em> is facing. Based on that, this sounds like a property that <em>Rover</em> would have.</p>
+<h4 id="modeling-rover"><a class="toclink" href="../../../../2020/05/19/mars-rover---modeling-concepts/#modeling-rover">Modeling Rover</a></h4>
+<p>Now that we have both the <em>Direction</em> and <em>Coordinate</em> concepts designed, we can start designing <em>Rover</em>. From the requirements, it looks like <em>Rover</em> is a combination of <em>Direction</em> (known as Orientation) and a <em>Coordinate</em> (known as a Location). Based on that, <em>Rover</em> falls under the third rule and looks like the following.</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-40-1">1</a></span>
+<span class="normal"><a href="#__codelineno-40-2">2</a></span>
+<span class="normal"><a href="#__codelineno-40-3">3</a></span>
+<span class="normal"><a href="#__codelineno-40-4">4</a></span>
+<span class="normal"><a href="#__codelineno-40-5">5</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-40-1" name="__codelineno-40-1"></a><span class="k">public</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">Rover</span>
+<a id="__codelineno-40-2" name="__codelineno-40-2"></a><span class="p">{</span>
+<a id="__codelineno-40-3" name="__codelineno-40-3"></a><span class="w">  </span><span class="k">public</span><span class="w"> </span><span class="n">Direction</span><span class="w"> </span><span class="n">Orientation</span><span class="w"> </span><span class="p">{</span><span class="k">get</span><span class="p">;</span><span class="w"> </span><span class="k">set</span><span class="p">;}</span>
+<a id="__codelineno-40-4" name="__codelineno-40-4"></a><span class="w">  </span><span class="k">public</span><span class="w"> </span><span class="n">Coordinate</span><span class="w"> </span><span class="n">Location</span><span class="w"> </span><span class="p">{</span><span class="k">get</span><span class="p">;</span><span class="w"> </span><span class="k">set</span><span class="p">;}</span>
+<a id="__codelineno-40-5" name="__codelineno-40-5"></a><span class="p">}</span>
+</code></pre></div></td></tr></table></div>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-41-1">1</a></span>
+<span class="normal"><a href="#__codelineno-41-2">2</a></span>
+<span class="normal"><a href="#__codelineno-41-3">3</a></span>
+<span class="normal"><a href="#__codelineno-41-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-41-1" name="__codelineno-41-1"></a><span class="k">type</span><span class="w"> </span><span class="nc">Rover</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">{</span>
+<a id="__codelineno-41-2" name="__codelineno-41-2"></a><span class="w">  </span><span class="n">orientation</span><span class="o">:</span><span class="n">Direction</span><span class="o">;</span>
+<a id="__codelineno-41-3" name="__codelineno-41-3"></a><span class="w">  </span><span class="n">location</span><span class="o">:</span><span class="n">Coordinate</span><span class="o">;</span>
+<a id="__codelineno-41-4" name="__codelineno-41-4"></a><span class="o">}</span>
+</code></pre></div></td></tr></table></div>
+<h3 id="wrapping-up"><a class="toclink" href="../../../../2020/05/19/mars-rover---modeling-concepts/#wrapping-up">Wrapping Up</a></h3>
+<p>In this post, we implemented the basic types needed to solve the Mars Rover kata! We first started by taking a look at the concepts identified earlier and thought about the characteristics of the type which helped guide us to build software that both uses the terms of the problem domain and also prevents us from creating errors by making illegal states unrepresentable. In the next post, we’ll start adding functionality to our application.</p>
+<h3 id="additional-reading"><a class="toclink" href="../../../../2020/05/19/mars-rover---modeling-concepts/#additional-reading">Additional Reading</a></h3>
+<ul>
+<li><a href="https://fsharpforfunandprofit.com/posts/designing-with-types-making-illegal-states-unrepresentable/">Designing with types: Making illegal states unrepresentable</a> by Scott Wlaschin</li>
+<li><a href="https://martinfowler.com/eaaCatalog/domainModel.html">Domain Model</a> by Martin Fowler</li>
+</ul>
+    
+    
+  </div>
+</article>
+      
+      
+        
+          
+
+
+
+<nav class="md-pagination">
+  <a class="md-pagination__link" href="../../">1</a> <span class="md-pagination__current">2</span>
+</nav>
+        
+      
+    </div>
+  </div>
+
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../../../leadership/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Leadership">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Leadership
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../../process/" class="md-footer__link md-footer__link--next" aria-label="Next: Process">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Process
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs Insiders
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.footer", "content.code.copy"], "search": "../../../../../assets/javascripts/workers/search.ad38c271.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../../../assets/javascripts/bundle.b66b2b78.min.js"></script>
+      
+    
+  </body>
+</html>
