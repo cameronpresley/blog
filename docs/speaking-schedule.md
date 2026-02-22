@@ -7,10 +7,22 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
+### Cleveland C# User Group - Cleveland, OH (Mar 25, 2026) _[more info]()_
+
+- [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
+
+### Roanoke Valley .NET User Group - Salem, VA (Apr 2, 2026) _[more info]()_
+
+- [Preventing Bugs with Better Types - An Intro to Type Driven Design]()
+
 ### CodeStock - Knoxville, TN (Apr 9-10, 2026) _[more info](https://www.codestock.org)_
 
 - [Preventing Bugs with Better Types - An Intro to Type Driven Design]()
 - [The Engineer's Playbook: Starting a New Role](presentations.md#the-engineers-playbook-starting-a-new-role) 
+
+### StirTrek - Colombus, OH (May 1, 2026) _[more info](https://stirtrek.com/)_
+
+- Cutting Through the Hype - Building High Performing Teams
 
 ---
 ## Past Sessions
