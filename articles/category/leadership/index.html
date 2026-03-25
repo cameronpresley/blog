@@ -1,0 +1,2578 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Cameron Presley">
+      
+      
+      
+        <link rel="prev" href="../interviewing/">
+      
+      
+        <link rel="next" href="../learning-through-example/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16+insiders-4.53.16">
+    
+    
+      
+        <title>Leadership - The Software Mentor</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.1caf78d2.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/page.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-ZE0MGVG7RJ"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-ZE0MGVG7RJ",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-ZE0MGVG7RJ",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#leadership" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="The Software Mentor" class="md-header__button md-logo" aria-label="The Software Mentor" data-md-component="logo">
+      
+  <img src="../../../assets/images/favicon.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            The Software Mentor
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Leadership
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="deep-purple"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  About Me
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
+          
+  
+  
+  Articles
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../courses/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Training Course
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../level-up/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Level Up Resources
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../presentations/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Presentations
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../speaking-schedule/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Speaking Schedule
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../story/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Story
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../resume/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Resume
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="The Software Mentor" class="md-nav__button md-logo" aria-label="The Software Mentor" data-md-component="logo">
+      
+  <img src="../../../assets/images/favicon.png" alt="logo">
+
+    </a>
+    The Software Mentor
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About Me
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Articles
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Articles
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Archive
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Archive
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../archive/2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2025
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../archive/2024/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2024
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../archive/2023/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2023
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../archive/2020/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2020
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../archive/2018/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2018
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../archive/2015/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2015
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../archive/2014/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2014
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../archive/2013/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2013
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Categories
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Categories
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../net/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    .NET
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../aws/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AWS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../basics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Basics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../c/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    C#
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../career/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Career
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../coaching-corner/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Coaching Corner
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../debugging/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Debugging
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../functional-programming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Functional Programming
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../interviewing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interviewing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+    
+      
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Leadership
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../learning-through-example/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learning Through Example
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../process/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Process
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../solid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SOLID
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../today-i-learned/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Today I Learned
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../tooling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tooling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../typescript/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TypeScript
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../courses/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Training Course
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../level-up/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Level Up Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../presentations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Presentations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../speaking-schedule/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Speaking Schedule
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../story/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Story
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../resume/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resume
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+  <div class="md-content" data-md-component="content">
+    <div class="md-content__inner">
+      <header class="md-typeset">
+        <h1 id="leadership">Leadership</h1>
+      </header>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://github.com/cameronpresley.png" alt="Cameron Presley">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2024-06-18 00:00:00+00:00">Jun 18, 2024</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="./" class="md-meta__link">Leadership</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              5 min read
+            
+          </li>
+        
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="leadership-playbook-leading-through-change"><a class="toclink" href="../../2024/06/18/leadership-playbook---leading-through-change/">Leadership Playbook - Leading Through Change</a></h2>
+<p>There are few fundamental truths in life, one of which is that the only consistent thing is change. Whether that's through a reorganization, someone leaving the team, or the start of a new initiative, we know that what happens today is different from yesterday, and as a leader, the team is looking to you to figure out how to navigate these changes.</p>
+<p>In this post, I'll share some tips and tricks for leading the team through change.</p>
+<h3 id="explain-the-reasoning"><a class="toclink" href="../../2024/06/18/leadership-playbook---leading-through-change/#explain-the-reasoning">Explain the Reasoning</a></h3>
+<p>A common mistake I see leaders make is introducing a change without discussing <em>why</em> the change is happening. Let's look at a hypothetical situation where you're introducing the team to pull request templates.</p>
+<blockquote>
+<p>Hey team! Starting next sprint, we're going to start using this new PR template. You can find it ....</p>
+</blockquote>
+<p>On the one hand, the message is clear on what's changing (using new PR template). However, it completely missed the point, why are we making this change? When we don't include the why, we catch people off-guard because they may not immediately understand the problem that the change is supposed to solve.</p>
+<p>When we put people in an information vacuum, they draw their own conclusions, which can give the wrong impression behind the change. This in turn, can cause the rumor mill to go into overdrive, making your job much harder.</p>
+<p>Let's revisit the same scenario but include the "why" this time.</p>
+<blockquote>
+<p>Hey team! During our last retro, it was brought up that our pull requests descriptions aren't consistent, which makes reviewing them more difficult. To help build consistency, we're going to start using pull request templates. You can find it ....</p>
+</blockquote>
+<p>By making this small change, we can squash misinformation and potential rumor mills because we're clear on the reasoning.</p>
+<p>Which is a great segue to...</p>
+<h3 id="be-transparent-with-the-team"><a class="toclink" href="../../2024/06/18/leadership-playbook---leading-through-change/#be-transparent-with-the-team">Be Transparent With the Team</a></h3>
+<p>When explaining the reason, don't lie or sugarcoat the reasoning, even if it makes you feel uncomfortable. Your team is smart and they'll know if you're lying to them.</p>
+<p>A hot topic nowadays are Return to Office (RTO) plans, with a common reason being "need more in-person collaboration." Even though this provides a "why," it's not backed by metrics or anything measurable. In addition, in-person doesn't necessarily mean more collaboration.</p>
+<p>A better approach is to use employee engagement surveys or customer satisfaction surveys to measure the effectiveness of team or company. If you can't use these metrics (or other relevant metrics), then why are you introducing this change?</p>
+<p>Going back to our hypothetical RTO, let's say that the reason we're going back to the office is that we're a start-up whose investors have already paid for our space. To them, having people in the space helps them feel better that their money is well spent (in addition, some companies have a tax break if they moved to your state as long as they have a percentage of people on-site).</p>
+<p>This is what you should be telling your team. They may not like the reason and they might disagree, but they know the why and then they can make their own decisions. Long story short, you're giving them the autonomy to make their own decisions because they have all the information.</p>
+<h3 id="repetition"><a class="toclink" href="../../2024/06/18/leadership-playbook---leading-through-change/#repetition">Repetition</a></h3>
+<p>Humans don't have perfect memories, right? So why would we expect that once we introduce a change that's the last time we need to talk about it? </p>
+<p>Regardless of the change, don't be surprised if you need to mention it 3 or 4 times before people finally start understanding and applying the change. A <a href="https://www.linkedin.com/in/joeseto/">great mentor of mine</a> once told me that he would tell people about the change time and time again until it stuck. While this was happening, he would show patience, repeat the messaging, and answer questions and concerns.</p>
+<p>When we hear of change, our first step is start processing the message and the immediate impacts. Some people will have questions immediately while others need time to stew on it. </p>
+<p>Because of this, be available to answer questions as they come up (even if you've already answered them before). Be prepared for questions during one-on-ones, after meetings, or whenever they come up. </p>
+<p>Acknowledge the questions and answer them. If you don't know the answer, tell them that you don't know and that you're going to find the answer. </p>
+<h3 id="giving-space"><a class="toclink" href="../../2024/06/18/leadership-playbook---leading-through-change/#giving-space">Giving Space</a></h3>
+<p>Don't be surprised that your team exhibits a wide range of emotions for more significant changes. </p>
+<p>For example, if your company is doing layoffs, then it's reasonable for people to be upset, depressed, or mentally checked out. </p>
+<p>When this happens, you have to give people space to process. This doesn't mean isolating them but being aware that they need some time and accommodate accordingly.</p>
+<p>A common mistake I see leaders make here is introducing a change, thinking it was low impact, so they start making other changes. In reality, this change had a high impact, and now the team is under pressure to handle the original change and whatever new commitments are coming their way.</p>
+<p>Not only does this reduce your odds of success, but this prevents your team from dealing with the changes, which can turn into stress or frustration. If this happens enough times, people will change teams (or even jobs) just to get a change of scenery and be able to process.</p>
+<h3 id="reducing-change-fatigue"><a class="toclink" href="../../2024/06/18/leadership-playbook---leading-through-change/#reducing-change-fatigue">Reducing Change Fatigue</a></h3>
+<p>Even though changes are going to happen, do not introduce one change this week, another next week, and then one more two weeks later.</p>
+<p>As engineers, we learned that refactoring a codebase should be done in small steps to prevent functionality from breaking. </p>
+<p>While this works great for code, this is terrible advice for humans. </p>
+<p>When frequent changes happen, it becomes difficult to get into a rhythm with the work and the team, reducing the effectiveness of the team.</p>
+<p>When we get changes happening like this, it becomes difficult to get into a rhythm with the work and the team. Especially if large changes keep happening every few weeks.</p>
+<p>In the current landscape, we're seeing companies go through multiple rounds of layoffs. While this may keep them out of the news (no one reports that a company laid off ten people, even if it's the fourth time it's happened this year), it causes a feeling of dread for the survivors, as now they're thinking when they'll be next.</p>
+<p>Instead of having multiple layoffs, if companies had one (albeit larger) layoff, this would allow people to have time to adjust and proceed without as much paranoia.</p>
+<h3 id="wrapping-up"><a class="toclink" href="../../2024/06/18/leadership-playbook---leading-through-change/#wrapping-up">Wrapping Up</a></h3>
+<p>Navigating change is hard - especially when you aren't just going through the change yourself, but also leading others at the same time. </p>
+<p>The next time you're going through a change, try starting here and see how it goes</p>
+<ul>
+<li>Explain the "why" behind the change.</li>
+<li>Be transparent about the changes, even if it's uncomfortable.</li>
+<li>Be mindful that everyone processes change differently and may feel a greater impact or need more time to recover from teh change.</li>
+</ul>
+<p>By starting here, your chances of moving forward without significant disruption will improve dramatically.</p>
+    
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://github.com/cameronpresley.png" alt="Cameron Presley">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2024-04-30 00:00:00+00:00">Apr 30, 2024</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="../process/" class="md-meta__link">Process</a>, 
+              <a href="./" class="md-meta__link">Leadership</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              7 min read
+            
+          </li>
+        
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="running-effective-experiments-with-the-team"><a class="toclink" href="../../2024/04/30/running-effective-experiments-with-the-team/">Running Effective Experiments With the Team</a></h2>
+<p>As a leader, you're always on the look out for new tools and approaches to help the team be more effective.</p>
+<p>But what happens when you have an idea? How do you introduce it to the team and get buy-in? How do you encourage others to propose ideas as well (remember, you're job isn't to have all the ideas, but to encourage and choose the best ones).</p>
+<p>Let's say that the idea works, what happens next? What if it failed, what do you do next? How do you share your lessons with others?</p>
+<p>In this post, I'll walk you through my approach for running experiments with the team and how to answer these questions. Like any other advice, I've found success using this process, but you might find that you'll need to tweak or adjust for your team.</p>
+<h3 id="working-in-the-open"><a class="toclink" href="../../2024/04/30/running-effective-experiments-with-the-team/#working-in-the-open">Working In the Open</a></h3>
+<p>When it comes to the team, I'm a big proponent of working in the open. Not only does this reduce the amount of questions from my leader about what we're doing, it also empowers others to chime in when they see something off or the team going down the wrong path.</p>
+<p>With this philosophy in mind, I document our experiments in the team wiki. Now, I know that we should <a href="http://agilemanifesto.org/">favor people over processes</a>, however, I have found immense value in taking the 10 minutes to document as this helps get everyone on the same page and when we look at these experiments later, we have the context behind the experiment.</p>
+<p>To me, this no different than a scientist writing down their experiments for later reference.</p>
+<h3 id="defining-an-experiment"><a class="toclink" href="../../2024/04/30/running-effective-experiments-with-the-team/#defining-an-experiment">Defining an Experiment</a></h3>
+<p>As you might have guessed, I'm a big fan of using the <a href="https://en.wikipedia.org/wiki/Scientific_method">scientific method</a> for engineering work and especially so when it comes to experiments. As such, I capture the following info:</p>
+<figure>
+<img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Purple liquid being injected into one of many test tubes" style="width:500px">
+<figcaption>
+Seriously, if we're not taking notes, what kind of scientists are we?
+</figcaption>
+<figcaption>
+Photo by <a href="https://unsplash.com/@_louisreed?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Louis Reed</a> on <a href="https://unsplash.com/photos/refill-of-liquid-on-tubes-pwcKF7L4-no?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  </figcaption>
+</figure>
+
+<ul>
+<li>Context - Why are we doing this? What inspired the experiment or what problem are we trying to solve?</li>
+<li>Hypothesis - What change are we proposing and what outcome are we looking for?</li>
+<li>Implementation - How are we going to run this experiment?</li>
+<li>Duration - How long are we going to run this experiment for?</li>
+<li>(Optional) Immediate Failure Criteria - Is there anything that could happen during this experiment that would cause to immediately stop?</li>
+</ul>
+<p><em>For those looking for a template, you can find a markdown version <a href="https://github.com/cameronpresley/leadership-toolkit">in my Leadership Toolkit on GitHub</a></em></p>
+<h3 id="scheduling-the-retrospective"><a class="toclink" href="../../2024/04/30/running-effective-experiments-with-the-team/#scheduling-the-retrospective">Scheduling the Retrospective</a></h3>
+<p>With the experiment documented, I send a meeting request the day after the experiment is scheduled to end. The goal of this meeting is to reflect on the experiment and to decide whether we should adopt the changes or to stop.</p>
+<h3 id="leading-the-team"><a class="toclink" href="../../2024/04/30/running-effective-experiments-with-the-team/#leading-the-team">Leading the Team</a></h3>
+<p>After sending this meeting, my job is to help the team implement the experiment and coach/encourage as needed. Since it's a process change, it might take a bit for the team to adjust, so showing some patience and understanding is critical here.</p>
+<p>While we are going the through the experiment, I'm going to note any changes that I'm noticing. For example, if we're running an experiment to have asynchronous stand-ups, I'm going to take notes on how I'm feeling about the team getting updates and how they're communicating with each other.</p>
+<p>Depending on what comes up in our <a href="../../2023/05/14/building-relationships-through-one-on-ones/#bonus-seeding-a-conversation">one-on-ones</a>, I might even use this as a starter question.</p>
+<h3 id="retrospective"><a class="toclink" href="../../2024/04/30/running-effective-experiments-with-the-team/#retrospective">Retrospective</a></h3>
+<p>Once the experiment has ran its course, it's time to reflect on the experiment and decide as a team on whether to adopt the changes or reject them.</p>
+<p>To prepare, I'd recommend <a href="../../2024/03/11/five-tips-to-have-more-effective-meetings/#step-3-do-you-have-the-right-people">getting the right people in the room</a> and <a href="../../2024/03/11/five-tips-to-have-more-effective-meetings/#step-2-how-do-we-even-know-if-were-successful">setting the context</a>.</p>
+<p>During the retro, the team should be doing the majority of the talking. Your role is to seed the conversation and make sure everyone gets their opinions out. I like to capture these notes on a board so that the team has clear visibility on what worked and didn't work.</p>
+<p>Once the notes have been added to the board, it's time for the team to decide to adopt the changes or not. During this step, I remind the team that this process isn't set in stone and if we want to tweak it in a future experiment, that's normal and encouraged.</p>
+<p>At this point, I update the experiment write-up that <a href="../../2024/04/30/running-effective-experiments-with-the-team/#defining-an-experiment">we did earlier</a> with the team decision and the logic behind the decision. This provides an easy way of sharing our lessons with others.</p>
+<h3 id="sharing-outcomes-with-others"><a class="toclink" href="../../2024/04/30/running-effective-experiments-with-the-team/#sharing-outcomes-with-others">Sharing Outcomes With Others</a></h3>
+<p>One cool thing about leading teams is that no two teams are the same. Between the personalities, skills, company culture, and motivations, what works for one team won't work for another team (and the other way around).</p>
+<p>Because of this, it's critical to share your results with your leader and your peers. This way, they could see what we did, what worked, what didn't work, and hopefully get inspired to run their own experiments with teams.</p>
+<p>If the team paid a learning tax for an experiment, why wouldn't we share those results with others so that they can learn from our experiences? They might be able to make suggestions to turn a failure into a success or to ask questions about how we dealt with an issue.</p>
+<p>The group being successful is your success, do don't hoard knowledge, share it with others!</p>
+<p>With the write-up completed, you can start simply by sending a link to the group. A better approach would be to have a standing agenda item for your team lead meeting where leaders can talk about experiments that have been ran recently and their outcomes.</p>
+<h3 id="common-mistakes"><a class="toclink" href="../../2024/04/30/running-effective-experiments-with-the-team/#common-mistakes">Common Mistakes</a></h3>
+<p>When I've worked with leaders to introduce experiments, it can be a lot to take in because this is a different way of thinking. This is especially true if leaders are not in a psychologically safe environment or if they have prior experiences that weren't successful.</p>
+<p>I can't guarantee that you'll run experiments flawlessly, however, if you avoid these common mistakes, your odds of success will be higher.</p>
+<h4 id="not-time-boxing-the-experiment"><a class="toclink" href="../../2024/04/30/running-effective-experiments-with-the-team/#not-time-boxing-the-experiment">Not Time Boxing the Experiment</a></h4>
+<p>One of the key features of the experiment is that it's only going to run for a set period of time, so that if you find that it's not working, you've not permanently impacted the team.</p>
+<p>If you have an experiment that's going to run into perpetuity, that's not an experiment anymore, that's a process change and that shouldn't go through this workflow because experiments can be abandoned, but process changes typically can't.</p>
+<h4 id="treating-experiments-as-foregone-conclusions"><a class="toclink" href="../../2024/04/30/running-effective-experiments-with-the-team/#treating-experiments-as-foregone-conclusions">Treating Experiments as Foregone Conclusions</a></h4>
+<p>At some point, you're going to get a directive from your leader that you don't agree with, but you need to commit to the idea anyway. You know the idea isn't going to go over with the team, so you think framing it as an experiment can soften the blow.</p>
+<p>DON'T DO THIS!</p>
+<figure>
+<p><img alt="Jimmy Fallon saying It's Totally Not Worth It" src="https://softwarementorblog.blob.core.windows.net/images/dont-do-it.png" width="500px" /></p>
+<figcaption>
+Really, don't do this!
+</figcaption>
+</figure>
+<p>Experiments are just that, experiments. They are not a vehicle for you to make unpopular changes. If you use experiments for slipping in these types of changes, then the team will learn that experiments is code for "not great idea" and they'll stop using the process.</p>
+<p>Remember, experiments are ideas that you and the team come up with to make things better, not directives from the top coming down.</p>
+<p>Now, you <em>could</em> use an experiment to figure out a way to carry out the directive. A good leader tells you where we have to go, but not necessarily how to get there. The experiment could be to figure out how to get there, but not what the destination should be.</p>
+<h4 id="running-multiple-experiments"><a class="toclink" href="../../2024/04/30/running-effective-experiments-with-the-team/#running-multiple-experiments">Running Multiple Experiments</a></h4>
+<p>When getting a new team or after identifying multiple areas that a team could improve in, it's going to be tempting to want to implement multiple changes at once.</p>
+<p>Resist the urge.</p>
+<p>Remember, an experiment, by definition, is a process change. So the more experiments you run, the more process changes happening, which in turn puts more stress on the team to remember all the changes.</p>
+<p>In addition to all the process changes, you might find that one experiment futzes with another experiment and you may not get clear results.</p>
+<p>Let's say that we had two experiments going on at the same, asynchronous stand-ups and spending Tuesday afternoons in independent learning. During your one-on-ones, you get some feedback that it's a bit odd to not know what other team members are working on.</p>
+<p>What's driving that? Is it the async stand-ups? Or is it the dedicated learning time? Could it be both? You can't be sure.</p>
+<p>Another way to think about this is to think about debugging a program. If something's not working, do you change 5 things at once? No, you're going to change one thing, re-run, and see what happens.</p>
+<p>Same thing for experiments.</p>
+<blockquote>
+But Cameron! This team is a hot mess and could stand to improve in so many areas, what should I do then?
+</blockquote>
+
+<p>Instead of running all the experiments, instead, the team should decide which experiment would have the biggest payoff and then pursue that one. Remember, you're not playing the short game, but you're in for the long haul, so you'll have the time to make those changes.</p>
+    
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://github.com/cameronpresley.png" alt="Cameron Presley">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2024-03-26 00:00:00+00:00">Mar 26, 2024</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="./" class="md-meta__link">Leadership</a>, 
+              <a href="../process/" class="md-meta__link">Process</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              5 min read
+            
+          </li>
+        
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="how-using-vertical-slicing-can-minimize-dependencies-and-deliver-value-faster"><a class="toclink" href="../../2024/03/26/how-using-vertical-slicing-can-minimize-dependencies-and-deliver-value-faster/">How Using Vertical Slicing Can Minimize Dependencies and Deliver Value Faster</a></h2>
+<p><em>How do we break down this work?</em></p>
+<p>It's a good question and it can help set the tone for the project. Assuming the work is more than a bug fix, it's natural to look at a big project and break it down to smaller, more approachable pieces.</p>
+<p>Depending on how you break down the work, you can dramatically change the timeline from when you can get feedback from your users and find issues much sooner.</p>
+<p>In this post, let's look at a team breaking down a new feature for their popular application, TakeItEasy.</p>
+<h3 id="a-new-day-a-new-feature"><a class="toclink" href="../../2024/03/26/how-using-vertical-slicing-can-minimize-dependencies-and-deliver-value-faster/#a-new-day-a-new-feature">A New Day - A New Feature</a></h3>
+<p>It's a new sprint and your team is tackling a highly requested feature for TakeItEasy, the ability to setup a User Profile. Everyone is clear on the business requirements as we need the ability to save and retrieve the following information so that we can personalize the application experience for the logged in user:</p>
+<ul>
+<li>Display Name</li>
+<li>Name</li>
+<li>Email Address</li>
+<li>Profile Picture</li>
+</ul>
+<p>Going over the high level design with the engineers, it's discovered that there's not a way to save this data right now. In addition, we don't have a way to display this data for the user to enter or modify.</p>
+<h3 id="breaking-work-down-as-horizontal-layers"><a class="toclink" href="../../2024/03/26/how-using-vertical-slicing-can-minimize-dependencies-and-deliver-value-faster/#breaking-work-down-as-horizontal-layers">Breaking Work Down as Horizontal Layers</a></h3>
+<p>Working with the team, the feature gets broken down as the following stories:</p>
+<ul>
+<li>Create the data storage</li>
+<li>Create the data access layer</li>
+<li>Create the User Profile screen</li>
+</ul>
+<p>Once these stories are done, this feature is done and that seems easy enough. As you talk with the team though, a few things stand-out to you.</p>
+<ol>
+<li>
+<p>None of these stories are fully independent of each other. You can build out the User Profile screen, but without the Data Access Layer, it's incomplete. Same thing with the data access layer, it can't be fully complete until the data storage story is done.</p>
+</li>
+<li>
+<p>It's difficult to demo the majority of the stories. Stakeholders don't care about data storage or the data access layer, but they do care about the user setting up their profile. With the current approach, it's not possible to demo any work until all three stories are done.</p>
+</li>
+</ol>
+<p>As you approach each story, they seem to be quite large:</p>
+<ol>
+<li>For the Data Storage work, it's an upgrade script to modify the Users table with nullable columns.</li>
+<li>For the data access story, it's updating logic to retrieve each of the additional fields and making sure to handle missing values from the database.</li>
+<li>For the User Profile screen, it's creating a new page, update the routing, and adding multiple controls with validation logic for each of the new fields.</li>
+</ol>
+<p>Is there a different way we can approach this work such that we can deliver something useful sooner?</p>
+<h3 id="breaking-down-the-work-as-vertical-slices"><a class="toclink" href="../../2024/03/26/how-using-vertical-slicing-can-minimize-dependencies-and-deliver-value-faster/#breaking-down-the-work-as-vertical-slices">Breaking Down the Work as Vertical Slices</a></h3>
+<p>The main issue with the above approach is that there's a story for each <em>layer</em> of the application (data, business rules, and user interface) and each of these layers are dependent upon each other. However, no one cares about any single layer, they care about all of it working together.</p>
+<figure>
+<img src="https://images.unsplash.com/photo-1464219222984-216ebffaaf85?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Two People Eating Nachos">
+<figcaption>
+Seriously, could you imagine enjoying a plate of nachos by first eating all the chips, then the beans, then the salsa?
+</figcaption>
+<figcaption>
+Photo by <a href="https://unsplash.com/@hero">Herson Rodriguez</a> on <a href="https://unsplash.com/photos/taco-on-plate-aZOqcEK2KuQ">Unsplash</a>
+</figcaption>
+</figure>
+
+<p>One way to solve this problem would be to have a single story <em>Implement User Profile</em> that has all this work, but that sounds like more than a sprints worth of work. We know that that the more work in a story, the harder it is to give a fair estimate for what's needed.</p>
+<p>Another approach to solve this problem is by changing the way we <em>slice</em> the work by taking a bit of each layer into a story. This means that we'll have a little bit of database, little bit of data access, and little bit of the user interface.</p>
+<p>If we take this approach, we would have the following stories for our User Profile feature.</p>
+<p><strong>Feature: Implement User Profile</strong></p>
+<ul>
+<li><em>Story: Implement Display Name</em></li>
+<li><em>Story: Implement Name</em></li>
+<li><em>Story: Implement Email</em></li>
+<li><em>Story: Implement Profile Picture</em></li>
+</ul>
+<p>Each story would have the following tasks:</p>
+<ul>
+<li>Add storage for field</li>
+<li>Update data access to store/retrieve field</li>
+<li>Update interface with control and validation logic</li>
+</ul>
+<p>There are quite a few advantages with this approach.</p>
+<p>First, instead of waiting for all the stories to get done before you can demo any functionality, you can demo after getting <em>one</em> story completed. This is huge advantage because if things are looking well, you could could potentially go live with <em>one</em> story instead of waiting for all three stories from before.</p>
+<p>Second, these stories are independent of each other as the work to <em>Implement Display Name</em> doesn't depend on anything from <em>Implement Email</em>. This increases the autonomy of the team and allows us to shift priorities easier as at the end of any one story, we can pick any of the remaining stories.</p>
+<p>For example, let's say that after talking more with customers, we need a way for them to add their favorite dessert. Instead of the business bringing in the new requirement and pushing back the timeline, engineering can work on that functionality next and get that shipped sooner.</p>
+<p>Third, it's much easier to explain to engineers and stakeholders for when a certain piece of functionality will be available. Going back to horizontal layering, it's not clear when a user would be able to set-up their email address. Now, it's clear when that work is coming up.</p>
+<h3 id="why-the-horizontally-slicing"><a class="toclink" href="../../2024/03/26/how-using-vertical-slicing-can-minimize-dependencies-and-deliver-value-faster/#why-the-horizontally-slicing">Why The Horizontally Slicing?</a></h3>
+<p>I'm going to let you on a little secret. Most engineers are technically strong, but can be ignorant of the business domain that they're solving in. Unless you're taking time to coach them on the business (or if they've been working in the domain for a long period of time), engineers just don't know the business.</p>
+<p>As such, it's difficult for engineers to speak in the <em>ubiquitous</em> language of the business, it's much easier to speak in the technical details. This, in turn, leads to user stories that are more technical details in nature (modify table, build service, update pipeline) instead of user focused (can set display name, can set email address).</p>
+<p>If you're an Engineer, you need to learn the business domain that you're working in. This will help you prevent problems from happening in your software because it <em>literally</em> can't do that. In addition, this will help you see the bigger picture and build empathy with your users as you understand them better.</p>
+<p>If you're in Product or Business, you need to work with your team to level up their business domain. This can be done by having them use the product like a user, giving them example tasks, and spending time to talk about the domain. If you can get the engineers to be hands-on, every hour you invest here is going to pay huge dividends when it comes time to pick up the next feature.</p>
+<h3 id="wrapping-up"><a class="toclink" href="../../2024/03/26/how-using-vertical-slicing-can-minimize-dependencies-and-deliver-value-faster/#wrapping-up">Wrapping Up</a></h3>
+<p>The next time you and the team have a feature, try experimenting with vertically slicing your stories and see how that changes the dynamics of the team.</p>
+<p>To get started, remember, focus on the user outcomes and make sure that each story can stand independently of one another.</p>
+<p>If this post resonated with you, I'd like to hear from you! Feel free to drop me a line at <a href="mailto:coachingcorner@thesoftwarementor.com?subject=Vertical Slicing">CoachingCorner@TheSoftwareMentor.com</a>!</p>
+    
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://github.com/cameronpresley.png" alt="Cameron Presley">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2024-03-11 00:00:00+00:00">Mar 11, 2024</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="./" class="md-meta__link">Leadership</a>, 
+              <a href="../process/" class="md-meta__link">Process</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              7 min read
+            
+          </li>
+        
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="five-tips-to-have-more-effective-meetings"><a class="toclink" href="../../2024/03/11/five-tips-to-have-more-effective-meetings/">Five Tips to Have More Effective Meetings</a></h2>
+<p>As a leader it's inevitable that you will have to organize a meeting. Whether it's for updates, 1-1s, or making decisions, the team is looking towards you to lead the conversation and have it be a good use of time.</p>
+<p>But how do you have a good meeting? That's not something that's covered in leadership training. Is it the perfect invite? A well honed pitch? Throw something out there and see if it sticks?</p>
+<p>Like anything else, a good meeting needs some preparation, however, if you follow these five tips, I guarantee your meetings will be better than before.</p>
+<h3 id="step-1-does-it-even-need-to-be-a-meeting"><a class="toclink" href="../../2024/03/11/five-tips-to-have-more-effective-meetings/#step-1-does-it-even-need-to-be-a-meeting">Step 1: Does It Even Need to Be a Meeting?</a></h3>
+<p>The best kind of meeting is the one that didn't have to happen. Have you ever sat through a meeting where everyone did a bunch of talking, you halfway listened and thought to yourself, "this could have been an email?"</p>
+<figure>
+<img src="https://images.unsplash.com/photo-1536080805739-84e0c1c2dc2f?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="man looking out window">
+<figcaption>
+Photo by <a href="https://unsplash.com/@brunocervera">BRUNO CERVERA</a> on <a href="https://unsplash.com/photos/man-in-black-suit-looking-out-from-window-d0hamBoKG90">Unsplash</a>
+
+</figcaption>
+</figure>
+
+<p>Been there, done that have, and have the t-shirt.</p>
+<p>When I think about <em>why</em> we need meetings, it's because we're trying to accomplish something that one person alone couldn't get done. With this assumption in mind, I find that meetings take one of two shapes: sharing information (e.g., stand-ups, retrospectives, all-hands) or to make a decision (e.g., technical approach, ironing the business rules).</p>
+<p>Depending on what you're trying to accomplish, then next thought is determine if the communication needs to be <em>synchronous</em> (get everyone together) or <em>asynchronous</em> (let people get involved at their own pace).</p>
+<p>For example, if the team has been struggling in getting work done, then it makes sense to have a meeting to figure out what's happening and ensure that everyone is hearing the exact wording/tone of the messaging.</p>
+<p>On the other hand, if your intent is to let the team know that Friday is a holiday, then that can be done through email or message in your chat tool.</p>
+<p>One way you can figure out if the meeting could have been an email is to pretend it was a meeting and you canceled it. Is there anything that can't proceed? If not, then maybe you don't need that meeting.</p>
+<h3 id="step-2-how-do-we-even-know-if-were-successful"><a class="toclink" href="../../2024/03/11/five-tips-to-have-more-effective-meetings/#step-2-how-do-we-even-know-if-were-successful">Step 2: How Do We Even Know If We're Successful?</a></h3>
+<p>Have you ever attended a meeting and didn't know what it was about or why you met? These types of meetings typically suffer from not having a <em>goal</em> or <em>purpose</em> behind the meeting.</p>
+<p>Recall from Step #1, we're meeting because there's something that we need from the group that we couldn't do as individuals. So what is it?</p>
+<p>When scheduling the meeting, include the <em>purpose</em> (here's why we're meeting) and the <em>goal</em> (here's how we know if we're done) to the description. Not only is this a great way to focus the meeting, it can also serve as a way for people to know if they need to attend or not.</p>
+<figure>
+<img src="https://images.unsplash.com/photo-1628440501245-393606514a9e?q=80&w=3731&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="dartboard with darts in it">
+<figcaption>
+Photo by <a href="https://unsplash.com/@javaistan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Afif Ramdhasuma</a> on <a href="https://unsplash.com/photos/red-white-and-black-round-wheel-RjqCk9MqhNg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+</figcaption>
+</figure>
+
+<p>This is also a good litmus test to see if <em>you</em> know why there should be a meeting as this forces you to think about the problem being solved and how it should happen. If you're struggling to determine the purpose and the goal, then you're attendees will also struggle.</p>
+<h3 id="step-3-do-you-have-the-right-people"><a class="toclink" href="../../2024/03/11/five-tips-to-have-more-effective-meetings/#step-3-do-you-have-the-right-people">Step 3: Do You Have The Right People?</a></h3>
+<p>A common mistake I see people make is that they invite everyone who has a stake or passing interest in the topic which can make for a large (10+ people) meeting.</p>
+<p>Even though the intent is good (give everyone visibility), this is a waste because the more people you have in a meeting, the less effective it will be. A meeting with four people will have a better conversation and get things done more than a meeting with nine people.</p>
+<p>Let's pretend that you're at a large party and you see a group that you know, so you walk up to the group, hoping to break into the conversation.</p>
+<p>As more people join in the group, they're going to <em>naturally</em> split up into smaller groups, each with their own conversations. The main reason is that the large the group, the less likely you have a chance to participate and get involved. So you might start a conversation with 1 or 2, split off and then start a new group.</p>
+<p>Meetings have the same problem. The large the group, the more likely that side conversations will happen and it makes it harder for you to facilitate and keep everyone on track.</p>
+<p>To keep meetings effective, be sure to only include the <em>necessary</em> people. For example, instead of inviting an entire team, invite only 1 or 2 people.</p>
+<p>At a high level, you need the these three roles filled to have a successful meeting</p>
+<ol>
+<li>The <em>Shot Caller</em> - This is the main stakeholder and can approve our decisions. Without their buy-in, no real decision can be made.</li>
+<li>The <em>Brain Trust</em> - These are the people who have the details and can drive the conversation. You want to keep this group as tightly focused as possible.</li>
+<li>The <em>Facilitator</em> - Generally the organizer, this is the person who ensures that the goal is achieved and keeps the meeting running.</li>
+</ol>
+<p>One way to narrow down the invite list is to answer this question:</p>
+<blockquote>
+If this person can't make the meeting, then we can't meet.
+</blockquote>
+
+<p>If you can't accomplish the goal without them, then they need to be there. I'm such a believer in this advice that if it's the day of the meeting and we don't have the <em>Shot Caller</em> or the <em>Brain Trust</em>, then I'll reschedule the meting as I'd rather move it than waste everyone's time.</p>
+<figure>
+<img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=3600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Woman presenting task board in front of team">
+<figcaption>
+Photo by <a href="https://unsplash.com/@jasongoodman_youxventures?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jason Goodman</a> on <a href="https://unsplash.com/photos/woman-placing-sticky-notes-on-wall-Oalh2MojUuk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+</figcaption>
+</figure>
+
+<h3 id="step-4-running-the-meeting"><a class="toclink" href="../../2024/03/11/five-tips-to-have-more-effective-meetings/#step-4-running-the-meeting">Step 4: Running the Meeting</a></h3>
+<p>It's the big day and you've got everyone in the room, now what?</p>
+<p>In Step #2, we talked about having a <em>purpose</em> and <em>goal</em> for the meeting. Now is when we vocalize these two things to kick the meeting off. From there, we can seed the conversation with one of these strategies:</p>
+<ul>
+<li>Asking an opening question to prime the <em>Brain Trust</em>.</li>
+<li>Throwing to the <em>Shot Caller</em> to frame any restrictions the attendees need to be aware of.</li>
+<li>Start with a specific person to kick the conversation off.</li>
+</ul>
+<p>Once the conversation starts flowing, your job is to keep the meeting on track. For those who've played games like Dungeons and Dragons, you're acting like a Game Master where you know the direction the meeting needs to go to (<em>The Goal</em>), but the attendees are responsible for getting there.</p>
+<p>It can be challenging to keep the meeting on track if you're also driving the conversation, so pace yourself, take notes, and get others involved to keep the conversation going.</p>
+<p>When leading longer meetings (more than 60 minutes), make sure to take a 10 minute break.</p>
+<p>For attendees, this allows them to stretch their legs, take a bathroom break, and to stew on the conversation that's happened so far. For those who are "thinkers" than "reacters", this gives them time to compose their thoughts and have better conversations after the break.</p>
+<p>As a facilitator, this gives you a way to think about the meeting so far, identify areas that the group needs to dig into, and if needed, it can break the conversation out of a rut.</p>
+<h3 id="step-5-wrapping-up-how-do-things-get-done"><a class="toclink" href="../../2024/03/11/five-tips-to-have-more-effective-meetings/#step-5-wrapping-up-how-do-things-get-done">Step 5: Wrapping Up - How Do Things Get Done?</a></h3>
+<p>As the meeting comes to a close, we need to make sure that action follows next. A meeting with no follow-up is a lot like a rocking chair. Plenty of motion, but no progress being made.</p>
+<p>In order to make sure that next steps happen, make sure to define action items with attendees owning getting them done. Action items don't have to be complex, it could be as simple as:</p>
+<ul>
+<li>Defining stories for the team</li>
+<li>Sending summary notes to other stakeholder</li>
+<li>Following up with <em>Person</em> about <em>X</em>.</li>
+</ul>
+<p>When defining action items, be wary of items that are scheduling another meeting (e.g. let's schedule a meeting with Team Y to get their perspective). This implies that you didn't have the right people in the room (see Step 3). Also, remember, meetings are to get alignment or to come up with a solution, so what purpose does this follow up meeting have?</p>
+<p>As the meeting wraps up, take a few moments to summarize the outcome, verbally ensure that actions items have been assigned and thank everyone for their attention and time.</p>
+<h3 id="congratulations-youre-an-expert-with-meetings-now-right"><a class="toclink" href="../../2024/03/11/five-tips-to-have-more-effective-meetings/#congratulations-youre-an-expert-with-meetings-now-right">Congratulations, You're an Expert With Meetings Now, Right?</a></h3>
+<p>Running effective meetings can be made easier if you take the time to do the necessary preparation. Even those these steps may seem heavy on the documentation, you'll find that it'll help you focus on the core problem at hand, which helps focus the group, which makes everyone that much better.</p>
+<p>By following these five steps, you'll increase your chances of having a great meeting and as you gain more experience, you'll become more comfortable running them.</p>
+    
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://github.com/cameronpresley.png" alt="Cameron Presley">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2023-05-21 00:00:00+00:00">May 21, 2023</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="./" class="md-meta__link">Leadership</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              7 min read
+            
+          </li>
+        
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="five-tips-to-improve-your-coaching-conversations"><a class="toclink" href="../../2023/05/21/five-tips-to-improve-your-coaching-conversations/">Five Tips to Improve Your Coaching Conversations</a></h2>
+<p>As a leader, you're responsible for coaching and growing your team, helping them be successful. To do this, you need to set the tone and example of the behaviors you want the team to have.</p>
+<p>No matter how good of a team you have or how good of a leader you are, you will have to have a conversation about performance. Whether it's delivery, professional skills, or technology skills, you will have a moment where you need someone to change their behaviors.</p>
+<p>Having these types of conversations can be scary, no matter how much experience in leadership you might have. However, when done correctly, these moments can greatly impact the other person, helping them grow tremendously.</p>
+<p>On the other hand, poor coaching will do the absolute opposite. The other person can become confused or angry. They could even shut down and disengage altogether, making coaching them that much harder.</p>
+<p>So what does good coaching look like? I can't guarantee that these steps will solve all your woes; however, I do guarantee that following these tips will increase the odds of the other person listening and <em>at least consider</em> your feedback. Remember, you want to do this coaching because some behavior has caught your attention, and you want to correct it. If the other person doesn't listen or want to engage, then you <em>literally</em> can't make this happen.</p>
+<h3 id="step-1-be-timely"><a class="toclink" href="../../2023/05/21/five-tips-to-improve-your-coaching-conversations/#step-1-be-timely">Step 1: Be Timely</a></h3>
+<p>The sooner you can have this conversation, the more effective it will be. Remember, the point of feedback is to let the other person know how they're doing and correct if needed. They can't do this if the behavior happened three weeks ago because there's no correlation at that point.</p>
+<p>Imagine if you had a test suite that only told you about failing tests a week after the build started. There's no way you could make the right decisions, so why would we think that's the case for behavior?</p>
+<p>If I've noticed a pattern and feel that it's time to coach, I will get that feedback to them that week, if not the next day.</p>
+<h3 id="step-2-be-specific"><a class="toclink" href="../../2023/05/21/five-tips-to-improve-your-coaching-conversations/#step-2-be-specific">Step 2: Be Specific</a></h3>
+<p>When giving this feedback, the behavior may be obvious to you but not even a thought for the other person. Because we can't control what the other person is thinking, we need to set the context for the feedback so they know what you're talking about.</p>
+<p>Let's take my son, for example. He's particular about his food, so when he says that "dinner was awesome," that makes me feel great as I'm happy he enjoyed dinner. But I have no clue what he <em>actually</em> liked or why he thought that. Was it the food? The way it was served? The fact that we had a picnic? No idea, so I'd respond with, <em>"What made it stand out to you?"</em>. When he mentions that he liked the pizza, I go <em>"Ah! He enjoyed the food, nice!"</em></p>
+<p>Providing this specific context is crucial for the other person because it lets them kow what caught your attention and drastically reduces the confusion in the conversation. For those who like more concrete details, sharing links to chats, emails, or other artifacts with the behavior can be helpful because you can use it as the foundation for the conversation.</p>
+<h3 id="step-3-explain-why"><a class="toclink" href="../../2023/05/21/five-tips-to-improve-your-coaching-conversations/#step-3-explain-why">Step 3: Explain Why</a></h3>
+<p>There's a reason that you're having this conversation. There's something that's important to you, and, in your opinion, it wasn't important to the other person. We've got to explain <em>why</em> it's important and why you're commenting on it.</p>
+<p>I never want to remove someone's autonomy as I like to set the direction and let the team blaze a path, with me guiding to make sure we don't get lost in the wilderness. However, for someone to have autonomy, they need to understand the goals and the reasoning behind it.</p>
+<p>If they don't have this knowledge, then it's that much harder for them to make the right decisions. Ensuring they know the <em>why</em> is a leader's responsibility.</p>
+<h3 id="step-4-seek-to-understand"><a class="toclink" href="../../2023/05/21/five-tips-to-improve-your-coaching-conversations/#step-4-seek-to-understand">Step 4: Seek To Understand</a></h3>
+<p>You're working with a team of professionals. A professional makes the right decisions based on their knowledge and experience. If the person is making mistakes, we need to understand why they made the choice that they did.</p>
+<p>For example, let's say I'm coaching someone who's consistently missing meetings. I'm frustrated that they're unresponsive and that they don't care. The issue here is that it's okay for me to feel frustrated, but I can't make the judgment that they don't care. I don't know that, and it causes more problems than it solves. I won't vent my feelings to the other person because even though it'd make me feel better, it doesn't help the situation.</p>
+<p>A better approach would be to understand why they're missing meetings. Is it something outside of work? Could it be that they don't know why they need to attend? What if they didn't receive an invite? In any of the above cases, there was a solid reason why they didn't attend, and I wouldn't have known that if I had not opened the conversation.</p>
+<div class="admonition note">
+<p>Don't assume malice or apathy when something happens. We are humans first, which means we're going to make mistakes.</p>
+</div>
+<h3 id="step-5-working-together"><a class="toclink" href="../../2023/05/21/five-tips-to-improve-your-coaching-conversations/#step-5-working-together">Step 5: Working Together</a></h3>
+<p>The entire point of coaching is to help the person improve, and we also don't want to take away their autonomy. To make this happen, we need to work with the other person to come up with ideas that can help improve the situation. It's not any one person's responsibility, but it's your responsibility to brainstorm with them and help guide them down the correct path.</p>
+<p>The key here is to have an open mind and <em>really</em> consider all ideas. One of my favorite leadership books, <a href="https://www.goodreads.com/book/show/50937.First_Break_All_the_Rules"><em>First, Break All The Rules</em></a>, talks about how great leaders work with their people to have their strengths shine and to make their weaknesses a non-issue.</p>
+<p>In the missing meeting example, I found out that the issue was that they didn't know why they needed to attend the meeting, so they didn't attend, in order to focus on their development work. Working together, I changed invites to include the reason for attending and encouraged them to chat with me so we could figure it out if they didn't know why they needed to be there.</p>
+<h3 id="case-study-bringing-it-together"><a class="toclink" href="../../2023/05/21/five-tips-to-improve-your-coaching-conversations/#case-study-bringing-it-together">Case Study - Bringing It Together</a></h3>
+<p>In this example, let's explore where we would need to do some coaching.</p>
+<div class="admonition note">
+<p>While reviewing a pull request from Bruce, you see a comment from Alvin, a member of your team, where they were particularly critical of the work. Reading through the pull request, you see Alvin has left more harsh comments about Bruce's work.  </p>
+<p>Talking with Bruce, they mention that they don't work well with Alvin as it seems like he's always critical of Bruce.</p>
+</div>
+<p>Based on this scenario, we know that Alvin has left some harsh words for Bruce, which makes them less likely to work together. If Alvin keeps this behavior up with other people, this will impact others wanting to work with him, reducing his effectiveness.</p>
+<p>After collecting your thoughts, you reach out to Alvin to see if he's got a few minutes to chat about Bruce's pull request.</p>
+<div class="admonition note">
+<p>"Hey Alvin, I noticed you left some pretty harsh comments that in Bruce's pull request. For example, saying that 'this code is convoluted, rewrite it'. Even if that was the case, it's not clear why you think that. I'm more concerned with how the messaging came across because we work with others to accomplish our tasks, and that communication style can make people not want to work with us.</p>
+<p>I don't believe you intend to alienate others, so can you walk me through your thought process here and why you thought this was the right approach?"</p>
+</div>
+<p>In this example, we've already hit four out of the five tips. Our feedback was timely and specific to the problem. We included why it caught our attention and started with an open-ended question for the conversation about the behavior.</p>
+<p>In the follow-up conversation, Alvin mentions that he was having a rough day, particularly outside of work, and that he wasn't entirely focused on his tone. Given that this is the first time Alvin has done this, we want to focus on fixing the issue before it becomes a pattern.</p>
+<div class="admonition note">
+<p>"I understand that it can be hard to focus on your tone when you're having a rough time, however, we can't speak to others this way. I don't want this to become a pattern, so what are some things that we could do instead when we're not in the right mental head space for code reviews?"</p>
+</div>
+<p>At this point, we've acknowledged what was said and reaffirmed expectations. Using another open-ended question, we can start brainstorming things that we could do to help improve Alvin's tone. Since we're opening the conversation, Alvin is also giving feedback on what might work for him and what wouldn't work.</p>
+<h3 id="wrapping-up"><a class="toclink" href="../../2023/05/21/five-tips-to-improve-your-coaching-conversations/#wrapping-up">Wrapping Up</a></h3>
+<p>Giving critical feedback to someone is not the easiest thing to do, however, it can have the most impact for them. To help frame the conversation, our coaching should:</p>
+<ul>
+<li>Be Timely </li>
+<li>Be Specific</li>
+<li>Explain the Why</li>
+<li>Seeking to Understand</li>
+<li>Be Collaborative</li>
+</ul>
+    
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://github.com/cameronpresley.png" alt="Cameron Presley">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2023-05-14 00:00:00+00:00">May 14, 2023</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="./" class="md-meta__link">Leadership</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              5 min read
+            
+          </li>
+        
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="building-relationships-through-one-on-ones"><a class="toclink" href="../../2023/05/14/building-relationships-through-one-on-ones/">Building Relationships Through One-on-Ones</a></h2>
+<p>As a leader, one of your goals is to build a strong, high-performing team. To do this, you'll need to establish and develop relationships within the team and with each other. One approach I've found helpful to build and sustain these relations is through one-on-ones. </p>
+<p>When most people think of one-on-ones, they typically think of some scheduled time, every so often, where they talk about work concerns or whatever is on the leader's mind. Some might find one-on-ones a waste of time and skip them.</p>
+<p>Let's face it, we've all had bad one-on-ones where the conversation was forced and stiff. Or, it felt like the other person wasn't listening or cared about what was being talked about. If enough one-on-ones go down this route, it's no surprise that people don't want to have these conversations.</p>
+<p>So, how do we improve the situation? In this post, I'm going to show you three things you can do to improve the one-on-ones you're having with the team by making sure that they're being heard, relationships are being built, and, just maybe, you might even get to know them better.</p>
+<h3 id="its-not-a-status-update"><a class="toclink" href="../../2023/05/14/building-relationships-through-one-on-ones/#its-not-a-status-update">It's Not a Status Update</a></h3>
+<p>A common mistake is treating one-on-ones as status updates for work or projects. Even though it might be tempting to get an update (especially on important projects), remember this time is for the other person to talk with you about what's on their mind. They can't do this if you're asking for updates on work. If you're leveraging stand-ups or a task board, then you should be able to get updates from there. If this isn't sufficient, ask for updates outside this conversation. The one-on-one is where you give the other person your full attention.</p>
+<p>Despite your best intent, this can be a tough habit to break. To help get out of this mindset, start time-boxing the updates to be a set period of time (e.g., ten minutes) with the goal of making this period shorter in subsequent one-on-ones.</p>
+<p>Another technique I use is <em>resetting</em>, where I remind my teammate of the purpose and goal of the conversation. Doing this, it's a gentle nudge in the correct direction and reinforces that this time is for them, not for whatever is on my mind.</p>
+<h3 id="dont-get-distracted"><a class="toclink" href="../../2023/05/14/building-relationships-through-one-on-ones/#dont-get-distracted">Don't Get Distracted</a></h3>
+<p>In the world of working remotely, it's easy to get distracted by chat notifications or emails. You're on the call, and you see the notification at the bottom of your screen, and before you realize it, you've read it and already thinking about a response. This may be great for you getting things done; however, for the other person, it's clear that you stopped paying attention. So what's important? Is it the notification or the other person?</p>
+<figure>
+<img src="https://images.unsplash.com/photo-1440985465094-6ac443aab454?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="pedestrians looking distracted in downtown">
+<figcaption>Credit to Matt Quinn via <a href="https://unsplash.com/photos/Q6-jv031muY">Unsplash</a>
+</figcaption>
+</figure>
+
+<p>To help reinforce the focus, I put myself in Do Not Disturb mode, which will hide notifications from me until the meeting ends. If the issue is <strong><em>truly important</em></strong>, then someone would give me a call, in which case, I can excuse myself from the one-on-one to see what's up. In this rare case, I will reschedule our conversation as it's essential that we meet. </p>
+<h3 id="allow-them-to-set-the-agenda"><a class="toclink" href="../../2023/05/14/building-relationships-through-one-on-ones/#allow-them-to-set-the-agenda">Allow Them to Set the Agenda</a></h3>
+<p>Another mistake I see leaders make is that they'll come to the one-on-one with a list of topics they want to discuss for the day. This can be particularly true if you're coaching this person and you want to provide concrete feedback. However, remember, the goal is to build and strengthen the relationship, and you can't do that if you're always setting the agenda for the conversations. </p>
+<p>I find it amazing that you can learn quite a bit about the other person based on what they bring up. For example, if they're speaking about a conflict with another person, that lets me know that they're aware of relationships and how they're being perceived. On the other hand, if they're talking about a project and the concerns they have, then they're thinking outside of a task and are thinking at a higher level.</p>
+<p>In one case, I was in a one-on-one with an engineer where they brought up their concern about supporting an API as they didn't know much about it. My first impression was that they didn't know how to read the code, but digging in, it turned out that they didn't see how the API fit into the bigger picture of the system. Learning this was a great fact check because I thought it was a technical issue, but in reality, it was a system question, which changed my perspective on them.</p>
+<h3 id="bonus-seeding-a-conversation"><a class="toclink" href="../../2023/05/14/building-relationships-through-one-on-ones/#bonus-seeding-a-conversation">(Bonus) - Seeding a Conversation</a></h3>
+<p>I mentioned that the other person should own the agenda, but sometimes, they may not have much on their mind or a topic that sticks out to them. For these cases, I come prepared with a list of questions to help start the conversation.</p>
+<figure>
+<img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="pedestrians looking distracted in downtown">
+<figcaption>Credit to Markus Spiske via <a href="https://unsplash.com/photos/vrbZVyX2k4I">Unsplash</a>
+</figcaption>
+</figure>
+
+<p>In Warren Berger's <a href="https://www.goodreads.com/book/show/37941659-the-book-of-beautiful-questions"><em>The Book of Beautiful Questions</em></a>, he talks about the power of open-ended questions and how they can help people be more open. So instead of asking, <em>"How's the project coming along?"</em>, which can be answered in a binary fashion, we could instead ask, <em>"What's one thing about the project that stands out to you?"</em>, which could give us a richer response and allow you to learn more.</p>
+<p>For those looking for questions, here's an excerpt of questions I've used to help seed a conversation:</p>
+<ul>
+<li>What's one thing about the current project that turned out to be harder than you thought?</li>
+<li>What was your biggest win last week, and why does it stand out?</li>
+<li>What's something that happened in the past week that you want to learn more about?</li>
+<li>I know you've been working more with <em><Person></em> this past week, talk to me about that experience</li>
+<li>What's something that you're looking forward to?</li>
+</ul>
+<h3 id="wrapping-up"><a class="toclink" href="../../2023/05/14/building-relationships-through-one-on-ones/#wrapping-up">Wrapping Up</a></h3>
+<p>To build great teams, you will need to foster relationships with the team and the individual members. Having one-on-ones can help with build these relationships, but only if you treat them like so. By allowing your teammate to set the agenda, giving them your full attention, and cutting out project updates, you can improve the quality of your conversations and get to know them better.</p>
+    
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://github.com/cameronpresley.png" alt="Cameron Presley">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2023-05-07 00:00:00+00:00">May 7, 2023</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="./" class="md-meta__link">Leadership</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              5 min read
+            
+          </li>
+        
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="building-relationships-with-intent"><a class="toclink" href="../../2023/05/07/building-relationships-with-intent/">Building Relationships with Intent</a></h2>
+<p>As a leader, one of your superpowers is how you can connect your team with someone else. For example, if your team is struggling to work with an API and you know someone who's made recent changes or is a Subject Matter Expert, you can get your team unblocked and moving faster.</p>
+<p>I've worked with leaders like this, and it's amazing how fast and helpful it is to get unstuck quickly. Don't get me wrong, sometimes it's the right strategy to "burn the time" to learn, but it's helpful to know someone who can get you unstuck if you need it.</p>
+<p>With one leader, it seemed like they always knew a guy, no matter the topic, and I was amazed at how they did it. So like a lifelong learner, I asked, and they told me networking.</p>
+<figure>
+<img src="https://images.unsplash.com/photo-1560439514-4e9645039924?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="large group of people networking">
+<figcaption>
+Credit to ProductSchool via <a href="https://unsplash.com/photos/nOvIa_x_tfo">Unsplash</a>
+</figcaption>
+</figure>
+
+<p><em>Ugh</em></p>
+<p>If you're like me, you hear networking and think about dozens (if not hundreds) of people milling around, introducing themselves, and sharing business cards. Don't get me wrong, that approach can work for some people, but to me, that sounds exhausting. Instead of a hummingbird, going from flower to flower, I'm more like a bear. I just want to sit down and eat my jar of honey.</p>
+<p><em>So what am I supposed to do? How am I supposed to network if I don't like large groups?</em></p>
+<p>Given time, you can work on becoming more comfortable in large groups. However, why fight your natural tendencies and what you're good at?</p>
+<p>For me, it's small groups and one-on-one conversations. As such, that's my approach to networking. Though it takes a bit longer, I find that I build stronger relationships with those people, and in turn, can be just as successful. I like to think about one-on-ones as <em>lazy river conversations</em> as I never know where it will take us.</p>
+<figure>
+<img src="https://images.unsplash.com/photo-1596546408708-5b58330dbd3c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="man sitting in inner tube">
+<figcaption>Credit to Kiara Kulikova via <a href="https://unsplash.com/photos/Dn4d-4V0vvw">Unsplash</a>
+</figcaption>
+</figure>
+
+<h3 id="one-cup-of-coffee"><a class="toclink" href="../../2023/05/07/building-relationships-with-intent/#one-cup-of-coffee">One Cup of Coffee</a></h3>
+<p>At a previous company, we used Slack and, as such, had an integration called <a href="https://slack.com/apps/A5JR8MM6E-randomcoffees?tab=more_info">Random Coffee</a> that would pair the members of a channel up to get together for the week. Such a simple idea, but so powerful when you now have a built-in excuse to chat with someone.</p>
+<figure>
+<img src="https://images.unsplash.com/photo-1604881988758-f76ad2f7aac1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" alt="Coffee Chat">
+<figcaption>
+Credit to Priscilla Du Preez via <a href="https://unsplash.com/photos/K8XYGbw4Ahg">Unsplash</a>
+</figcaption>
+</figure>
+
+<p>After a couple of weeks of getting to know people, I started learning what others did, what interests them, and who to go to about specific issues. Combine that with asking, "How did you know that?" I found that I could quickly fill gaps in my knowledge.</p>
+<p>But something else happened. Once I knew the person, I didn't see them as a name in the chat anymore, I saw them as their selves. I'd find myself saying, "Oh, it's Chris, and Chris is cool, so I'll help him out," instead of thinking, "Ugh, another thing to do." In a way, these conversations humanized those I worked with, and I found myself caring more about them.</p>
+<h3 id="caring-by-knowing"><a class="toclink" href="../../2023/05/07/building-relationships-with-intent/#caring-by-knowing">Caring By Knowing</a></h3>
+<p>To me, this is the most important thing about relationship building and networking. Deep down, <em>I want to care</em> about those I work with because I want them to be successful. I can't help them be successful if I don't know them both as a colleague and as a person.</p>
+<p>Having one-on-ones is how I know my people and how I continue building care. It might be as simple as knowing what types of things they like to work on or what they did over the weekend. However, having these conversations helps both of us open up, and I get to know them so much better. Once I know them, I can guide and direct them better, looking for opportunities I wouldn't have thought of before.</p>
+<h3 id="how-do-i-start"><a class="toclink" href="../../2023/05/07/building-relationships-with-intent/#how-do-i-start">How Do I Start?</a></h3>
+<p>If you want to start this for your own company, you don't have to have Slack to make this happen. The important thing is getting buy-in from others and explaining <em>the why</em> behind the exercise.</p>
+<p>Once you have buy-in, you can start low-tech by using an Excel sheet and randomizing the list of names. This isn't the most robust solution, but it's a start and you can iterate as you figure out the timing, the frequency, and the other steps that setting this up would look like.</p>
+<p>Once you've got something in motion, you can always work on automating the process later. Don't let a perfect solution stop you from starting with a good solution.</p>
+<p>What I've found successful is having either a weekly or fortnightly scheduled message in our main channel that assigns the groups. From there, participants are encouraged to share something they've learned about their counterparts during their conversation. To help make sure that people meet, scheduling a set time during the week for all the groups can be helpful as it removes another barrier (e.g., if you know that you'll have coffee at 10:30 am on Tuesdays, you learn to expect it).</p>
+<p>If you have a group that is just starting, it might be helpful to provide some starting questions to help jump-start the conversation. A good list of questions can be found <a href="https://gist.github.com/cameronpresley/1fcdbca448717c5964890717826dce9f">in one of my gists</a>.</p>
+<h3 id="wrapping-up"><a class="toclink" href="../../2023/05/07/building-relationships-with-intent/#wrapping-up">Wrapping Up</a></h3>
+<p>To be a successful leader, you must cultivate and grow relationships with those you work with. Not only does it help your team be successful, but it allows you to have a richer experience with your work and helps solidify that we're all working together.</p>
+    
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://github.com/cameronpresley.png" alt="Cameron Presley">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2023-04-16 00:00:00+00:00">Apr 16, 2023</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="./" class="md-meta__link">Leadership</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              5 min read
+            
+          </li>
+        
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="telling-the-story-the-pitfall-of-a-single-data-point"><a class="toclink" href="../../2023/04/16/telling-the-story-the-pitfall-of-a-single-data-point/">Telling the Story: The Pitfall of a Single Data Point</a></h2>
+<blockquote>
+Let's say that you're sitting down to read a new book, and you come across the following:
+
+<p>
+    <i>The King's Knave Inn was but a short distance from the Alverston train depot, just outside the town proper.</i> (excerpt from <i>The Infernal Machine</i> by John Lutz)
+</p>
+
+After reading this, a friend interrupts your reading and asks your thoughts on the book so far. 
+
+What would you say?
+</blockquote>
+
+<p>Most likely, you'd respond that you need to read more, and it's still too early to decide if the book is good or not.</p>
+<p>To honestly answer this question, you would need to read more of the book (ideally all of it) to get a full picture of the story.</p>
+<p>When measuring an engineer's performance and effectiveness, why don't we take the same approach?</p>
+<p>My experience has been that leaders look for one or more metrics to quantify a person. At the face of it, I understand why, as it's hard to compare people if there aren't numbers. </p>
+<p>However, the mistake I see leaders make is <em>what</em> they're trying to measure. For example, do you measure 
+the number of pull requests? What about the number of stories completed in a sprint? How about the number of bugs shipped to production? Something else entirely?</p>
+<p>The problem is that even if you use all of the above (please don't do this), you're still not seeing the whole picture, but only bits and pieces. This would be like reading five chapters at random from a book and then giving an opinion.</p>
+<p>The other problem with using metrics is that the measurement will cease to be effective as people will start gaming the system (see <a href="https://en.wikipedia.org/wiki/Goodhart%27s_law">Goodhart's Law</a>).</p>
+<p>For example, if we measure effectiveness by the number of completed pull requests, then what stops someone from creating hundreds of single-line pull requests that don't accomplish anything?</p>
+<p>On the other side, what about the engineer who reduced scope and time because they knew how to simplify the approach or came up with a more straightforward solution? This insight won't show up as a pull request or a completed story; however, this should be rewarded just the same.</p>
+<p>To really determine how effective someone is, we need to look at things holistically, which can be done by examining how well someone does in these three areas:</p>
+<ul>
+<li>Understanding the problem (e.g., why are we doing this?)</li>
+<li>Understanding the system (e.g., how are we doing this?)</li>
+<li>Understanding the people (e.g., whom are we doing this with?)</li>
+</ul>
+<p>By looking into these areas, you will see what your team is good at and where they could use coaching, helping you be more effective. You might also realize that your team is doing things that aren't so obvious.</p>
+<p>You can't write a report to generate these metrics. To understand this, you have to understand your team and how they work together. This involves paying attention, taking notes, and being engaged. Passive leaders will struggle if they use this approach.</p>
+<h3 id="understanding-the-problem-the-why"><a class="toclink" href="../../2023/04/16/telling-the-story-the-pitfall-of-a-single-data-point/#understanding-the-problem-the-why">Understanding the Problem (The Why)</a></h3>
+<p>To be successful, we first have to understand the problem that's being solved. Without this base knowledge, it's impossible to build the right solution or even ask the right question to the problem at hand.</p>
+<p>How comfortable are they within the problem domain? Do they know certain terminologies, our customers, the users, workflows, and expected behaviors?</p>
+<p>Besides quizzing, there may not be an obvious way to measure this; however, here's my approach.</p>
+<p>First, you can look at the questions that are being asked. Are they surface level or are they deep? You can see these questions through chats and meetings, comments on the stories or pull requests, and interactions with others.</p>
+<p>Second, look at the solution they came up with. Did they design it with domain knowledge in mind? For example, are things named correctly? Did their solution take care of the main workflows? What about the edge cases?</p>
+<p>Third, how are they handling support issues? Being on support is a quick way of learning a problem domain and system. As such, I'm looking at how much help they need and how they communicate with others.</p>
+<p>By using this approach, you can get a good sense of how knowledgeable someone is in the problem domain without quizzing them.</p>
+<h3 id="understanding-the-system-the-how"><a class="toclink" href="../../2023/04/16/telling-the-story-the-pitfall-of-a-single-data-point/#understanding-the-system-the-how">Understanding the System (The How)</a></h3>
+<p>There's always a push to deliver more things, and in order to do that, we have to understand the current system, its limitations, what's easy vs. what's hard, and from these constraints, determine the correct path to take.</p>
+<p>In addition, once the system is live, we need to support it. If we don't know the moving parts, what it interacts with, and how it's used, we're going to have a bad time.</p>
+<p>Like <a href="../../2023/04/16/telling-the-story-the-pitfall-of-a-single-data-point/#understanding-the-problem-the-why">understanding the problem</a>, we can measure system knowledge without quizzing them. In particular, I've found pull request comments and code reviews to be insightful on someone's knowledge of the system. </p>
+<p>For example, do they call out that there's already something in the system that does this new piece of functionality? Do they suggest taking a simpler approach with what we have? Do they propose a different solution altogether because the system has a limitation? All of these are indicators of someone's system knowledge.</p>
+<p>Another way to gauge system knowledge is by looking at how the person handles support requests. If you can understand the problem, find the cause, and create a fix, then by definition, you have to have a solid understanding of the system. </p>
+<h3 id="understanding-the-people-the-who"><a class="toclink" href="../../2023/04/16/telling-the-story-the-pitfall-of-a-single-data-point/#understanding-the-people-the-who">Understanding the People (The Who)</a></h3>
+<p>When it comes to the third part of being effective, we have to measure how they work with those around them. Most people think engineering is a solitary line of work, and that can be true when it comes to the development phase.</p>
+<p>However, in reality, engineers work with others to design, develop, and iterate on a solution, and this can only happen when working with others. As such, building these relationships are paramount to being successful.</p>
+<div class="admonition quote">
+<p>If you want to go fast, go alone. If you want to go far, go together.</p>
+</div>
+<p>Measuring team cohesion can be difficult (it could be its own post), however, we start simply be getting peer feedback on the person. We can also look at the communication between them and others through their comments, messages, or meetings.</p>
+<p>Another way to measure this is through your company's recognition system. Whether it's an email or some other tool your company uses, you need to keep tabs on these recognitions, as you can use them as a talking point during 1:1s and review time. </p>
+<h3 id="wrapping-up"><a class="toclink" href="../../2023/04/16/telling-the-story-the-pitfall-of-a-single-data-point/#wrapping-up">Wrapping Up</a></h3>
+<p>So, how do we measure how effective someone is? We know that a single data point isn't sufficient and that if we limit ourselves to metrics, we can get a skewed sense of the person. To know, we have to take a holistic approach.</p>
+<p>To accomplish this goal, I recommend measuring the following areas:</p>
+<ul>
+<li>Understanding the problem (e.g., why are we doing this?)</li>
+<li>Understanding the system (e.g., how are we doing this?)</li>
+<li>Understanding the people (e.g., whom are we doing this with?)</li>
+</ul>
+<p>In each of these areas, we can get a sense by observing their interactions they have, the questions they ask, the approaches they take, and how likely people want to work with the individual.</p>
+    
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+      <nav class="md-post__authors md-typeset">
+        
+          <span class="md-author">
+            <img src="https://github.com/cameronpresley.png" alt="Cameron Presley">
+          </span>
+        
+      </nav>
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
+          <time datetime="2023-04-09 00:00:00+00:00">Apr 9, 2023</time></li>
+        
+          <li class="md-meta__item">
+            in
+            
+              <a href="../interviewing/" class="md-meta__link">Interviewing</a>, 
+              <a href="./" class="md-meta__link">Leadership</a></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              6 min read
+            
+          </li>
+        
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="three-steps-to-better-interviews"><a class="toclink" href="../../2023/04/09/three-steps-to-better-interviews/">Three Steps to Better Interviews</a></h2>
+<p>At some point in your career, you're going to be conducting interviews. Regardless of the role, you have the opportunity to shape the future of the company as your recommendation controls whether this person is going to be a colleague or not.</p>
+<p>What a lot of people don't realize is that an interview is can be the first experience that someone has with your company. As such, you want this experience to be fantastic, even if they're not hired, as they could be a future customer of yours.</p>
+<p>With interviewing to be so important (there are whole books about the subject), it's confounding to me when companies don't invest in training or resources to help grow their leaders into being better interviewers. Especially, when making a bad hire can cause so much damage and is expensive to resolve in the long run.</p>
+<p>Over my career, I've seen my share of good and bad interviews and have some tips and tricks to improve your interviewing skills. In this post, I'm going to share three tips that help me have better conversations with candidates.</p>
+<h3 id="1-build-better-conversations-using-scenarios"><a class="toclink" href="../../2023/04/09/three-steps-to-better-interviews/#1-build-better-conversations-using-scenarios">1. Build Better Conversations Using Scenarios</a></h3>
+<p>The first mistake I seen interviewers make is that they have a set of questions that they want to pepper the candidate with, in an effort to figure out if they're going to be a good fit or not.</p>
+<p>An ideal interview should flow more like a conversation where the candidate is getting to know you and the company and where you are learning about the candidate. As such, a never-ending list of questions makes the candidate feel like they're being interrogated and it doesn't allow for a natural conversation. A great interview should feel like tennis, each player receiving and sending the ball to the other side.</p>
+<p>For example, let's say that I want to know a candidates familiarity with <a href="https://restfulapi.net/">REST APIs</a>. I could ask questions like</p>
+<div class="admonition quote">
+<p>What's the difference between GET and POST?</p>
+</div>
+<div class="admonition quote">
+<p>What's the difference between a 404 and 400 response code?</p>
+</div>
+<p>Even though I'll get answers, this is not much of a conversation, but more of a quiz. Instead, I ask the following</p>
+<div class="admonition quote">
+<p>In this scenario, I'm a newer engineer sitting down to make some changes to one of your APIs and I seem to be running into some issues.</p>
+<p>For example, when I invoke the endpoint via GET, I'm getting back a 404 (Not Found). Doing some digging, it seems like it's related to the resource not being there, but I'm not sure how to troubleshoot. What would you recommend?</p>
+</div>
+<p>With the above, the candidate has a clear problem (e.g. can't communicate with the API) and has plenty of space to talk about what they're thinking (incorrect route, API not running, etc..). As the candidate is talking things through, I'm getting more insight on what they know and how they think about things. For example, if they mention that a firewall could be blocking the request, I could dig into that a bit more and learn that they have knowledge in networking or cloud technologies.</p>
+<p>Another advantage of this approach is that we can add more steps. For example, here's one of the scenarios I ask to measure understanding of REST APIs.</p>
+<div class="admonition quote">
+<p>In this scenario, I'm a newer engineer sitting down to make some changes to one of your APIs and I seem to be running into some issues.</p>
+<p>For example, when I invoke the endpoint via GET, I'm getting back a 404 (Not Found). Doing some digging, it seems like it's related to the resource not being there, but I'm not sure how to troubleshoot. What would you recommend?</p>
+<p>I've fixed the typo, made another request, and I'm now getting a 401 (Unauthorized). Looking up the response code, this implies that I don't have permissions, but I'm stuck on next steps. What would you recommend for troubleshooting?</p>
+<p>Oh right, Bearer Token, I remember reading that in the README, but I didn't understand at the time. After generating the token and making another request, I'm now getting a 400 (Bad Request). Looking up the status code, it seems like it's something related to the payload or route. How would you troubleshoot?</p>
+<p>Finally! After fixing that issue, I was able to get a 200 (Ok) response back, thanks for the help!</p>
+</div>
+<p>By using the above scenario, I can learn quite a bit about what systems an engineer has worked with, what gaps they might have, and how they troubleshoot issues. This is a lot more effective than knowing if an engineer can tell the difference between GET and POST.</p>
+<h3 id="2-build-better-conversations-using-open-ended-questions"><a class="toclink" href="../../2023/04/09/three-steps-to-better-interviews/#2-build-better-conversations-using-open-ended-questions">2. Build Better Conversations Using Open-Ended Questions</a></h3>
+<p>Another common mistake I see is asking <a href="https://en.wikipedia.org/wiki/Closed-ended_question">closed-ended questions</a> to gauge knowledge. Even though these are binary in nature (<em>Yes/No</em>) or have a specific answer (<em>What's the capital of North Carolina?</em>), they come off as interogative instead of conversational. In addition, these types of questions are informational and could easily be looked up, where as open-ended questions are opinion based and come from experience.</p>
+<p>For example, if we were to ask:</p>
+<div class="admonition quote">
+<p>What's the difference between an Observable and a Promise?</p>
+</div>
+<p>We would know if the candidate knows the difference or not and that's about it. Even though this knowledge is helpful, we could learn this (and more) by rephrasing it to be open-ended instead.</p>
+<p>For example, if we were to ask:</p>
+<div class="admonition quote">
+<p>When would you use an Observable over a Promise?</p>
+</div>
+<p>With this question, not only do we learn if the candidate can talk about Observable vs Promise, but we also know if they know which scenarios to use one over the other.</p>
+<p>For more effective questions, we could turn this question into a scenario, by asking the following</p>
+<div class="admonition quote">
+<p>Let's say that we're working on a web component that has to call an API to get some data. It looks like we could call the API and have the value returned be either an Observable or a Promise. What would you recommend and why?</p>
+</div>
+<p>In this scenario, we get to learn if the candidate knows the differences between Observable and Promise, can reason about why one approach would be better than another, and explain that to another engineer. No matter their choice, we could follow up by asking why they wouldn't pick the other one option.</p>
+<h3 id="3-build-better-conversations-by-asking-for-examples"><a class="toclink" href="../../2023/04/09/three-steps-to-better-interviews/#3-build-better-conversations-by-asking-for-examples">3. Build Better Conversations By Asking For Examples</a></h3>
+<p>For the final mistake, I see interviewers ask some form of a <a href="https://en.wikipedia.org/wiki/Leading_question">leading question</a>, where based on the phrasing of the question, the candidate would be pressured or coerced into answering a particular way.</p>
+<p>For example</p>
+<div class="admonition quote">
+<p>This position involves mentoring interns to be associate engineers. Is that something you're comfortable with?</p>
+</div>
+<p>This is a <em>leading question</em> because if the candidate were to say "No", then they would believe that they wouldn't get the job. So they would always answer yes, regardless of how they feel, which makes this question useless as it doesn't tell us anything about the candidate. Most leading questions tend to also be close-ended questions, so a double strike for this style of interviewing.</p>
+<p><em>But Cameron! I need to know this information as this person would be responsible for coaching up our engineers!</em> Cool, then let's tell the candidate, but let's also provide some context and allow them to tell us their experience.</p>
+<p>For example, we could phrase the question this way</p>
+<div class="admonition quote">
+<p>One of the responsibilities for the role is to help grow interns into associate engineers so we can grow terrific engineers internally. With this context, can you walk us through a time where you had to coach someone up? What was your approach? What would you do differently?</p>
+</div>
+<p>With this question, you've still mentioned the skill you're looking for, however, you've added context on the "why" behind the question and you've set the candidate up to talk about their experience, which in turn, gives you more context about the person.</p>
+    
+    
+  </div>
+</article>
+      
+      
+        
+          
+
+
+
+<nav class="md-pagination">
+  
+</nav>
+        
+      
+    </div>
+  </div>
+
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../interviewing/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Interviewing">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Interviewing
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../learning-through-example/" class="md-footer__link md-footer__link--next" aria-label="Next: Learning Through Example">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Learning Through Example
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs Insiders
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.footer", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.ad38c271.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.b66b2b78.min.js"></script>
+      
+    
+  </body>
+</html>
