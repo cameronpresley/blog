@@ -7,11 +7,11 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
-### Cleveland C# User Group - Cleveland, OH (Mar 25, 2026) _[more info]()_
+### Cleveland C# User Group - Cleveland, OH (Mar 25, 2026) _[more info](https://www.meetup.com/cleveland-cs/events/313672173/)_
 
 - [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
 
-### Roanoke Valley .NET User Group - Salem, VA (Apr 2, 2026) _[more info]()_
+### Roanoke Valley .NET User Group - Salem, VA (Apr 2, 2026) _[more info](https://www.meetup.com/roanoke-valley-net-user-group/events/313580095/)_
 
 - [Preventing Bugs with Better Types - An Intro to Type Driven Design]()
 
