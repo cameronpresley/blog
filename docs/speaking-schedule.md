@@ -7,25 +7,32 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
-### Cleveland C# User Group - Cleveland, OH (Mar 25, 2026) _[more info](https://www.meetup.com/cleveland-cs/events/313672173/)_
+### StirTrek - Colombus, OH (May 1, 2026) _[more info](https://stirtrek.com/)_
 
-- [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
+- Cutting Through the Hype - Building High Performing Teams
 
-### Roanoke Valley .NET User Group - Salem, VA (Apr 2, 2026) _[more info](https://www.meetup.com/roanoke-valley-net-user-group/events/313580095/)_
+### Scenic City Summit - Chattanooga, TN (Jun 4-5, 2026) _[more info](https://sceniccitysummit.com/)_
 
-- [Preventing Bugs with Better Types - An Intro to Type Driven Design]()
+- Exploring Mars with TypeScript and Functional Programming - Workshop
+- Learning Basic Functional Programming By Exploring Mars
+
+---
+## Past Sessions
 
 ### CodeStock - Knoxville, TN (Apr 9-10, 2026) _[more info](https://www.codestock.org)_
 
 - [Preventing Bugs with Better Types - An Intro to Type Driven Design]()
 - [The Engineer's Playbook: Starting a New Role](presentations.md#the-engineers-playbook-starting-a-new-role) 
 
-### StirTrek - Colombus, OH (May 1, 2026) _[more info](https://stirtrek.com/)_
 
-- Cutting Through the Hype - Building High Performing Teams
+### Roanoke Valley .NET User Group - Salem, VA (Apr 2, 2026) _[more info](https://www.meetup.com/roanoke-valley-net-user-group/events/313580095/)_
 
----
-## Past Sessions
+- [Preventing Bugs with Better Types - An Intro to Type Driven Design]()
+
+### Cleveland C# User Group - Cleveland, OH (Mar 25, 2026) _[more info](https://www.meetup.com/cleveland-cs/events/313672173/)_
+
+- [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
+
 
 ### Alburquerque .NET User Group - Virtual (Jan 28, 2026) _[more info](https://www.meetup.com/albuquerque-net-users-group/events/312683005/)_
 
