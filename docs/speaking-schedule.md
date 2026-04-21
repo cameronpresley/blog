@@ -16,6 +16,10 @@ hide:
 - Exploring Mars with TypeScript and Functional Programming - Workshop
 - Learning Basic Functional Programming By Exploring Mars
 
+### Carolina Code Conference - Greenville, SC (Aug 14-15, 2026) _[more info](https://blog.carolina.codes/p/2026-event-details-and-registration)_
+
+- [Preventing Bugs with Better Types - An Intro to Type Driven Design]()
+
 ---
 ## Past Sessions
 
