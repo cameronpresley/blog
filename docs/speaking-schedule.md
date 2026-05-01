@@ -9,7 +9,7 @@ hide:
 
 ### StirTrek - Colombus, OH (May 1, 2026) _[more info](https://stirtrek.com/)_
 
-- Cutting Through the Hype - Building High Performing Teams
+- [The Engineer's Playbook: Starting a New Role](presentations.md#the-engineers-playbook-starting-a-new-role
 
 ### Scenic City Summit - Chattanooga, TN (Jun 4-5, 2026) _[more info](https://sceniccitysummit.com/)_
 
