@@ -7,10 +7,6 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
-### StirTrek - Colombus, OH (May 1, 2026) _[more info](https://stirtrek.com/)_
-
-- [The Engineer's Playbook: Starting a New Role](presentations.md#the-engineers-playbook-starting-a-new-role
-
 ### Scenic City Summit - Chattanooga, TN (Jun 4-5, 2026) _[more info](https://sceniccitysummit.com/)_
 
 - Exploring Mars with TypeScript and Functional Programming - Workshop
@@ -22,6 +18,10 @@ hide:
 
 ---
 ## Past Sessions
+
+### StirTrek - Colombus, OH (May 1, 2026) _[more info](https://stirtrek.com/)_
+
+- [The Engineer's Playbook: Starting a New Role](presentations.md#the-engineers-playbook-starting-a-new-role)
 
 ### CodeStock - Knoxville, TN (Apr 9-10, 2026) _[more info](https://www.codestock.org)_
 
