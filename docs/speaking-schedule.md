@@ -7,17 +7,17 @@ hide:
 # Speaking Schedule
 ## Upcoming Sessions
 
-### Scenic City Summit - Chattanooga, TN (Jun 4-5, 2026) _[more info](https://sceniccitysummit.com/)_
-
-- Exploring Mars with TypeScript and Functional Programming - Workshop
-- Learning Basic Functional Programming By Exploring Mars
-
 ### Carolina Code Conference - Greenville, SC (Aug 14-15, 2026) _[more info](https://blog.carolina.codes/p/2026-event-details-and-registration)_
 
 - [Preventing Bugs with Better Types - An Intro to Type Driven Design]()
 
 ---
 ## Past Sessions
+
+### Scenic City Summit - Chattanooga, TN (Jun 4-5, 2026) _[more info](https://sceniccitysummit.com/)_
+
+- Exploring Mars with TypeScript and Functional Programming - Workshop
+- Learning Basic Functional Programming By Exploring Mars
 
 ### StirTrek - Colombus, OH (May 1, 2026) _[more info](https://stirtrek.com/)_
 
@@ -36,7 +36,6 @@ hide:
 ### Cleveland C# User Group - Cleveland, OH (Mar 25, 2026) _[more info](https://www.meetup.com/cleveland-cs/events/313672173/)_
 
 - [Learning Functional Programming Through Construction: First Principles](./presentations.md#learning-functional-programming-through-construction-first-principles)
-
 
 ### Alburquerque .NET User Group - Virtual (Jan 28, 2026) _[more info](https://www.meetup.com/albuquerque-net-users-group/events/312683005/)_
 
