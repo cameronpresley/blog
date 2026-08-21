@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="92.77 36.32 283.938 227.255" xmlns="http://www.w3.org/2000/svg">
+  <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="139.716" cy="175.622" rx="46.946" ry="65.328"/>
+  <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="329.762" cy="175.622" rx="46.946" ry="65.328"/>
+  <path style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0); mix-blend-mode: darken;" d="M 144.243 69.363 C 235.969 69.363 300.928 98.482 321.819 148.963" transform="matrix(0.911202, -0.411959, 0.411959, 0.911202, -24.278084, 105.692657)"/>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 15.8px;" x="111.425" y="260.181">Number</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 15.8px;" x="301.471" y="260.181">Number</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 15.8px;" x="216.63" y="77.488">square</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 15.8px; text-anchor: middle;" x="132.919" y="164.593" transform="matrix(1, 0, 0, 1, 195.135742, -19.796381)">1<tspan x="132.91900634765625" dy="1em">​</tspan>4<tspan x="132.91900634765625" dy="1em">​</tspan>9<tspan x="132.91900634765625" dy="1em">​</tspan>...<tspan x="132.91900634765625" dy="1em">​</tspan>10,000</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 15.8px; text-anchor: middle;" x="132.919" y="164.593" transform="matrix(1, 0, 0, 1, 5.483307, -17.177176)">1<tspan x="132.91900634765625" dy="1em">​</tspan>2<tspan x="132.91900634765625" dy="1em">​</tspan>3<tspan x="132.91900634765625" dy="1em">​</tspan>...<tspan x="132.91900634765625" dy="1em">​</tspan>100</text>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="145.362" y1="140.837" x2="322.398" y2="140.837"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="143.665" y1="156.109" x2="322.398" y2="154.412"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="146.493" y1="171.38" x2="322.398" y2="170.249"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="147.059" y1="191.177" x2="317.308" y2="190.611"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="152.715" y1="205.882" x2="304.864" y2="205.317"/>
+</svg>
